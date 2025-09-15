@@ -1,0 +1,1001 @@
+patient_id,age,gender,location,symptoms,normalized_symptoms,disease,disease_code,vaccination_due,vaccine_type,outbreak_alert,risk_factors,recommended_tests,clinical_trial_ref
+anon_0000,40,Female,Odisha,"dry cough, fatigue, fever","dry,cough,fatigue,fever",COVID-19,C5008338,FALSE,,TRUE,mosquito bite,Chest X-ray,NCT02747927
+anon_0001,23,Male,Maharashtra,"weight loss, night sweats, fever","weight,loss,night,sweats,fever",TB,C5783107,TRUE,TDV Dengue,FALSE,none,RDT,PubMed27389396
+anon_0002,41,Male,Tamil Nadu,"fever, shortness of breath, chest pain","fever,shortness,of,breath,chest,pain",Pneumonia,C9921048,TRUE,UIP Measles,FALSE,chronic illness,RDT,NCT02747927
+anon_0003,35,Male,Telangana,vomiting और abdominal pain और jaundice,"vomiting,abdominal,pain,jaundice",Hepatitis,C5339405,TRUE,BCG,TRUE,mosquito bite,Chest X-ray,PubMed27389396
+anon_0004,15,Male,Odisha,"diarrhea, fever, abdominal pain","diarrhea,fever,abdominal,pain",Typhoid,C2865801,FALSE,,FALSE,chronic illness,PCR,NCT02747927
+anon_0005,36,Female,Maharashtra,"joint pain, हल्की चकती, fever","joint,pain,हल्की,चकती,fever",Dengue,C2525931,TRUE,UIP Measles,FALSE,none,CBC,NCT02747927
+anon_0006,27,Male,Maharashtra,"loss of taste, fever, fatigue","loss,of,taste,fever,fatigue",COVID-19,C5971531,FALSE,,FALSE,none,RDT,NCT02747927
+anon_0007,66,Male,Uttar Pradesh,stomach pain और bloating और indigestion,"stomach,pain,bloating,indigestion",Gastritis,C4126100,FALSE,,TRUE,none,Chest X-ray,NCT02406729
+anon_0008,22,Female,Maharashtra,cough और fever और shortness of breath,"cough,fever,shortness,of,breath",Pneumonia,C1549752,TRUE,BCG,TRUE,none,RDT,NCT02747927
+anon_0009,57,Female,Uttar Pradesh,"हल्की चकती, joint pain, rash","हल्की,चकती,joint,pain,rash",Dengue,C1573087,FALSE,,TRUE,chronic illness,PCR,PubMed27389396
+anon_0010,46,Female,Tamil Nadu,"abdominal pain, nausea, fever","abdominal,pain,nausea,fever",Typhoid,C7860411,FALSE,,FALSE,malnutrition,Chest X-ray,NCT01373281
+anon_0011,10,Female,Odisha,fever और shortness of breath और cough,"fever,shortness,of,breath,cough",Pneumonia,C6520059,FALSE,,FALSE,mosquito bite,Chest X-ray,NCT06060067
+anon_0012,41,Female,West Bengal,"vomiting, abdominal pain, jaundice","vomiting,abdominal,pain,jaundice",Hepatitis,C8271264,FALSE,,FALSE,none,CBC,NCT01373281
+anon_0013,44,Female,Uttar Pradesh,"dark urine, abdominal pain, jaundice","dark,urine,abdominal,pain,jaundice",Hepatitis,C5547655,FALSE,,TRUE,mosquito bite,PCR,NCT02747927
+anon_0014,68,Female,Bihar,nausea और indigestion और stomach pain,"nausea,indigestion,stomach,pain",Gastritis,C5743215,FALSE,,FALSE,mosquito bite,PCR,PubMed27389396
+anon_0015,13,Male,Bihar,chronic cough और night sweats और fever,"chronic,cough,night,sweats,fever",TB,C2397759,TRUE,Inactivated Polio,FALSE,none,CBC,NCT01373281
+anon_0016,8,Female,Telangana,"fever, cough, sore throat","fever,cough,sore,throat",Influenza,C3401568,FALSE,,FALSE,mosquito bite,Chest X-ray,NCT01373281
+anon_0017,77,Male,Telangana,"fever, chills, headache","fever,chills,headache",Malaria,C2256780,TRUE,Inactivated Polio,TRUE,none,RDT,NCT02406729
+anon_0018,37,Male,Tamil Nadu,"fatigue, loss of taste, dry cough","fatigue,loss,of,taste,dry,cough",COVID-19,C5419693,FALSE,,TRUE,chronic illness,Chest X-ray,NCT02747927
+anon_0019,25,Male,Uttar Pradesh,body ache और sore throat और fever,"body,ache,sore,throat,fever",Influenza,C3397549,TRUE,UIP Measles,TRUE,mosquito bite,CBC,NCT02406729
+anon_0020,25,Male,Telangana,stomach pain और bloating और nausea,"stomach,pain,bloating,nausea",Gastritis,C8864547,FALSE,,FALSE,chronic illness,RDT,NCT06060067
+anon_0021,47,Female,Odisha,"jaundice, abdominal pain, vomiting","jaundice,abdominal,pain,vomiting",Hepatitis,C8381874,FALSE,,FALSE,chronic illness,CBC,PubMed27389396
+anon_0022,31,Female,Bihar,"body ache, cough, sore throat","body,ache,cough,sore,throat",Influenza,C6660275,TRUE,BCG,TRUE,chronic illness,PCR,NCT06060067
+anon_0023,49,Male,Bihar,"fever, nausea, diarrhea","fever,nausea,diarrhea",Typhoid,C6492172,FALSE,,FALSE,mosquito bite,PCR,NCT06060067
+anon_0024,79,Female,Uttar Pradesh,teary eyes और fever और rash,"teary,eyes,fever,rash",Measles,C3822420,TRUE,Inactivated Polio,TRUE,malnutrition,Chest X-ray,PubMed27389396
+anon_0025,77,Female,West Bengal,vomiting और dark urine और abdominal pain,"vomiting,dark,urine,abdominal,pain",Hepatitis,C8161093,FALSE,,TRUE,malnutrition,PCR,NCT02747927
+anon_0026,70,Male,Odisha,"rash, fever, हल्की चकती","rash,fever,हल्की,चकती",Dengue,C8905392,TRUE,TDV Dengue,FALSE,none,Chest X-ray,PubMed27389396
+anon_0027,20,Female,Telangana,cough और fever और body ache,"cough,fever,body,ache",Influenza,C3809010,TRUE,COVID‑19 mRNA,TRUE,chronic illness,Chest X-ray,NCT02406729
+anon_0028,43,Male,Bihar,"cough, shortness of breath, chest pain","cough,shortness,of,breath,chest,pain",Pneumonia,C9818613,FALSE,,TRUE,malnutrition,Chest X-ray,NCT01373281
+anon_0029,66,Male,Tamil Nadu,"diarrhea, nausea, abdominal pain","diarrhea,nausea,abdominal,pain",Typhoid,C4025198,FALSE,,FALSE,none,CBC,NCT06060067
+anon_0030,72,Female,Maharashtra,teary eyes और cough और rash,"teary,eyes,cough,rash",Measles,C3216709,TRUE,TDV Dengue,TRUE,none,PCR,PubMed27389396
+anon_0031,28,Female,Tamil Nadu,"fever, weight loss, chronic cough","fever,weight,loss,chronic,cough",TB,C5458055,FALSE,,FALSE,mosquito bite,CBC,NCT01373281
+anon_0032,61,Female,Odisha,fever और teary eyes और cough,"fever,teary,eyes,cough",Measles,C9445807,TRUE,Inactivated Polio,TRUE,malnutrition,CBC,NCT01373281
+anon_0033,76,Female,Uttar Pradesh,"fever, बुखार, rash","fever,बुखा,rash",Dengue,C2605385,FALSE,,FALSE,malnutrition,PCR,PubMed27389396
+anon_0034,59,Male,Uttar Pradesh,"rash, cough, teary eyes","rash,cough,teary,eyes",Measles,C1924510,FALSE,,FALSE,chronic illness,PCR,NCT06060067
+anon_0035,67,Female,West Bengal,"rash, teary eyes, fever","rash,teary,eyes,fever",Measles,C6439753,TRUE,Inactivated Polio,FALSE,chronic illness,CBC,NCT02747927
+anon_0036,28,Male,Maharashtra,"joint pain, rash, fever","joint,pain,rash,fever",Dengue,C1219169,FALSE,,TRUE,chronic illness,PCR,NCT02406729
+anon_0037,8,Female,West Bengal,jaundice और abdominal pain और dark urine,"jaundice,abdominal,pain,dark,urine",Hepatitis,C6050223,TRUE,BCG,TRUE,malnutrition,CBC,PubMed27389396
+anon_0038,29,Female,Telangana,"fatigue, dry cough, loss of taste","fatigue,dry,cough,loss,of,taste",COVID-19,C1057719,FALSE,,TRUE,chronic illness,RDT,NCT01373281
+anon_0039,79,Female,West Bengal,"बुखार, हल्की चकती, rash","बुखा,हल्की,चकती,rash",Dengue,C9100665,FALSE,,TRUE,mosquito bite,CBC,PubMed27389396
+anon_0040,9,Female,Bihar,"teary eyes, cough, fever","teary,eyes,cough,fever",Measles,C4452220,TRUE,TDV Dengue,FALSE,none,CBC,NCT06060067
+anon_0041,20,Male,West Bengal,"dry cough, fatigue, loss of taste","dry,cough,fatigue,loss,of,taste",COVID-19,C9199558,TRUE,Inactivated Polio,TRUE,none,Chest X-ray,PubMed27389396
+anon_0042,16,Male,Odisha,थकावट और chills और headache,"थकावट,chills,headache",Malaria,C7418534,FALSE,,TRUE,none,CBC,NCT02406729
+anon_0043,25,Female,Odisha,"fever, cough, shortness of breath","fever,cough,shortness,of,breath",Pneumonia,C3164150,TRUE,Inactivated Polio,TRUE,malnutrition,RDT,NCT02747927
+anon_0044,16,Female,Odisha,"fever, loss of taste, dry cough","fever,loss,of,taste,dry,cough",COVID-19,C1713872,TRUE,TDV Dengue,TRUE,mosquito bite,CBC,PubMed27389396
+anon_0045,12,Female,Odisha,"fever, shortness of breath, chest pain","fever,shortness,of,breath,chest,pain",Pneumonia,C3941403,FALSE,,FALSE,none,Chest X-ray,NCT02406729
+anon_0046,33,Female,Bihar,body ache और fever और sore throat,"body,ache,fever,sore,throat",Influenza,C4245730,TRUE,TDV Dengue,TRUE,mosquito bite,RDT,NCT02406729
+anon_0047,14,Male,Maharashtra,weight loss और night sweats और chronic cough,"weight,loss,night,sweats,chronic,cough",TB,C1274908,TRUE,BCG,TRUE,malnutrition,Chest X-ray,NCT02406729
+anon_0048,28,Female,Tamil Nadu,"cough, sore throat, body ache","cough,sore,throat,body,ache",Influenza,C7049217,FALSE,,FALSE,mosquito bite,Chest X-ray,NCT01373281
+anon_0049,39,Female,Maharashtra,weight loss और fever और night sweats,"weight,loss,fever,night,sweats",TB,C1225815,FALSE,,TRUE,chronic illness,RDT,NCT06060067
+anon_0050,31,Female,Tamil Nadu,"chronic cough, fever, night sweats","chronic,cough,fever,night,sweats",TB,C5704700,TRUE,BCG,FALSE,chronic illness,PCR,PubMed27389396
+anon_0051,2,Female,West Bengal,teary eyes और fever और rash,"teary,eyes,fever,rash",Measles,C5641506,TRUE,Inactivated Polio,FALSE,mosquito bite,CBC,NCT02406729
+anon_0052,22,Female,Bihar,body ache और fever और sore throat,"body,ache,fever,sore,throat",Influenza,C3987570,TRUE,TDV Dengue,TRUE,malnutrition,CBC,NCT02406729
+anon_0053,56,Male,Uttar Pradesh,"हल्की चकती, joint pain, fever","हल्की,चकती,joint,pain,fever",Dengue,C2699512,FALSE,,FALSE,malnutrition,RDT,PubMed27389396
+anon_0054,39,Female,Odisha,"weight loss, fever, night sweats","weight,loss,fever,night,sweats",TB,C6408392,FALSE,,TRUE,none,Chest X-ray,NCT02406729
+anon_0055,70,Male,Odisha,abdominal pain और nausea और diarrhea,"abdominal,pain,nausea,diarrhea",Typhoid,C8246026,FALSE,,TRUE,mosquito bite,RDT,NCT06060067
+anon_0056,39,Male,Uttar Pradesh,"jaundice, dark urine, vomiting","jaundice,dark,urine,vomiting",Hepatitis,C2170601,FALSE,,FALSE,chronic illness,Chest X-ray,PubMed27389396
+anon_0057,51,Female,Bihar,"indigestion, nausea, bloating","indigestion,nausea,bloating",Gastritis,C9073155,TRUE,Inactivated Polio,TRUE,malnutrition,RDT,NCT02747927
+anon_0058,58,Female,Bihar,"body ache, cough, sore throat","body,ache,cough,sore,throat",Influenza,C5461750,FALSE,,TRUE,malnutrition,PCR,PubMed27389396
+anon_0059,55,Male,Telangana,nausea और bloating और indigestion,"nausea,bloating,indigestion",Gastritis,C5967402,FALSE,,TRUE,chronic illness,RDT,NCT01373281
+anon_0060,66,Male,Tamil Nadu,"fatigue, dry cough, fever","fatigue,dry,cough,fever",COVID-19,C2040801,FALSE,,TRUE,none,RDT,PubMed27389396
+anon_0061,25,Male,Bihar,"weight loss, chronic cough, night sweats","weight,loss,chronic,cough,night,sweats",TB,C1032192,FALSE,,TRUE,chronic illness,RDT,PubMed27389396
+anon_0062,30,Male,Odisha,"night sweats, fever, chronic cough","night,sweats,fever,chronic,cough",TB,C4587022,TRUE,UIP Measles,FALSE,chronic illness,CBC,NCT02747927
+anon_0063,11,Male,West Bengal,jaundice और dark urine और abdominal pain,"jaundice,dark,urine,abdominal,pain",Hepatitis,C1018212,FALSE,,FALSE,malnutrition,RDT,NCT01373281
+anon_0064,49,Female,Maharashtra,body ache और sore throat और fever,"body,ache,sore,throat,fever",Influenza,C2791996,FALSE,,FALSE,none,CBC,NCT02747927
+anon_0065,37,Female,Tamil Nadu,cough और fever और sore throat,"cough,fever,sore,throat",Influenza,C2296704,TRUE,BCG,TRUE,chronic illness,PCR,NCT02747927
+anon_0066,11,Male,West Bengal,"cough, fever, body ache","cough,fever,body,ache",Influenza,C3397390,TRUE,Inactivated Polio,FALSE,none,PCR,NCT02747927
+anon_0067,24,Female,West Bengal,"rash, बुखार, fever","rash,बुखा,fever",Dengue,C3313163,FALSE,,TRUE,mosquito bite,PCR,NCT06060067
+anon_0068,26,Female,West Bengal,"fever, headache, थकावट","fever,headache,थकावट",Malaria,C4633809,FALSE,,TRUE,none,Chest X-ray,PubMed27389396
+anon_0069,22,Male,Odisha,"fever, teary eyes, cough","fever,teary,eyes,cough",Measles,C2074860,TRUE,UIP Measles,FALSE,chronic illness,Chest X-ray,NCT02406729
+anon_0070,60,Female,Telangana,"बुखार, joint pain, हल्की चकती","बुखा,joint,pain,हल्की,चकती",Dengue,C2213446,TRUE,TDV Dengue,TRUE,chronic illness,RDT,NCT02406729
+anon_0071,69,Female,West Bengal,fever और nausea और abdominal pain,"fever,nausea,abdominal,pain",Typhoid,C5263825,FALSE,,FALSE,mosquito bite,PCR,NCT02747927
+anon_0072,9,Male,Bihar,jaundice और dark urine और abdominal pain,"jaundice,dark,urine,abdominal,pain",Hepatitis,C5919715,FALSE,,FALSE,chronic illness,PCR,PubMed27389396
+anon_0073,13,Male,Tamil Nadu,"fatigue, fever, loss of taste","fatigue,fever,loss,of,taste",COVID-19,C1785906,FALSE,,FALSE,none,Chest X-ray,PubMed27389396
+anon_0074,2,Female,Odisha,"rash, teary eyes, cough","rash,teary,eyes,cough",Measles,C2904700,FALSE,,FALSE,none,RDT,NCT02747927
+anon_0075,18,Female,Telangana,bloating और nausea और stomach pain,"bloating,nausea,stomach,pain",Gastritis,C1189043,FALSE,,TRUE,malnutrition,Chest X-ray,PubMed27389396
+anon_0076,76,Female,Telangana,fever और abdominal pain और diarrhea,"fever,abdominal,pain,diarrhea",Typhoid,C9043338,FALSE,,FALSE,mosquito bite,RDT,NCT02747927
+anon_0077,56,Male,Telangana,"थकावट, fever, headache","थकावट,fever,headache",Malaria,C2660152,TRUE,UIP Measles,TRUE,chronic illness,PCR,NCT02747927
+anon_0078,66,Female,West Bengal,"dry cough, loss of taste, fatigue","dry,cough,loss,of,taste,fatigue",COVID-19,C6592517,TRUE,TDV Dengue,FALSE,malnutrition,CBC,PubMed27389396
+anon_0079,37,Female,Maharashtra,"chest pain, shortness of breath, fever","chest,pain,shortness,of,breath,fever",Pneumonia,C6286073,TRUE,UIP Measles,FALSE,mosquito bite,Chest X-ray,NCT06060067
+anon_0080,34,Male,Bihar,fever और dry cough और loss of taste,"fever,dry,cough,loss,of,taste",COVID-19,C8348981,FALSE,,FALSE,none,PCR,NCT06060067
+anon_0081,18,Male,Telangana,"fever, teary eyes, rash","fever,teary,eyes,rash",Measles,C5549704,TRUE,COVID‑19 mRNA,TRUE,mosquito bite,PCR,PubMed27389396
+anon_0082,59,Female,Tamil Nadu,"dark urine, abdominal pain, vomiting","dark,urine,abdominal,pain,vomiting",Hepatitis,C2558010,TRUE,UIP Measles,FALSE,mosquito bite,Chest X-ray,NCT06060067
+anon_0083,53,Female,Bihar,"bloating, nausea, stomach pain","bloating,nausea,stomach,pain",Gastritis,C5029818,TRUE,UIP Measles,FALSE,none,Chest X-ray,NCT06060067
+anon_0084,36,Female,Uttar Pradesh,shortness of breath और cough और chest pain,"shortness,of,breath,cough,chest,pain",Pneumonia,C8510270,TRUE,TDV Dengue,TRUE,none,Chest X-ray,NCT02406729
+anon_0085,80,Male,Bihar,chest pain और fever और shortness of breath,"chest,pain,fever,shortness,of,breath",Pneumonia,C9983691,TRUE,COVID‑19 mRNA,FALSE,chronic illness,PCR,NCT01373281
+anon_0086,31,Female,Odisha,"fever, chronic cough, night sweats","fever,chronic,cough,night,sweats",TB,C5710683,TRUE,Inactivated Polio,FALSE,none,RDT,PubMed27389396
+anon_0087,37,Male,Maharashtra,"teary eyes, rash, fever","teary,eyes,rash,fever",Measles,C6749852,FALSE,,FALSE,none,CBC,PubMed27389396
+anon_0088,65,Male,Tamil Nadu,"fever, dry cough, loss of taste","fever,dry,cough,loss,of,taste",COVID-19,C5826924,TRUE,TDV Dengue,FALSE,chronic illness,Chest X-ray,NCT01373281
+anon_0089,78,Male,West Bengal,fatigue और fever और dry cough,"fatigue,fever,dry,cough",COVID-19,C5543471,FALSE,,FALSE,chronic illness,PCR,PubMed27389396
+anon_0090,45,Male,Tamil Nadu,"abdominal pain, diarrhea, fever","abdominal,pain,diarrhea,fever",Typhoid,C5578484,TRUE,Inactivated Polio,FALSE,mosquito bite,CBC,PubMed27389396
+anon_0091,29,Female,Bihar,rash और cough और fever,"rash,cough,fever",Measles,C8058514,TRUE,UIP Measles,FALSE,none,PCR,NCT06060067
+anon_0092,43,Female,Tamil Nadu,"हल्की चकती, बुखार, joint pain","हल्की,चकती,बुखा,joint,pain",Dengue,C4443486,TRUE,UIP Measles,TRUE,none,Chest X-ray,NCT02406729
+anon_0093,10,Female,Telangana,"chest pain, shortness of breath, fever","chest,pain,shortness,of,breath,fever",Pneumonia,C8759794,TRUE,BCG,TRUE,mosquito bite,RDT,NCT02406729
+anon_0094,62,Female,Maharashtra,"stomach pain, bloating, nausea","stomach,pain,bloating,nausea",Gastritis,C7104380,FALSE,,FALSE,chronic illness,Chest X-ray,NCT02747927
+anon_0095,40,Female,Maharashtra,"abdominal pain, dark urine, jaundice","abdominal,pain,dark,urine,jaundice",Hepatitis,C8409770,TRUE,TDV Dengue,TRUE,none,RDT,NCT06060067
+anon_0096,73,Female,Odisha,"rash, fever, joint pain","rash,fever,joint,pain",Dengue,C7602318,TRUE,BCG,FALSE,chronic illness,RDT,PubMed27389396
+anon_0097,27,Male,West Bengal,loss of taste और fever और dry cough,"loss,of,taste,fever,dry,cough",COVID-19,C5327073,FALSE,,TRUE,chronic illness,RDT,NCT02747927
+anon_0098,71,Male,West Bengal,"nausea, diarrhea, abdominal pain","nausea,diarrhea,abdominal,pain",Typhoid,C2207620,FALSE,,FALSE,chronic illness,RDT,PubMed27389396
+anon_0099,79,Male,Telangana,"fever, rash, cough","fever,rash,cough",Measles,C4210441,TRUE,UIP Measles,TRUE,chronic illness,Chest X-ray,NCT01373281
+anon_0100,48,Male,Telangana,fever और cough और body ache,"fever,cough,body,ache",Influenza,C2426480,TRUE,COVID‑19 mRNA,TRUE,mosquito bite,CBC,NCT01373281
+anon_0101,36,Female,Uttar Pradesh,"थकावट, headache, chills","थकावट,headache,chills",Malaria,C6615149,FALSE,,TRUE,chronic illness,CBC,NCT01373281
+anon_0102,1,Female,Maharashtra,"loss of taste, dry cough, fatigue","loss,of,taste,dry,cough,fatigue",COVID-19,C4650827,TRUE,BCG,TRUE,chronic illness,PCR,PubMed27389396
+anon_0103,36,Male,Uttar Pradesh,loss of taste और fever और fatigue,"loss,of,taste,fever,fatigue",COVID-19,C1166080,TRUE,Inactivated Polio,TRUE,none,RDT,PubMed27389396
+anon_0104,8,Male,Tamil Nadu,हल्की चकती और बुखार और rash,"हल्की,चकती,बुखा,rash",Dengue,C5475268,TRUE,COVID‑19 mRNA,FALSE,mosquito bite,CBC,NCT02747927
+anon_0105,50,Female,Bihar,"bloating, stomach pain, indigestion","bloating,stomach,pain,indigestion",Gastritis,C7224581,FALSE,,FALSE,malnutrition,CBC,NCT02406729
+anon_0106,60,Female,Tamil Nadu,fever और cough और body ache,"fever,cough,body,ache",Influenza,C3210711,TRUE,COVID‑19 mRNA,TRUE,none,PCR,NCT06060067
+anon_0107,46,Female,West Bengal,fatigue और dry cough और fever,"fatigue,dry,cough,fever",COVID-19,C4221058,FALSE,,FALSE,none,Chest X-ray,NCT02747927
+anon_0108,55,Male,Bihar,"nausea, indigestion, stomach pain","nausea,indigestion,stomach,pain",Gastritis,C7293260,TRUE,BCG,TRUE,malnutrition,Chest X-ray,NCT02406729
+anon_0109,10,Female,Bihar,chronic cough और night sweats और fever,"chronic,cough,night,sweats,fever",TB,C5390697,FALSE,,FALSE,mosquito bite,Chest X-ray,NCT06060067
+anon_0110,53,Female,Maharashtra,vomiting और jaundice और dark urine,"vomiting,jaundice,dark,urine",Hepatitis,C9592739,TRUE,UIP Measles,TRUE,chronic illness,PCR,NCT01373281
+anon_0111,8,Male,Maharashtra,teary eyes और cough और fever,"teary,eyes,cough,fever",Measles,C3532728,FALSE,,TRUE,malnutrition,Chest X-ray,NCT02406729
+anon_0112,15,Male,Telangana,headache और chills और sweating,"headache,chills,sweating",Malaria,C1297762,TRUE,UIP Measles,FALSE,mosquito bite,CBC,NCT01373281
+anon_0113,60,Female,West Bengal,"fatigue, fever, loss of taste","fatigue,fever,loss,of,taste",COVID-19,C8046051,FALSE,,FALSE,mosquito bite,Chest X-ray,NCT02747927
+anon_0114,53,Male,Telangana,"nausea, bloating, stomach pain","nausea,bloating,stomach,pain",Gastritis,C5739173,FALSE,,TRUE,malnutrition,PCR,PubMed27389396
+anon_0115,10,Male,Bihar,fever और chills और sweating,"fever,chills,sweating",Malaria,C7469494,TRUE,Inactivated Polio,FALSE,mosquito bite,Chest X-ray,NCT06060067
+anon_0116,14,Female,Tamil Nadu,"loss of taste, dry cough, fever","loss,of,taste,dry,cough,fever",COVID-19,C2254295,TRUE,COVID‑19 mRNA,TRUE,chronic illness,PCR,NCT01373281
+anon_0117,39,Female,Bihar,"cough, shortness of breath, fever","cough,shortness,of,breath,fever",Pneumonia,C6790628,FALSE,,FALSE,malnutrition,CBC,NCT02747927
+anon_0118,42,Female,Tamil Nadu,"shortness of breath, fever, chest pain","shortness,of,breath,fever,chest,pain",Pneumonia,C9415328,TRUE,UIP Measles,TRUE,malnutrition,CBC,PubMed27389396
+anon_0119,58,Female,Bihar,"sore throat, fever, cough","sore,throat,fever,cough",Influenza,C8294087,FALSE,,FALSE,malnutrition,Chest X-ray,NCT01373281
+anon_0120,52,Male,Bihar,"fever, loss of taste, dry cough","fever,loss,of,taste,dry,cough",COVID-19,C3668615,TRUE,BCG,TRUE,mosquito bite,PCR,NCT02747927
+anon_0121,69,Male,Maharashtra,"abdominal pain, jaundice, vomiting","abdominal,pain,jaundice,vomiting",Hepatitis,C9369726,TRUE,BCG,TRUE,chronic illness,RDT,NCT01373281
+anon_0122,63,Male,Bihar,"nausea, abdominal pain, diarrhea","nausea,abdominal,pain,diarrhea",Typhoid,C4725803,TRUE,COVID‑19 mRNA,FALSE,malnutrition,PCR,NCT02747927
+anon_0123,68,Male,Tamil Nadu,fever और shortness of breath और chest pain,"fever,shortness,of,breath,chest,pain",Pneumonia,C3830365,TRUE,Inactivated Polio,TRUE,malnutrition,PCR,NCT02747927
+anon_0124,20,Male,Uttar Pradesh,"dry cough, fever, loss of taste","dry,cough,fever,loss,of,taste",COVID-19,C9133735,TRUE,UIP Measles,TRUE,mosquito bite,Chest X-ray,NCT02747927
+anon_0125,54,Female,Maharashtra,diarrhea और nausea और abdominal pain,"diarrhea,nausea,abdominal,pain",Typhoid,C5531063,TRUE,Inactivated Polio,FALSE,malnutrition,Chest X-ray,PubMed27389396
+anon_0126,58,Female,Maharashtra,"fever, chest pain, shortness of breath","fever,chest,pain,shortness,of,breath",Pneumonia,C7345041,FALSE,,TRUE,mosquito bite,CBC,PubMed27389396
+anon_0127,63,Male,Uttar Pradesh,"chest pain, cough, fever","chest,pain,cough,fever",Pneumonia,C9907389,FALSE,,TRUE,malnutrition,CBC,NCT02406729
+anon_0128,13,Male,West Bengal,loss of taste और fever और dry cough,"loss,of,taste,fever,dry,cough",COVID-19,C1865997,TRUE,TDV Dengue,FALSE,chronic illness,Chest X-ray,NCT06060067
+anon_0129,9,Male,Tamil Nadu,"indigestion, bloating, nausea","indigestion,bloating,nausea",Gastritis,C1616436,FALSE,,TRUE,malnutrition,CBC,NCT02747927
+anon_0130,20,Female,Uttar Pradesh,"fever, night sweats, chronic cough","fever,night,sweats,chronic,cough",TB,C1872443,TRUE,COVID‑19 mRNA,FALSE,none,Chest X-ray,NCT06060067
+anon_0131,14,Male,Odisha,"थकावट, sweating, chills","थकावट,sweating,chills",Malaria,C6466226,TRUE,UIP Measles,FALSE,none,RDT,NCT02406729
+anon_0132,36,Female,Maharashtra,"fever, joint pain, हल्की चकती","fever,joint,pain,हल्की,चकती",Dengue,C2052734,TRUE,TDV Dengue,TRUE,chronic illness,Chest X-ray,NCT06060067
+anon_0133,10,Male,Maharashtra,"sweating, headache, fever","sweating,headache,fever",Malaria,C7730292,TRUE,Inactivated Polio,TRUE,chronic illness,Chest X-ray,PubMed27389396
+anon_0134,6,Female,Odisha,"fever, chills, sweating","fever,chills,sweating",Malaria,C6313006,FALSE,,TRUE,chronic illness,PCR,NCT02406729
+anon_0135,4,Female,West Bengal,"sore throat, cough, body ache","sore,throat,cough,body,ache",Influenza,C4194781,TRUE,Inactivated Polio,TRUE,mosquito bite,Chest X-ray,NCT06060067
+anon_0136,36,Male,West Bengal,"night sweats, chronic cough, weight loss","night,sweats,chronic,cough,weight,loss",TB,C6704058,TRUE,TDV Dengue,TRUE,mosquito bite,CBC,NCT01373281
+anon_0137,47,Male,Maharashtra,fever और chills और थकावट,"fever,chills,थकावट",Malaria,C2142758,FALSE,,FALSE,none,CBC,PubMed27389396
+anon_0138,20,Male,Telangana,"jaundice, vomiting, dark urine","jaundice,vomiting,dark,urine",Hepatitis,C6383253,TRUE,Inactivated Polio,TRUE,malnutrition,Chest X-ray,NCT01373281
+anon_0139,68,Male,Bihar,cough और teary eyes और rash,"cough,teary,eyes,rash",Measles,C1910140,FALSE,,TRUE,chronic illness,CBC,NCT06060067
+anon_0140,2,Female,Odisha,"fever, cough, sore throat","fever,cough,sore,throat",Influenza,C9981625,FALSE,,FALSE,chronic illness,Chest X-ray,NCT02406729
+anon_0141,45,Female,Maharashtra,"sore throat, body ache, fever","sore,throat,body,ache,fever",Influenza,C3459431,FALSE,,FALSE,malnutrition,RDT,NCT06060067
+anon_0142,55,Male,Tamil Nadu,indigestion और bloating और nausea,"indigestion,bloating,nausea",Gastritis,C4171110,FALSE,,TRUE,chronic illness,PCR,PubMed27389396
+anon_0143,79,Male,Telangana,"fever, loss of taste, dry cough","fever,loss,of,taste,dry,cough",COVID-19,C7604719,TRUE,BCG,TRUE,mosquito bite,Chest X-ray,NCT02747927
+anon_0144,25,Male,Bihar,"nausea, diarrhea, fever","nausea,diarrhea,fever",Typhoid,C5463773,TRUE,COVID‑19 mRNA,FALSE,none,PCR,NCT06060067
+anon_0145,24,Female,Tamil Nadu,"cough, rash, teary eyes","cough,rash,teary,eyes",Measles,C3251238,TRUE,TDV Dengue,TRUE,none,Chest X-ray,NCT06060067
+anon_0146,25,Female,Uttar Pradesh,chest pain और fever और cough,"chest,pain,fever,cough",Pneumonia,C3217812,FALSE,,FALSE,chronic illness,RDT,NCT02747927
+anon_0147,52,Female,Odisha,dry cough और fever और fatigue,"dry,cough,fever,fatigue",COVID-19,C7574885,FALSE,,FALSE,malnutrition,PCR,NCT01373281
+anon_0148,12,Male,West Bengal,"fever, cough, teary eyes","fever,cough,teary,eyes",Measles,C4367584,FALSE,,FALSE,chronic illness,PCR,NCT02747927
+anon_0149,35,Male,Uttar Pradesh,"bloating, stomach pain, indigestion","bloating,stomach,pain,indigestion",Gastritis,C7862704,FALSE,,TRUE,malnutrition,PCR,NCT06060067
+anon_0150,70,Female,Maharashtra,fatigue और dry cough और loss of taste,"fatigue,dry,cough,loss,of,taste",COVID-19,C2479422,FALSE,,FALSE,malnutrition,CBC,NCT02406729
+anon_0151,48,Female,Telangana,body ache और cough और sore throat,"body,ache,cough,sore,throat",Influenza,C6024722,TRUE,TDV Dengue,TRUE,mosquito bite,Chest X-ray,NCT06060067
+anon_0152,48,Male,Maharashtra,"stomach pain, nausea, bloating","stomach,pain,nausea,bloating",Gastritis,C4149974,TRUE,Inactivated Polio,FALSE,chronic illness,Chest X-ray,NCT06060067
+anon_0153,24,Male,Uttar Pradesh,"joint pain, rash, बुखार","joint,pain,rash,बुखा",Dengue,C8790113,TRUE,Inactivated Polio,TRUE,malnutrition,CBC,NCT06060067
+anon_0154,70,Female,Uttar Pradesh,"bloating, indigestion, stomach pain","bloating,indigestion,stomach,pain",Gastritis,C3053360,TRUE,Inactivated Polio,FALSE,mosquito bite,CBC,NCT02747927
+anon_0155,1,Male,Bihar,"dry cough, loss of taste, fever","dry,cough,loss,of,taste,fever",COVID-19,C4544727,FALSE,,TRUE,chronic illness,RDT,PubMed27389396
+anon_0156,80,Female,Tamil Nadu,"chest pain, fever, cough","chest,pain,fever,cough",Pneumonia,C3285707,FALSE,,FALSE,chronic illness,Chest X-ray,NCT06060067
+anon_0157,35,Female,West Bengal,fever और night sweats और weight loss,"fever,night,sweats,weight,loss",TB,C2707963,TRUE,Inactivated Polio,FALSE,malnutrition,CBC,NCT06060067
+anon_0158,32,Male,Uttar Pradesh,"nausea, indigestion, bloating","nausea,indigestion,bloating",Gastritis,C5621573,FALSE,,FALSE,none,PCR,NCT02747927
+anon_0159,4,Male,Tamil Nadu,"fever, sweating, headache","fever,sweating,headache",Malaria,C8839686,TRUE,UIP Measles,FALSE,malnutrition,CBC,NCT01373281
+anon_0160,60,Female,Bihar,"abdominal pain, diarrhea, fever","abdominal,pain,diarrhea,fever",Typhoid,C8625991,TRUE,COVID‑19 mRNA,FALSE,chronic illness,Chest X-ray,NCT01373281
+anon_0161,37,Female,Uttar Pradesh,"weight loss, night sweats, fever","weight,loss,night,sweats,fever",TB,C1024963,TRUE,TDV Dengue,FALSE,mosquito bite,RDT,NCT01373281
+anon_0162,24,Male,Bihar,"fever, chronic cough, night sweats","fever,chronic,cough,night,sweats",TB,C1643590,FALSE,,TRUE,chronic illness,RDT,NCT06060067
+anon_0163,35,Female,Tamil Nadu,"bloating, stomach pain, indigestion","bloating,stomach,pain,indigestion",Gastritis,C3551638,FALSE,,FALSE,mosquito bite,RDT,NCT01373281
+anon_0164,66,Female,Tamil Nadu,थकावट और headache और sweating,"थकावट,headache,sweating",Malaria,C9666469,FALSE,,FALSE,malnutrition,CBC,NCT02406729
+anon_0165,45,Male,Maharashtra,"fever, teary eyes, rash","fever,teary,eyes,rash",Measles,C6915722,FALSE,,FALSE,malnutrition,RDT,NCT01373281
+anon_0166,71,Female,Telangana,"nausea, bloating, stomach pain","nausea,bloating,stomach,pain",Gastritis,C4937621,FALSE,,TRUE,mosquito bite,Chest X-ray,NCT06060067
+anon_0167,26,Female,West Bengal,"body ache, fever, sore throat","body,ache,fever,sore,throat",Influenza,C6540013,FALSE,,FALSE,chronic illness,Chest X-ray,NCT02747927
+anon_0168,78,Male,West Bengal,"fever, rash, हल्की चकती","fever,rash,हल्की,चकती",Dengue,C6559323,TRUE,Inactivated Polio,TRUE,chronic illness,Chest X-ray,PubMed27389396
+anon_0169,12,Female,Maharashtra,"rash, बुखार, हल्की चकती","rash,बुखा,हल्की,चकती",Dengue,C9602414,FALSE,,FALSE,none,RDT,NCT01373281
+anon_0170,13,Female,West Bengal,"jaundice, dark urine, vomiting","jaundice,dark,urine,vomiting",Hepatitis,C1719293,TRUE,TDV Dengue,FALSE,malnutrition,CBC,NCT02406729
+anon_0171,3,Female,Telangana,stomach pain और nausea और indigestion,"stomach,pain,nausea,indigestion",Gastritis,C3960714,TRUE,UIP Measles,FALSE,none,Chest X-ray,PubMed27389396
+anon_0172,76,Female,West Bengal,nausea और stomach pain और bloating,"nausea,stomach,pain,bloating",Gastritis,C9575158,TRUE,COVID‑19 mRNA,FALSE,mosquito bite,RDT,PubMed27389396
+anon_0173,2,Female,Telangana,"bloating, indigestion, stomach pain","bloating,indigestion,stomach,pain",Gastritis,C8358400,TRUE,COVID‑19 mRNA,TRUE,malnutrition,Chest X-ray,NCT06060067
+anon_0174,11,Female,Maharashtra,chest pain और shortness of breath और cough,"chest,pain,shortness,of,breath,cough",Pneumonia,C1306572,TRUE,BCG,FALSE,none,Chest X-ray,PubMed27389396
+anon_0175,43,Female,Bihar,"jaundice, vomiting, dark urine","jaundice,vomiting,dark,urine",Hepatitis,C4555105,TRUE,COVID‑19 mRNA,TRUE,none,CBC,NCT02406729
+anon_0176,23,Female,Maharashtra,abdominal pain और jaundice और vomiting,"abdominal,pain,jaundice,vomiting",Hepatitis,C7989058,TRUE,TDV Dengue,FALSE,none,RDT,PubMed27389396
+anon_0177,17,Female,Bihar,"fever, बुखार, rash","fever,बुखा,rash",Dengue,C5990570,FALSE,,TRUE,mosquito bite,PCR,NCT06060067
+anon_0178,39,Female,West Bengal,"dark urine, abdominal pain, jaundice","dark,urine,abdominal,pain,jaundice",Hepatitis,C9778624,FALSE,,FALSE,mosquito bite,PCR,NCT02406729
+anon_0179,41,Female,Telangana,fever और chest pain और cough,"fever,chest,pain,cough",Pneumonia,C7037802,FALSE,,TRUE,malnutrition,CBC,NCT06060067
+anon_0180,70,Male,Bihar,"cough, fever, body ache","cough,fever,body,ache",Influenza,C2093392,FALSE,,TRUE,mosquito bite,PCR,NCT02747927
+anon_0181,28,Male,Bihar,sore throat और fever और cough,"sore,throat,fever,cough",Influenza,C6023318,FALSE,,TRUE,malnutrition,Chest X-ray,NCT06060067
+anon_0182,66,Female,Uttar Pradesh,night sweats और fever और chronic cough,"night,sweats,fever,chronic,cough",TB,C6284635,TRUE,TDV Dengue,TRUE,malnutrition,PCR,NCT06060067
+anon_0183,72,Female,Uttar Pradesh,"teary eyes, fever, cough","teary,eyes,fever,cough",Measles,C4249454,FALSE,,FALSE,malnutrition,CBC,NCT06060067
+anon_0184,71,Male,Uttar Pradesh,stomach pain और nausea और indigestion,"stomach,pain,nausea,indigestion",Gastritis,C2523877,FALSE,,FALSE,malnutrition,PCR,NCT06060067
+anon_0185,19,Male,Maharashtra,dry cough और fever और loss of taste,"dry,cough,fever,loss,of,taste",COVID-19,C2378119,FALSE,,FALSE,none,PCR,NCT01373281
+anon_0186,34,Male,Bihar,"chills, headache, fever","chills,headache,fever",Malaria,C6535204,TRUE,COVID‑19 mRNA,FALSE,chronic illness,PCR,PubMed27389396
+anon_0187,47,Male,Uttar Pradesh,"fever, cough, rash","fever,cough,rash",Measles,C2439695,FALSE,,FALSE,chronic illness,PCR,NCT02747927
+anon_0188,42,Female,Bihar,chest pain और shortness of breath और cough,"chest,pain,shortness,of,breath,cough",Pneumonia,C1393454,FALSE,,FALSE,malnutrition,Chest X-ray,NCT06060067
+anon_0189,7,Male,West Bengal,"fatigue, dry cough, fever","fatigue,dry,cough,fever",COVID-19,C8996079,FALSE,,FALSE,none,Chest X-ray,NCT02406729
+anon_0190,57,Female,Telangana,fever और cough और teary eyes,"fever,cough,teary,eyes",Measles,C3381711,TRUE,TDV Dengue,FALSE,chronic illness,CBC,NCT02747927
+anon_0191,61,Female,Telangana,"chest pain, cough, fever","chest,pain,cough,fever",Pneumonia,C7759242,FALSE,,TRUE,mosquito bite,CBC,NCT06060067
+anon_0192,23,Female,Maharashtra,"sore throat, fever, cough","sore,throat,fever,cough",Influenza,C9424721,FALSE,,TRUE,chronic illness,CBC,NCT02406729
+anon_0193,5,Female,Maharashtra,"joint pain, rash, हल्की चकती","joint,pain,rash,हल्की,चकती",Dengue,C4640818,FALSE,,FALSE,malnutrition,RDT,NCT01373281
+anon_0194,42,Female,Bihar,"abdominal pain, dark urine, jaundice","abdominal,pain,dark,urine,jaundice",Hepatitis,C1720121,TRUE,Inactivated Polio,FALSE,none,Chest X-ray,NCT06060067
+anon_0195,59,Female,Odisha,fever और dry cough और fatigue,"fever,dry,cough,fatigue",COVID-19,C9829577,TRUE,BCG,TRUE,none,RDT,NCT06060067
+anon_0196,27,Female,Maharashtra,body ache और fever और sore throat,"body,ache,fever,sore,throat",Influenza,C9184573,TRUE,TDV Dengue,TRUE,mosquito bite,PCR,PubMed27389396
+anon_0197,45,Female,Odisha,"night sweats, weight loss, chronic cough","night,sweats,weight,loss,chronic,cough",TB,C2864578,TRUE,BCG,TRUE,malnutrition,RDT,NCT06060067
+anon_0198,26,Female,Bihar,"rash, cough, fever","rash,cough,fever",Measles,C9187494,TRUE,TDV Dengue,FALSE,malnutrition,CBC,NCT02747927
+anon_0199,14,Male,West Bengal,"fever, diarrhea, abdominal pain","fever,diarrhea,abdominal,pain",Typhoid,C1375419,FALSE,,FALSE,malnutrition,CBC,NCT06060067
+anon_0200,37,Female,Telangana,"abdominal pain, dark urine, vomiting","abdominal,pain,dark,urine,vomiting",Hepatitis,C2582930,TRUE,UIP Measles,FALSE,chronic illness,Chest X-ray,NCT01373281
+anon_0201,21,Male,Telangana,"fever, headache, chills","fever,headache,chills",Malaria,C7149948,TRUE,BCG,FALSE,chronic illness,Chest X-ray,NCT02406729
+anon_0202,35,Female,Bihar,"dry cough, loss of taste, fever","dry,cough,loss,of,taste,fever",COVID-19,C1949389,TRUE,BCG,TRUE,malnutrition,PCR,PubMed27389396
+anon_0203,31,Female,Telangana,"chronic cough, night sweats, fever","chronic,cough,night,sweats,fever",TB,C6868527,TRUE,UIP Measles,TRUE,mosquito bite,RDT,NCT02747927
+anon_0204,38,Male,Odisha,stomach pain और bloating और nausea,"stomach,pain,bloating,nausea",Gastritis,C4397600,FALSE,,TRUE,malnutrition,RDT,PubMed27389396
+anon_0205,17,Male,Maharashtra,"chronic cough, fever, night sweats","chronic,cough,fever,night,sweats",TB,C4670977,TRUE,COVID‑19 mRNA,TRUE,mosquito bite,RDT,NCT02747927
+anon_0206,59,Female,Tamil Nadu,"cough, fever, rash","cough,fever,rash",Measles,C5647290,TRUE,TDV Dengue,TRUE,chronic illness,Chest X-ray,NCT01373281
+anon_0207,67,Male,Maharashtra,rash और बुखार और हल्की चकती,"rash,बुखा,हल्की,चकती",Dengue,C7835872,TRUE,TDV Dengue,TRUE,chronic illness,RDT,NCT06060067
+anon_0208,75,Male,Maharashtra,"rash, fever, cough","rash,fever,cough",Measles,C5160155,FALSE,,TRUE,mosquito bite,CBC,PubMed27389396
+anon_0209,28,Male,West Bengal,"nausea, indigestion, bloating","nausea,indigestion,bloating",Gastritis,C2922179,TRUE,COVID‑19 mRNA,TRUE,malnutrition,CBC,NCT01373281
+anon_0210,56,Female,West Bengal,"teary eyes, fever, cough","teary,eyes,fever,cough",Measles,C3525880,TRUE,TDV Dengue,FALSE,mosquito bite,PCR,NCT01373281
+anon_0211,49,Male,West Bengal,"dry cough, loss of taste, fever","dry,cough,loss,of,taste,fever",COVID-19,C1250335,FALSE,,FALSE,malnutrition,RDT,PubMed27389396
+anon_0212,40,Male,Telangana,"fever, rash, बुखार","fever,rash,बुखा",Dengue,C2517000,FALSE,,TRUE,chronic illness,CBC,NCT01373281
+anon_0213,5,Male,Odisha,"abdominal pain, jaundice, vomiting","abdominal,pain,jaundice,vomiting",Hepatitis,C6935351,TRUE,UIP Measles,TRUE,mosquito bite,Chest X-ray,NCT06060067
+anon_0214,47,Male,Bihar,"abdominal pain, fever, diarrhea","abdominal,pain,fever,diarrhea",Typhoid,C9945571,TRUE,UIP Measles,TRUE,malnutrition,PCR,PubMed27389396
+anon_0215,76,Male,Tamil Nadu,"indigestion, stomach pain, bloating","indigestion,stomach,pain,bloating",Gastritis,C9826265,FALSE,,TRUE,mosquito bite,CBC,NCT01373281
+anon_0216,17,Male,Odisha,"shortness of breath, cough, chest pain","shortness,of,breath,cough,chest,pain",Pneumonia,C4300874,TRUE,Inactivated Polio,FALSE,chronic illness,PCR,NCT01373281
+anon_0217,74,Female,Odisha,"shortness of breath, chest pain, cough","shortness,of,breath,chest,pain,cough",Pneumonia,C9989347,FALSE,,FALSE,none,CBC,PubMed27389396
+anon_0218,70,Male,Bihar,"loss of taste, fever, fatigue","loss,of,taste,fever,fatigue",COVID-19,C7593574,TRUE,UIP Measles,FALSE,malnutrition,CBC,NCT06060067
+anon_0219,11,Male,Odisha,"dry cough, loss of taste, fever","dry,cough,loss,of,taste,fever",COVID-19,C2718465,FALSE,,FALSE,none,RDT,NCT01373281
+anon_0220,18,Male,Uttar Pradesh,"indigestion, nausea, stomach pain","indigestion,nausea,stomach,pain",Gastritis,C1265886,FALSE,,FALSE,chronic illness,PCR,NCT01373281
+anon_0221,28,Female,Telangana,"chills, fever, थकावट","chills,fever,थकावट",Malaria,C5398267,FALSE,,FALSE,chronic illness,PCR,NCT02406729
+anon_0222,6,Male,Uttar Pradesh,chills और थकावट और headache,"chills,थकावट,headache",Malaria,C3599858,TRUE,COVID‑19 mRNA,TRUE,malnutrition,CBC,NCT02747927
+anon_0223,1,Male,Bihar,"fever, हल्की चकती, बुखार","fever,हल्की,चकती,बुखा",Dengue,C6283860,TRUE,Inactivated Polio,TRUE,malnutrition,PCR,NCT01373281
+anon_0224,51,Male,West Bengal,cough और chest pain और fever,"cough,chest,pain,fever",Pneumonia,C6920082,FALSE,,TRUE,none,PCR,PubMed27389396
+anon_0225,63,Female,Telangana,"indigestion, nausea, bloating","indigestion,nausea,bloating",Gastritis,C2198230,TRUE,Inactivated Polio,FALSE,none,PCR,PubMed27389396
+anon_0226,26,Male,Bihar,joint pain और बुखार और rash,"joint,pain,बुखा,rash",Dengue,C5727239,FALSE,,FALSE,none,PCR,PubMed27389396
+anon_0227,45,Male,Bihar,"loss of taste, dry cough, fever","loss,of,taste,dry,cough,fever",COVID-19,C7575926,TRUE,UIP Measles,TRUE,chronic illness,PCR,PubMed27389396
+anon_0228,67,Male,Odisha,"headache, fever, chills","headache,fever,chills",Malaria,C5892811,FALSE,,TRUE,malnutrition,CBC,NCT01373281
+anon_0229,35,Male,Maharashtra,fever और cough और teary eyes,"fever,cough,teary,eyes",Measles,C5718396,TRUE,BCG,TRUE,chronic illness,CBC,NCT02747927
+anon_0230,40,Male,Bihar,"loss of taste, fever, fatigue","loss,of,taste,fever,fatigue",COVID-19,C1693830,FALSE,,TRUE,mosquito bite,CBC,PubMed27389396
+anon_0231,59,Female,Bihar,"night sweats, fever, chronic cough","night,sweats,fever,chronic,cough",TB,C9919702,FALSE,,TRUE,chronic illness,CBC,NCT01373281
+anon_0232,39,Female,Odisha,"vomiting, jaundice, abdominal pain","vomiting,jaundice,abdominal,pain",Hepatitis,C3782744,FALSE,,TRUE,none,RDT,PubMed27389396
+anon_0233,44,Male,Tamil Nadu,dry cough और fatigue और fever,"dry,cough,fatigue,fever",COVID-19,C3501368,TRUE,TDV Dengue,FALSE,chronic illness,CBC,NCT01373281
+anon_0234,7,Female,Bihar,"cough, fever, teary eyes","cough,fever,teary,eyes",Measles,C1789470,FALSE,,TRUE,none,Chest X-ray,NCT02406729
+anon_0235,32,Male,Tamil Nadu,shortness of breath और cough और chest pain,"shortness,of,breath,cough,chest,pain",Pneumonia,C5634532,TRUE,COVID‑19 mRNA,FALSE,none,Chest X-ray,NCT01373281
+anon_0236,80,Male,Odisha,body ache और sore throat और fever,"body,ache,sore,throat,fever",Influenza,C2857490,FALSE,,TRUE,malnutrition,CBC,NCT01373281
+anon_0237,72,Male,Tamil Nadu,थकावट और headache और sweating,"थकावट,headache,sweating",Malaria,C1945122,TRUE,UIP Measles,FALSE,mosquito bite,CBC,NCT02406729
+anon_0238,13,Female,Telangana,"fever, night sweats, chronic cough","fever,night,sweats,chronic,cough",TB,C4589945,TRUE,BCG,TRUE,none,CBC,NCT02747927
+anon_0239,1,Male,West Bengal,"chills, fever, headache","chills,fever,headache",Malaria,C8052107,TRUE,BCG,TRUE,mosquito bite,Chest X-ray,NCT06060067
+anon_0240,7,Male,Uttar Pradesh,"fever, cough, chest pain","fever,cough,chest,pain",Pneumonia,C5462683,TRUE,UIP Measles,TRUE,mosquito bite,Chest X-ray,NCT02747927
+anon_0241,72,Female,Odisha,nausea और fever और diarrhea,"nausea,fever,diarrhea",Typhoid,C5429056,FALSE,,TRUE,mosquito bite,RDT,NCT06060067
+anon_0242,3,Male,West Bengal,"fever, shortness of breath, chest pain","fever,shortness,of,breath,chest,pain",Pneumonia,C9462561,TRUE,COVID‑19 mRNA,TRUE,chronic illness,CBC,NCT01373281
+anon_0243,51,Male,Odisha,"abdominal pain, fever, diarrhea","abdominal,pain,fever,diarrhea",Typhoid,C3194557,FALSE,,FALSE,chronic illness,PCR,NCT02747927
+anon_0244,2,Male,Odisha,"fever, cough, sore throat","fever,cough,sore,throat",Influenza,C5675972,TRUE,BCG,FALSE,none,PCR,PubMed27389396
+anon_0245,8,Male,Maharashtra,sore throat और fever और cough,"sore,throat,fever,cough",Influenza,C3348008,FALSE,,FALSE,mosquito bite,PCR,NCT01373281
+anon_0246,65,Female,Telangana,"chronic cough, weight loss, night sweats","chronic,cough,weight,loss,night,sweats",TB,C5706669,TRUE,TDV Dengue,TRUE,mosquito bite,Chest X-ray,PubMed27389396
+anon_0247,80,Female,Maharashtra,"fever, cough, rash","fever,cough,rash",Measles,C1363040,TRUE,BCG,FALSE,malnutrition,Chest X-ray,NCT06060067
+anon_0248,47,Male,Maharashtra,"fever, dry cough, fatigue","fever,dry,cough,fatigue",COVID-19,C9388172,TRUE,UIP Measles,FALSE,none,PCR,PubMed27389396
+anon_0249,72,Male,Tamil Nadu,थकावट और chills और fever,"थकावट,chills,fever",Malaria,C4243714,FALSE,,FALSE,mosquito bite,PCR,NCT02747927
+anon_0250,24,Male,Telangana,"fever, sore throat, cough","fever,sore,throat,cough",Influenza,C8806071,FALSE,,FALSE,malnutrition,RDT,NCT02406729
+anon_0251,64,Male,Telangana,हल्की चकती और rash और joint pain,"हल्की,चकती,rash,joint,pain",Dengue,C5371187,FALSE,,FALSE,none,Chest X-ray,NCT02747927
+anon_0252,7,Male,Bihar,"body ache, fever, cough","body,ache,fever,cough",Influenza,C8871375,FALSE,,TRUE,malnutrition,Chest X-ray,NCT02747927
+anon_0253,60,Female,Telangana,"cough, shortness of breath, chest pain","cough,shortness,of,breath,chest,pain",Pneumonia,C8566117,TRUE,Inactivated Polio,FALSE,malnutrition,CBC,NCT02747927
+anon_0254,38,Male,Tamil Nadu,"vomiting, dark urine, abdominal pain","vomiting,dark,urine,abdominal,pain",Hepatitis,C8908673,TRUE,COVID‑19 mRNA,TRUE,mosquito bite,CBC,NCT01373281
+anon_0255,64,Male,Telangana,"bloating, indigestion, stomach pain","bloating,indigestion,stomach,pain",Gastritis,C2289435,FALSE,,FALSE,mosquito bite,CBC,NCT01373281
+anon_0256,4,Female,Maharashtra,"हल्की चकती, rash, fever","हल्की,चकती,rash,fever",Dengue,C5507609,TRUE,TDV Dengue,FALSE,malnutrition,Chest X-ray,PubMed27389396
+anon_0257,24,Male,Telangana,"headache, chills, sweating","headache,chills,sweating",Malaria,C8753919,FALSE,,TRUE,chronic illness,RDT,NCT01373281
+anon_0258,23,Female,Maharashtra,fever और dry cough और fatigue,"fever,dry,cough,fatigue",COVID-19,C8412522,TRUE,TDV Dengue,FALSE,malnutrition,Chest X-ray,NCT02747927
+anon_0259,19,Female,Uttar Pradesh,"body ache, sore throat, fever","body,ache,sore,throat,fever",Influenza,C5266043,FALSE,,TRUE,mosquito bite,Chest X-ray,NCT06060067
+anon_0260,26,Male,Uttar Pradesh,"bloating, nausea, stomach pain","bloating,nausea,stomach,pain",Gastritis,C4892380,TRUE,UIP Measles,FALSE,none,RDT,PubMed27389396
+anon_0261,53,Female,Uttar Pradesh,indigestion और bloating और stomach pain,"indigestion,bloating,stomach,pain",Gastritis,C8403268,TRUE,Inactivated Polio,TRUE,chronic illness,RDT,NCT02406729
+anon_0262,56,Female,Tamil Nadu,"indigestion, bloating, stomach pain","indigestion,bloating,stomach,pain",Gastritis,C1181156,TRUE,Inactivated Polio,TRUE,chronic illness,CBC,NCT02747927
+anon_0263,73,Female,West Bengal,body ache और fever और cough,"body,ache,fever,cough",Influenza,C3792270,FALSE,,TRUE,none,CBC,NCT02406729
+anon_0264,10,Male,Uttar Pradesh,body ache और cough और fever,"body,ache,cough,fever",Influenza,C7561677,TRUE,TDV Dengue,FALSE,mosquito bite,RDT,NCT02406729
+anon_0265,75,Female,Uttar Pradesh,"headache, fever, sweating","headache,fever,sweating",Malaria,C5012029,TRUE,BCG,FALSE,malnutrition,PCR,NCT02406729
+anon_0266,78,Female,Maharashtra,"dry cough, loss of taste, fever","dry,cough,loss,of,taste,fever",COVID-19,C1087835,TRUE,BCG,FALSE,chronic illness,Chest X-ray,PubMed27389396
+anon_0267,11,Male,West Bengal,"headache, sweating, fever","headache,sweating,fever",Malaria,C6232524,FALSE,,FALSE,chronic illness,RDT,NCT02747927
+anon_0268,70,Female,Odisha,"loss of taste, dry cough, fatigue","loss,of,taste,dry,cough,fatigue",COVID-19,C6332362,FALSE,,TRUE,malnutrition,Chest X-ray,PubMed27389396
+anon_0269,79,Female,Bihar,"fatigue, loss of taste, dry cough","fatigue,loss,of,taste,dry,cough",COVID-19,C2852623,TRUE,UIP Measles,TRUE,none,Chest X-ray,NCT01373281
+anon_0270,22,Female,Telangana,"loss of taste, dry cough, fever","loss,of,taste,dry,cough,fever",COVID-19,C4980862,TRUE,TDV Dengue,FALSE,chronic illness,PCR,NCT02747927
+anon_0271,45,Female,Maharashtra,"dark urine, vomiting, jaundice","dark,urine,vomiting,jaundice",Hepatitis,C2775271,TRUE,UIP Measles,TRUE,mosquito bite,RDT,NCT06060067
+anon_0272,28,Male,Odisha,fever और हल्की चकती और joint pain,"fever,हल्की,चकती,joint,pain",Dengue,C4762093,FALSE,,TRUE,malnutrition,RDT,NCT01373281
+anon_0273,50,Male,Odisha,"stomach pain, nausea, indigestion","stomach,pain,nausea,indigestion",Gastritis,C9405582,FALSE,,FALSE,none,Chest X-ray,NCT06060067
+anon_0274,38,Male,Uttar Pradesh,night sweats और fever और weight loss,"night,sweats,fever,weight,loss",TB,C8573178,FALSE,,FALSE,none,Chest X-ray,PubMed27389396
+anon_0275,74,Female,West Bengal,"cough, fever, shortness of breath","cough,fever,shortness,of,breath",Pneumonia,C5074005,FALSE,,FALSE,malnutrition,RDT,NCT02406729
+anon_0276,66,Male,West Bengal,"abdominal pain, diarrhea, fever","abdominal,pain,diarrhea,fever",Typhoid,C3942450,FALSE,,TRUE,mosquito bite,PCR,NCT02747927
+anon_0277,39,Male,Uttar Pradesh,"joint pain, बुखार, rash","joint,pain,बुखा,rash",Dengue,C3569494,FALSE,,TRUE,mosquito bite,Chest X-ray,NCT06060067
+anon_0278,44,Female,Tamil Nadu,"fever, loss of taste, dry cough","fever,loss,of,taste,dry,cough",COVID-19,C9236002,TRUE,COVID‑19 mRNA,FALSE,chronic illness,RDT,PubMed27389396
+anon_0279,2,Female,Maharashtra,loss of taste और fever और dry cough,"loss,of,taste,fever,dry,cough",COVID-19,C8711257,FALSE,,TRUE,none,PCR,NCT02747927
+anon_0280,41,Male,West Bengal,"rash, बुखार, हल्की चकती","rash,बुखा,हल्की,चकती",Dengue,C9434364,FALSE,,FALSE,mosquito bite,CBC,NCT02406729
+anon_0281,53,Male,Telangana,"fever, cough, teary eyes","fever,cough,teary,eyes",Measles,C5511558,FALSE,,FALSE,malnutrition,PCR,PubMed27389396
+anon_0282,42,Male,Odisha,"stomach pain, bloating, indigestion","stomach,pain,bloating,indigestion",Gastritis,C3724295,TRUE,TDV Dengue,FALSE,mosquito bite,PCR,NCT06060067
+anon_0283,74,Female,Uttar Pradesh,night sweats और fever और chronic cough,"night,sweats,fever,chronic,cough",TB,C5385274,TRUE,TDV Dengue,FALSE,chronic illness,PCR,NCT01373281
+anon_0284,39,Male,Telangana,nausea और indigestion और bloating,"nausea,indigestion,bloating",Gastritis,C4398352,TRUE,UIP Measles,TRUE,chronic illness,CBC,PubMed27389396
+anon_0285,20,Female,Uttar Pradesh,"bloating, indigestion, stomach pain","bloating,indigestion,stomach,pain",Gastritis,C9614084,FALSE,,FALSE,mosquito bite,PCR,NCT02406729
+anon_0286,67,Female,Tamil Nadu,"fever, shortness of breath, chest pain","fever,shortness,of,breath,chest,pain",Pneumonia,C4688060,FALSE,,TRUE,chronic illness,CBC,PubMed27389396
+anon_0287,8,Male,Tamil Nadu,"abdominal pain, fever, diarrhea","abdominal,pain,fever,diarrhea",Typhoid,C3531300,FALSE,,FALSE,mosquito bite,CBC,NCT06060067
+anon_0288,37,Female,Telangana,"dry cough, fever, fatigue","dry,cough,fever,fatigue",COVID-19,C4191396,TRUE,Inactivated Polio,FALSE,mosquito bite,PCR,PubMed27389396
+anon_0289,80,Female,West Bengal,dry cough और loss of taste और fever,"dry,cough,loss,of,taste,fever",COVID-19,C3238061,TRUE,TDV Dengue,TRUE,malnutrition,RDT,PubMed27389396
+anon_0290,62,Male,Tamil Nadu,"fever, fatigue, loss of taste","fever,fatigue,loss,of,taste",COVID-19,C1918402,FALSE,,TRUE,none,RDT,NCT02406729
+anon_0291,54,Female,Uttar Pradesh,"fatigue, fever, dry cough","fatigue,fever,dry,cough",COVID-19,C3330900,FALSE,,FALSE,malnutrition,RDT,NCT02406729
+anon_0292,74,Male,Telangana,"chronic cough, weight loss, fever","chronic,cough,weight,loss,fever",TB,C2581085,TRUE,BCG,FALSE,chronic illness,CBC,NCT06060067
+anon_0293,18,Male,West Bengal,थकावट और fever और chills,"थकावट,fever,chills",Malaria,C8843542,FALSE,,TRUE,none,CBC,NCT01373281
+anon_0294,71,Male,Uttar Pradesh,"हल्की चकती, joint pain, rash","हल्की,चकती,joint,pain,rash",Dengue,C6420303,FALSE,,TRUE,malnutrition,RDT,NCT02406729
+anon_0295,2,Female,West Bengal,dry cough और loss of taste और fatigue,"dry,cough,loss,of,taste,fatigue",COVID-19,C8476754,TRUE,TDV Dengue,TRUE,malnutrition,CBC,PubMed27389396
+anon_0296,67,Female,Uttar Pradesh,"थकावट, headache, chills","थकावट,headache,chills",Malaria,C8729221,TRUE,UIP Measles,TRUE,mosquito bite,PCR,NCT01373281
+anon_0297,74,Male,Uttar Pradesh,"dark urine, abdominal pain, vomiting","dark,urine,abdominal,pain,vomiting",Hepatitis,C2431489,TRUE,Inactivated Polio,TRUE,mosquito bite,CBC,NCT01373281
+anon_0298,56,Female,Tamil Nadu,fever और fatigue और loss of taste,"fever,fatigue,loss,of,taste",COVID-19,C8513128,TRUE,Inactivated Polio,TRUE,mosquito bite,RDT,NCT01373281
+anon_0299,73,Male,West Bengal,"abdominal pain, fever, diarrhea","abdominal,pain,fever,diarrhea",Typhoid,C4120419,FALSE,,TRUE,none,RDT,NCT02747927
+anon_0300,68,Male,Odisha,"cough, chest pain, fever","cough,chest,pain,fever",Pneumonia,C6636047,FALSE,,TRUE,none,Chest X-ray,PubMed27389396
+anon_0301,77,Female,Bihar,"body ache, sore throat, cough","body,ache,sore,throat,cough",Influenza,C5919414,FALSE,,FALSE,none,Chest X-ray,NCT02406729
+anon_0302,34,Female,Telangana,"rash, fever, हल्की चकती","rash,fever,हल्की,चकती",Dengue,C1762460,TRUE,BCG,FALSE,chronic illness,CBC,NCT02406729
+anon_0303,46,Female,Uttar Pradesh,"body ache, sore throat, cough","body,ache,sore,throat,cough",Influenza,C2905883,FALSE,,FALSE,chronic illness,CBC,PubMed27389396
+anon_0304,8,Male,Tamil Nadu,"nausea, diarrhea, abdominal pain","nausea,diarrhea,abdominal,pain",Typhoid,C9690051,FALSE,,TRUE,none,PCR,NCT01373281
+anon_0305,64,Female,Bihar,cough और fever और shortness of breath,"cough,fever,shortness,of,breath",Pneumonia,C8225119,FALSE,,FALSE,chronic illness,Chest X-ray,NCT02747927
+anon_0306,79,Female,Uttar Pradesh,rash और हल्की चकती और joint pain,"rash,हल्की,चकती,joint,pain",Dengue,C5322872,TRUE,BCG,FALSE,chronic illness,PCR,PubMed27389396
+anon_0307,11,Male,West Bengal,"rash, हल्की चकती, fever","rash,हल्की,चकती,fever",Dengue,C3185188,FALSE,,TRUE,malnutrition,CBC,PubMed27389396
+anon_0308,4,Male,West Bengal,"abdominal pain, fever, nausea","abdominal,pain,fever,nausea",Typhoid,C4094203,FALSE,,FALSE,malnutrition,RDT,NCT02406729
+anon_0309,49,Female,Tamil Nadu,"rash, हल्की चकती, fever","rash,हल्की,चकती,fever",Dengue,C9500560,FALSE,,FALSE,chronic illness,PCR,PubMed27389396
+anon_0310,18,Female,Uttar Pradesh,"cough, fever, chest pain","cough,fever,chest,pain",Pneumonia,C7809272,TRUE,COVID‑19 mRNA,TRUE,none,RDT,PubMed27389396
+anon_0311,10,Female,Maharashtra,bloating और indigestion और nausea,"bloating,indigestion,nausea",Gastritis,C6757176,TRUE,BCG,FALSE,chronic illness,Chest X-ray,PubMed27389396
+anon_0312,16,Female,Tamil Nadu,fever और weight loss और night sweats,"fever,weight,loss,night,sweats",TB,C6607825,FALSE,,TRUE,malnutrition,PCR,PubMed27389396
+anon_0313,22,Male,Maharashtra,rash और cough और fever,"rash,cough,fever",Measles,C5880298,FALSE,,TRUE,none,PCR,NCT02747927
+anon_0314,19,Male,Telangana,"fever, cough, body ache","fever,cough,body,ache",Influenza,C2575194,FALSE,,FALSE,none,PCR,NCT06060067
+anon_0315,61,Male,West Bengal,rash और fever और बुखार,"rash,fever,बुखा",Dengue,C4863237,FALSE,,TRUE,chronic illness,PCR,NCT06060067
+anon_0316,54,Female,Bihar,"sweating, fever, थकावट","sweating,fever,थकावट",Malaria,C9773462,TRUE,COVID‑19 mRNA,FALSE,malnutrition,Chest X-ray,NCT06060067
+anon_0317,35,Male,Odisha,"sweating, headache, fever","sweating,headache,fever",Malaria,C6990368,TRUE,TDV Dengue,TRUE,malnutrition,Chest X-ray,PubMed27389396
+anon_0318,27,Male,Telangana,"vomiting, abdominal pain, jaundice","vomiting,abdominal,pain,jaundice",Hepatitis,C4403837,FALSE,,TRUE,none,RDT,NCT02406729
+anon_0319,6,Male,Uttar Pradesh,"cough, teary eyes, rash","cough,teary,eyes,rash",Measles,C2062415,TRUE,TDV Dengue,TRUE,chronic illness,Chest X-ray,NCT06060067
+anon_0320,79,Female,Uttar Pradesh,chronic cough और fever और night sweats,"chronic,cough,fever,night,sweats",TB,C1044926,FALSE,,FALSE,mosquito bite,RDT,NCT01373281
+anon_0321,15,Female,Uttar Pradesh,"fever, teary eyes, rash","fever,teary,eyes,rash",Measles,C3778085,FALSE,,TRUE,none,CBC,PubMed27389396
+anon_0322,56,Female,Odisha,"stomach pain, bloating, indigestion","stomach,pain,bloating,indigestion",Gastritis,C5844306,FALSE,,TRUE,malnutrition,PCR,NCT06060067
+anon_0323,72,Female,Odisha,joint pain और fever और rash,"joint,pain,fever,rash",Dengue,C7431184,TRUE,BCG,TRUE,mosquito bite,Chest X-ray,NCT06060067
+anon_0324,54,Male,Bihar,"fever, shortness of breath, chest pain","fever,shortness,of,breath,chest,pain",Pneumonia,C4534200,FALSE,,TRUE,chronic illness,Chest X-ray,PubMed27389396
+anon_0325,56,Female,Bihar,"fever, teary eyes, rash","fever,teary,eyes,rash",Measles,C9332034,FALSE,,TRUE,mosquito bite,RDT,NCT01373281
+anon_0326,60,Male,Bihar,"fever, cough, sore throat","fever,cough,sore,throat",Influenza,C5556374,TRUE,BCG,FALSE,malnutrition,Chest X-ray,NCT06060067
+anon_0327,44,Female,Maharashtra,"abdominal pain, jaundice, dark urine","abdominal,pain,jaundice,dark,urine",Hepatitis,C5702467,TRUE,COVID‑19 mRNA,TRUE,none,CBC,NCT02747927
+anon_0328,76,Male,Uttar Pradesh,"sweating, थकावट, headache","sweating,थकावट,headache",Malaria,C4361235,TRUE,BCG,TRUE,none,PCR,PubMed27389396
+anon_0329,10,Male,West Bengal,"chest pain, shortness of breath, fever","chest,pain,shortness,of,breath,fever",Pneumonia,C7452103,TRUE,TDV Dengue,FALSE,chronic illness,CBC,NCT02406729
+anon_0330,37,Female,West Bengal,"abdominal pain, jaundice, vomiting","abdominal,pain,jaundice,vomiting",Hepatitis,C7345429,TRUE,COVID‑19 mRNA,FALSE,none,Chest X-ray,NCT02747927
+anon_0331,71,Female,Uttar Pradesh,"बुखार, हल्की चकती, fever","बुखा,हल्की,चकती,fever",Dengue,C5012922,TRUE,COVID‑19 mRNA,TRUE,chronic illness,CBC,NCT02406729
+anon_0332,72,Female,Uttar Pradesh,jaundice और abdominal pain और dark urine,"jaundice,abdominal,pain,dark,urine",Hepatitis,C4954927,TRUE,BCG,TRUE,mosquito bite,PCR,NCT01373281
+anon_0333,70,Male,Maharashtra,"nausea, abdominal pain, diarrhea","nausea,abdominal,pain,diarrhea",Typhoid,C3646821,TRUE,Inactivated Polio,FALSE,malnutrition,Chest X-ray,NCT01373281
+anon_0334,4,Female,West Bengal,"bloating, stomach pain, nausea","bloating,stomach,pain,nausea",Gastritis,C1480304,TRUE,COVID‑19 mRNA,TRUE,mosquito bite,RDT,NCT02406729
+anon_0335,69,Male,West Bengal,fever और dry cough और fatigue,"fever,dry,cough,fatigue",COVID-19,C4531276,FALSE,,FALSE,malnutrition,CBC,NCT02747927
+anon_0336,46,Female,Bihar,"abdominal pain, vomiting, jaundice","abdominal,pain,vomiting,jaundice",Hepatitis,C7303587,FALSE,,TRUE,none,PCR,NCT02747927
+anon_0337,13,Female,Bihar,"बुखार, joint pain, rash","बुखा,joint,pain,rash",Dengue,C6436373,TRUE,UIP Measles,TRUE,chronic illness,Chest X-ray,NCT01373281
+anon_0338,17,Female,Uttar Pradesh,"fever, chills, sweating","fever,chills,sweating",Malaria,C6598021,FALSE,,TRUE,malnutrition,RDT,NCT06060067
+anon_0339,67,Male,West Bengal,loss of taste और fatigue और fever,"loss,of,taste,fatigue,fever",COVID-19,C3356679,TRUE,Inactivated Polio,FALSE,malnutrition,PCR,NCT01373281
+anon_0340,74,Female,Tamil Nadu,"dark urine, vomiting, jaundice","dark,urine,vomiting,jaundice",Hepatitis,C7026833,TRUE,Inactivated Polio,FALSE,malnutrition,PCR,NCT02406729
+anon_0341,6,Male,Odisha,body ache और cough और sore throat,"body,ache,cough,sore,throat",Influenza,C8071044,TRUE,TDV Dengue,TRUE,mosquito bite,RDT,NCT01373281
+anon_0342,60,Female,Odisha,"chest pain, fever, cough","chest,pain,fever,cough",Pneumonia,C3163078,TRUE,UIP Measles,FALSE,mosquito bite,CBC,NCT02406729
+anon_0343,35,Male,Bihar,बुखार और joint pain और हल्की चकती,"बुखा,joint,pain,हल्की,चकती",Dengue,C1434490,FALSE,,TRUE,chronic illness,PCR,PubMed27389396
+anon_0344,49,Male,Telangana,"sore throat, body ache, cough","sore,throat,body,ache,cough",Influenza,C8001506,FALSE,,FALSE,chronic illness,RDT,PubMed27389396
+anon_0345,47,Male,Telangana,"dry cough, loss of taste, fatigue","dry,cough,loss,of,taste,fatigue",COVID-19,C6487754,FALSE,,FALSE,mosquito bite,CBC,NCT02406729
+anon_0346,59,Female,West Bengal,"weight loss, night sweats, fever","weight,loss,night,sweats,fever",TB,C2270389,TRUE,COVID‑19 mRNA,TRUE,chronic illness,CBC,NCT02406729
+anon_0347,71,Male,Maharashtra,"fever, cough, teary eyes","fever,cough,teary,eyes",Measles,C7242865,FALSE,,TRUE,mosquito bite,PCR,NCT01373281
+anon_0348,15,Male,West Bengal,"fever, हल्की चकती, joint pain","fever,हल्की,चकती,joint,pain",Dengue,C1697229,TRUE,UIP Measles,TRUE,chronic illness,CBC,NCT02406729
+anon_0349,38,Female,Odisha,"jaundice, vomiting, abdominal pain","jaundice,vomiting,abdominal,pain",Hepatitis,C2430753,TRUE,TDV Dengue,TRUE,none,Chest X-ray,PubMed27389396
+anon_0350,13,Female,Bihar,"bloating, stomach pain, nausea","bloating,stomach,pain,nausea",Gastritis,C1951475,TRUE,BCG,FALSE,mosquito bite,CBC,NCT02406729
+anon_0351,24,Male,Odisha,"fever, थकावट, chills","fever,थकावट,chills",Malaria,C2285498,FALSE,,FALSE,chronic illness,RDT,PubMed27389396
+anon_0352,34,Male,Bihar,"headache, fever, chills","headache,fever,chills",Malaria,C1902217,TRUE,BCG,FALSE,mosquito bite,Chest X-ray,NCT02747927
+anon_0353,80,Male,Tamil Nadu,loss of taste और dry cough और fatigue,"loss,of,taste,dry,cough,fatigue",COVID-19,C4699888,TRUE,UIP Measles,FALSE,mosquito bite,RDT,NCT02747927
+anon_0354,51,Female,Odisha,"rash, cough, fever","rash,cough,fever",Measles,C3796126,FALSE,,FALSE,malnutrition,RDT,NCT02406729
+anon_0355,32,Male,Telangana,"nausea, fever, abdominal pain","nausea,fever,abdominal,pain",Typhoid,C6048042,TRUE,TDV Dengue,FALSE,mosquito bite,RDT,NCT06060067
+anon_0356,54,Female,Uttar Pradesh,"sore throat, body ache, fever","sore,throat,body,ache,fever",Influenza,C7855380,TRUE,COVID‑19 mRNA,TRUE,malnutrition,CBC,NCT02406729
+anon_0357,19,Female,Telangana,"abdominal pain, nausea, diarrhea","abdominal,pain,nausea,diarrhea",Typhoid,C8622858,FALSE,,FALSE,malnutrition,PCR,NCT06060067
+anon_0358,72,Male,Tamil Nadu,"cough, body ache, fever","cough,body,ache,fever",Influenza,C6455508,TRUE,TDV Dengue,TRUE,mosquito bite,Chest X-ray,NCT01373281
+anon_0359,65,Female,Telangana,dry cough और loss of taste और fatigue,"dry,cough,loss,of,taste,fatigue",COVID-19,C4357320,TRUE,TDV Dengue,FALSE,malnutrition,CBC,NCT02747927
+anon_0360,17,Female,Bihar,"sweating, थकावट, headache","sweating,थकावट,headache",Malaria,C5693673,FALSE,,TRUE,mosquito bite,CBC,NCT06060067
+anon_0361,28,Female,Maharashtra,fatigue और fever और loss of taste,"fatigue,fever,loss,of,taste",COVID-19,C2995606,TRUE,TDV Dengue,FALSE,mosquito bite,RDT,PubMed27389396
+anon_0362,79,Male,West Bengal,"abdominal pain, diarrhea, nausea","abdominal,pain,diarrhea,nausea",Typhoid,C9805060,TRUE,Inactivated Polio,FALSE,malnutrition,RDT,NCT01373281
+anon_0363,49,Female,Telangana,"fever, rash, cough","fever,rash,cough",Measles,C4539276,TRUE,TDV Dengue,TRUE,mosquito bite,PCR,NCT02406729
+anon_0364,71,Female,Bihar,"chest pain, fever, shortness of breath","chest,pain,fever,shortness,of,breath",Pneumonia,C3256587,TRUE,Inactivated Polio,TRUE,mosquito bite,Chest X-ray,NCT02406729
+anon_0365,63,Female,Odisha,"jaundice, dark urine, abdominal pain","jaundice,dark,urine,abdominal,pain",Hepatitis,C3093054,TRUE,UIP Measles,TRUE,mosquito bite,RDT,PubMed27389396
+anon_0366,37,Female,Bihar,fever और shortness of breath और chest pain,"fever,shortness,of,breath,chest,pain",Pneumonia,C7568538,FALSE,,TRUE,malnutrition,CBC,PubMed27389396
+anon_0367,21,Female,Bihar,"rash, teary eyes, fever","rash,teary,eyes,fever",Measles,C1718237,TRUE,Inactivated Polio,TRUE,chronic illness,Chest X-ray,NCT06060067
+anon_0368,21,Female,Maharashtra,fatigue और loss of taste और fever,"fatigue,loss,of,taste,fever",COVID-19,C2751829,TRUE,COVID‑19 mRNA,FALSE,chronic illness,CBC,NCT01373281
+anon_0369,63,Male,West Bengal,vomiting और abdominal pain और dark urine,"vomiting,abdominal,pain,dark,urine",Hepatitis,C5680161,TRUE,COVID‑19 mRNA,TRUE,malnutrition,Chest X-ray,NCT01373281
+anon_0370,79,Male,Odisha,"indigestion, stomach pain, nausea","indigestion,stomach,pain,nausea",Gastritis,C1274122,FALSE,,TRUE,malnutrition,RDT,NCT01373281
+anon_0371,55,Female,West Bengal,"हल्की चकती, fever, बुखार","हल्की,चकती,fever,बुखा",Dengue,C2008612,TRUE,COVID‑19 mRNA,TRUE,chronic illness,CBC,NCT02406729
+anon_0372,16,Female,West Bengal,"dry cough, fatigue, loss of taste","dry,cough,fatigue,loss,of,taste",COVID-19,C1816843,FALSE,,FALSE,none,CBC,NCT01373281
+anon_0373,76,Female,Telangana,"fever, body ache, cough","fever,body,ache,cough",Influenza,C2867791,TRUE,BCG,TRUE,malnutrition,CBC,NCT02406729
+anon_0374,66,Male,Odisha,"vomiting, dark urine, abdominal pain","vomiting,dark,urine,abdominal,pain",Hepatitis,C9542496,TRUE,TDV Dengue,FALSE,malnutrition,CBC,NCT06060067
+anon_0375,9,Male,Tamil Nadu,"headache, थकावट, fever","headache,थकावट,fever",Malaria,C8251492,TRUE,Inactivated Polio,FALSE,none,Chest X-ray,NCT01373281
+anon_0376,22,Male,Telangana,"rash, joint pain, बुखार","rash,joint,pain,बुखा",Dengue,C9598732,FALSE,,TRUE,mosquito bite,PCR,NCT06060067
+anon_0377,33,Male,Uttar Pradesh,headache और थकावट और fever,"headache,थकावट,fever",Malaria,C9513872,TRUE,COVID‑19 mRNA,TRUE,malnutrition,Chest X-ray,NCT02747927
+anon_0378,28,Male,Telangana,"diarrhea, fever, nausea","diarrhea,fever,nausea",Typhoid,C8456852,TRUE,TDV Dengue,FALSE,malnutrition,PCR,NCT02747927
+anon_0379,31,Male,Bihar,हल्की चकती और rash और fever,"हल्की,चकती,rash,fever",Dengue,C1155685,FALSE,,TRUE,none,RDT,NCT02406729
+anon_0380,51,Female,Odisha,rash और बुखार और fever,"rash,बुखा,fever",Dengue,C3063473,FALSE,,FALSE,none,CBC,NCT02747927
+anon_0381,35,Female,Tamil Nadu,fever और sore throat और cough,"fever,sore,throat,cough",Influenza,C4788569,FALSE,,TRUE,mosquito bite,PCR,PubMed27389396
+anon_0382,14,Female,Tamil Nadu,"हल्की चकती, joint pain, rash","हल्की,चकती,joint,pain,rash",Dengue,C6872448,TRUE,Inactivated Polio,TRUE,mosquito bite,PCR,NCT02406729
+anon_0383,21,Male,West Bengal,"sore throat, body ache, cough","sore,throat,body,ache,cough",Influenza,C9693508,FALSE,,TRUE,mosquito bite,PCR,PubMed27389396
+anon_0384,79,Female,Telangana,"shortness of breath, fever, cough","shortness,of,breath,fever,cough",Pneumonia,C5582455,TRUE,BCG,FALSE,none,CBC,NCT02406729
+anon_0385,68,Female,Maharashtra,"chills, sweating, fever","chills,sweating,fever",Malaria,C2415538,TRUE,Inactivated Polio,TRUE,chronic illness,PCR,NCT06060067
+anon_0386,42,Male,Bihar,abdominal pain और fever और nausea,"abdominal,pain,fever,nausea",Typhoid,C7018479,TRUE,UIP Measles,FALSE,none,Chest X-ray,PubMed27389396
+anon_0387,54,Male,Bihar,rash और fever और हल्की चकती,"rash,fever,हल्की,चकती",Dengue,C3957254,FALSE,,FALSE,malnutrition,CBC,PubMed27389396
+anon_0388,15,Male,Bihar,"fever, chills, headache","fever,chills,headache",Malaria,C4308297,FALSE,,FALSE,malnutrition,RDT,NCT02747927
+anon_0389,17,Female,Maharashtra,chronic cough और fever और weight loss,"chronic,cough,fever,weight,loss",TB,C5782345,FALSE,,TRUE,malnutrition,CBC,NCT06060067
+anon_0390,33,Female,Uttar Pradesh,"night sweats, chronic cough, weight loss","night,sweats,chronic,cough,weight,loss",TB,C3720530,FALSE,,FALSE,none,CBC,NCT02747927
+anon_0391,21,Female,Maharashtra,bloating और stomach pain और nausea,"bloating,stomach,pain,nausea",Gastritis,C9435460,TRUE,UIP Measles,FALSE,malnutrition,Chest X-ray,PubMed27389396
+anon_0392,63,Male,Maharashtra,diarrhea और abdominal pain और fever,"diarrhea,abdominal,pain,fever",Typhoid,C4901712,TRUE,COVID‑19 mRNA,TRUE,mosquito bite,Chest X-ray,NCT01373281
+anon_0393,56,Female,Maharashtra,"dark urine, vomiting, abdominal pain","dark,urine,vomiting,abdominal,pain",Hepatitis,C6888154,FALSE,,TRUE,malnutrition,Chest X-ray,NCT02747927
+anon_0394,38,Male,Odisha,"dark urine, abdominal pain, jaundice","dark,urine,abdominal,pain,jaundice",Hepatitis,C3128248,TRUE,TDV Dengue,FALSE,chronic illness,RDT,NCT06060067
+anon_0395,78,Female,Tamil Nadu,nausea और indigestion और bloating,"nausea,indigestion,bloating",Gastritis,C8456501,FALSE,,FALSE,none,CBC,NCT01373281
+anon_0396,65,Male,Maharashtra,"fever, teary eyes, cough","fever,teary,eyes,cough",Measles,C3175439,FALSE,,TRUE,mosquito bite,CBC,PubMed27389396
+anon_0397,5,Male,West Bengal,stomach pain और nausea और indigestion,"stomach,pain,nausea,indigestion",Gastritis,C4128822,TRUE,UIP Measles,TRUE,mosquito bite,CBC,PubMed27389396
+anon_0398,31,Female,Bihar,chills और थकावट और fever,"chills,थकावट,fever",Malaria,C1923728,TRUE,UIP Measles,TRUE,mosquito bite,Chest X-ray,PubMed27389396
+anon_0399,80,Male,Maharashtra,chronic cough और fever और night sweats,"chronic,cough,fever,night,sweats",TB,C6901717,FALSE,,TRUE,chronic illness,Chest X-ray,NCT01373281
+anon_0400,65,Male,West Bengal,"fatigue, loss of taste, fever","fatigue,loss,of,taste,fever",COVID-19,C5326304,TRUE,UIP Measles,TRUE,mosquito bite,PCR,PubMed27389396
+anon_0401,69,Male,Telangana,"sore throat, body ache, fever","sore,throat,body,ache,fever",Influenza,C7051102,TRUE,TDV Dengue,FALSE,mosquito bite,PCR,PubMed27389396
+anon_0402,39,Female,Maharashtra,"sore throat, cough, fever","sore,throat,cough,fever",Influenza,C4969323,FALSE,,FALSE,mosquito bite,PCR,NCT06060067
+anon_0403,64,Female,Odisha,shortness of breath और cough और fever,"shortness,of,breath,cough,fever",Pneumonia,C7063269,FALSE,,FALSE,none,RDT,NCT01373281
+anon_0404,22,Female,Maharashtra,jaundice और vomiting और dark urine,"jaundice,vomiting,dark,urine",Hepatitis,C5351413,TRUE,UIP Measles,FALSE,none,RDT,NCT02406729
+anon_0405,71,Female,Tamil Nadu,"chills, थकावट, fever","chills,थकावट,fever",Malaria,C7173390,FALSE,,TRUE,mosquito bite,PCR,NCT01373281
+anon_0406,73,Male,Maharashtra,nausea और diarrhea और fever,"nausea,diarrhea,fever",Typhoid,C4406379,FALSE,,TRUE,chronic illness,Chest X-ray,NCT06060067
+anon_0407,69,Female,Maharashtra,"abdominal pain, diarrhea, nausea","abdominal,pain,diarrhea,nausea",Typhoid,C7198554,FALSE,,FALSE,malnutrition,Chest X-ray,NCT01373281
+anon_0408,65,Female,West Bengal,"sweating, fever, थकावट","sweating,fever,थकावट",Malaria,C3864702,FALSE,,TRUE,chronic illness,Chest X-ray,NCT02406729
+anon_0409,70,Female,Telangana,"fever, body ache, sore throat","fever,body,ache,sore,throat",Influenza,C8224768,TRUE,BCG,FALSE,mosquito bite,Chest X-ray,NCT01373281
+anon_0410,49,Female,Odisha,sore throat और cough और body ache,"sore,throat,cough,body,ache",Influenza,C3835291,FALSE,,TRUE,malnutrition,PCR,NCT01373281
+anon_0411,59,Female,Bihar,"fever, chest pain, cough","fever,chest,pain,cough",Pneumonia,C7078120,FALSE,,TRUE,none,CBC,NCT02747927
+anon_0412,68,Male,Maharashtra,"vomiting, jaundice, abdominal pain","vomiting,jaundice,abdominal,pain",Hepatitis,C8989890,TRUE,Inactivated Polio,TRUE,malnutrition,RDT,NCT02747927
+anon_0413,73,Male,Maharashtra,"sore throat, body ache, fever","sore,throat,body,ache,fever",Influenza,C1061021,FALSE,,TRUE,malnutrition,Chest X-ray,NCT01373281
+anon_0414,62,Male,Odisha,"rash, बुखार, fever","rash,बुखा,fever",Dengue,C3681652,FALSE,,TRUE,chronic illness,RDT,PubMed27389396
+anon_0415,13,Female,West Bengal,"rash, teary eyes, cough","rash,teary,eyes,cough",Measles,C2286764,TRUE,UIP Measles,FALSE,chronic illness,RDT,PubMed27389396
+anon_0416,74,Female,Tamil Nadu,"vomiting, abdominal pain, jaundice","vomiting,abdominal,pain,jaundice",Hepatitis,C1286025,TRUE,UIP Measles,FALSE,mosquito bite,CBC,PubMed27389396
+anon_0417,77,Female,Telangana,"बुखार, rash, joint pain","बुखा,rash,joint,pain",Dengue,C6019030,TRUE,UIP Measles,TRUE,chronic illness,PCR,NCT01373281
+anon_0418,58,Male,Tamil Nadu,"fever, body ache, cough","fever,body,ache,cough",Influenza,C8677782,TRUE,COVID‑19 mRNA,FALSE,chronic illness,CBC,NCT02406729
+anon_0419,73,Female,Uttar Pradesh,"dry cough, fatigue, loss of taste","dry,cough,fatigue,loss,of,taste",COVID-19,C6541160,TRUE,TDV Dengue,FALSE,malnutrition,CBC,NCT01373281
+anon_0420,15,Male,Tamil Nadu,stomach pain और indigestion और nausea,"stomach,pain,indigestion,nausea",Gastritis,C6014964,FALSE,,TRUE,malnutrition,PCR,NCT02747927
+anon_0421,6,Male,Maharashtra,"rash, cough, teary eyes","rash,cough,teary,eyes",Measles,C7653933,TRUE,COVID‑19 mRNA,TRUE,mosquito bite,Chest X-ray,NCT01373281
+anon_0422,34,Female,Bihar,"shortness of breath, chest pain, cough","shortness,of,breath,chest,pain,cough",Pneumonia,C2820073,FALSE,,TRUE,chronic illness,CBC,NCT06060067
+anon_0423,1,Female,Uttar Pradesh,"chills, headache, fever","chills,headache,fever",Malaria,C6609171,TRUE,UIP Measles,TRUE,chronic illness,PCR,NCT02747927
+anon_0424,1,Male,Telangana,"fever, sore throat, body ache","fever,sore,throat,body,ache",Influenza,C7574727,TRUE,TDV Dengue,TRUE,malnutrition,PCR,NCT06060067
+anon_0425,44,Female,Uttar Pradesh,"fever, shortness of breath, cough","fever,shortness,of,breath,cough",Pneumonia,C2609964,TRUE,TDV Dengue,FALSE,chronic illness,Chest X-ray,NCT02406729
+anon_0426,80,Male,Bihar,"body ache, fever, cough","body,ache,fever,cough",Influenza,C1096345,FALSE,,FALSE,mosquito bite,RDT,NCT06060067
+anon_0427,67,Female,Bihar,fever और rash और हल्की चकती,"fever,rash,हल्की,चकती",Dengue,C6539557,TRUE,Inactivated Polio,TRUE,none,Chest X-ray,NCT02747927
+anon_0428,60,Female,Uttar Pradesh,shortness of breath और chest pain और fever,"shortness,of,breath,chest,pain,fever",Pneumonia,C4718719,TRUE,BCG,FALSE,mosquito bite,Chest X-ray,PubMed27389396
+anon_0429,48,Female,Uttar Pradesh,"vomiting, jaundice, abdominal pain","vomiting,jaundice,abdominal,pain",Hepatitis,C8543785,FALSE,,FALSE,malnutrition,Chest X-ray,NCT06060067
+anon_0430,66,Male,Tamil Nadu,"fever, night sweats, chronic cough","fever,night,sweats,chronic,cough",TB,C4644922,FALSE,,TRUE,chronic illness,Chest X-ray,NCT06060067
+anon_0431,38,Female,Telangana,"night sweats, chronic cough, weight loss","night,sweats,chronic,cough,weight,loss",TB,C8896740,TRUE,COVID‑19 mRNA,TRUE,none,RDT,NCT06060067
+anon_0432,56,Male,Bihar,"rash, fever, हल्की चकती","rash,fever,हल्की,चकती",Dengue,C2781441,FALSE,,FALSE,malnutrition,RDT,NCT02406729
+anon_0433,73,Female,West Bengal,"थकावट, sweating, chills","थकावट,sweating,chills",Malaria,C1850891,FALSE,,FALSE,chronic illness,RDT,NCT02747927
+anon_0434,31,Female,Odisha,"fever, loss of taste, fatigue","fever,loss,of,taste,fatigue",COVID-19,C8223108,FALSE,,TRUE,malnutrition,RDT,PubMed27389396
+anon_0435,35,Male,Telangana,"fatigue, fever, loss of taste","fatigue,fever,loss,of,taste",COVID-19,C6949404,FALSE,,FALSE,none,Chest X-ray,NCT02406729
+anon_0436,26,Female,Bihar,"cough, body ache, sore throat","cough,body,ache,sore,throat",Influenza,C9050880,FALSE,,TRUE,chronic illness,CBC,NCT02747927
+anon_0437,13,Male,Uttar Pradesh,"chest pain, cough, fever","chest,pain,cough,fever",Pneumonia,C2562307,FALSE,,TRUE,mosquito bite,PCR,NCT02406729
+anon_0438,44,Female,Tamil Nadu,"cough, fever, sore throat","cough,fever,sore,throat",Influenza,C1017816,FALSE,,FALSE,none,CBC,NCT02747927
+anon_0439,72,Female,Odisha,"fever, weight loss, chronic cough","fever,weight,loss,chronic,cough",TB,C5675885,FALSE,,TRUE,malnutrition,PCR,NCT02406729
+anon_0440,21,Male,Bihar,chronic cough और fever और weight loss,"chronic,cough,fever,weight,loss",TB,C2471061,FALSE,,TRUE,chronic illness,RDT,NCT02406729
+anon_0441,28,Male,Bihar,"loss of taste, dry cough, fatigue","loss,of,taste,dry,cough,fatigue",COVID-19,C4397742,FALSE,,TRUE,malnutrition,CBC,NCT02406729
+anon_0442,74,Male,Maharashtra,"fever, night sweats, chronic cough","fever,night,sweats,chronic,cough",TB,C4838060,FALSE,,FALSE,none,Chest X-ray,NCT01373281
+anon_0443,60,Male,Telangana,"chronic cough, weight loss, fever","chronic,cough,weight,loss,fever",TB,C3547567,TRUE,COVID‑19 mRNA,TRUE,malnutrition,CBC,NCT02406729
+anon_0444,15,Male,Uttar Pradesh,night sweats और chronic cough और fever,"night,sweats,chronic,cough,fever",TB,C3937356,FALSE,,TRUE,malnutrition,RDT,NCT01373281
+anon_0445,58,Female,West Bengal,nausea और diarrhea और abdominal pain,"nausea,diarrhea,abdominal,pain",Typhoid,C3509470,FALSE,,TRUE,mosquito bite,RDT,NCT01373281
+anon_0446,70,Male,West Bengal,"vomiting, abdominal pain, jaundice","vomiting,abdominal,pain,jaundice",Hepatitis,C4802815,FALSE,,TRUE,chronic illness,Chest X-ray,NCT02406729
+anon_0447,63,Male,Odisha,"jaundice, dark urine, abdominal pain","jaundice,dark,urine,abdominal,pain",Hepatitis,C9554734,FALSE,,FALSE,mosquito bite,PCR,PubMed27389396
+anon_0448,9,Female,Maharashtra,"rash, fever, joint pain","rash,fever,joint,pain",Dengue,C3693635,FALSE,,FALSE,none,PCR,NCT02747927
+anon_0449,44,Female,Bihar,stomach pain और indigestion और bloating,"stomach,pain,indigestion,bloating",Gastritis,C8432438,FALSE,,TRUE,malnutrition,RDT,NCT02747927
+anon_0450,52,Female,Tamil Nadu,"headache, sweating, fever","headache,sweating,fever",Malaria,C2070053,FALSE,,FALSE,chronic illness,RDT,NCT01373281
+anon_0451,78,Male,Odisha,dark urine और abdominal pain और jaundice,"dark,urine,abdominal,pain,jaundice",Hepatitis,C7635745,TRUE,TDV Dengue,FALSE,none,RDT,NCT01373281
+anon_0452,18,Female,Tamil Nadu,"headache, sweating, fever","headache,sweating,fever",Malaria,C6605228,FALSE,,FALSE,malnutrition,RDT,NCT06060067
+anon_0453,30,Female,Bihar,"weight loss, chronic cough, fever","weight,loss,chronic,cough,fever",TB,C1467329,TRUE,COVID‑19 mRNA,TRUE,chronic illness,Chest X-ray,NCT01373281
+anon_0454,20,Male,Maharashtra,rash और teary eyes और cough,"rash,teary,eyes,cough",Measles,C1778453,TRUE,Inactivated Polio,FALSE,malnutrition,PCR,NCT06060067
+anon_0455,71,Male,Tamil Nadu,"weight loss, chronic cough, fever","weight,loss,chronic,cough,fever",TB,C1548761,TRUE,BCG,TRUE,mosquito bite,Chest X-ray,NCT02406729
+anon_0456,56,Female,Tamil Nadu,"chest pain, cough, fever","chest,pain,cough,fever",Pneumonia,C4184252,FALSE,,TRUE,chronic illness,PCR,NCT02747927
+anon_0457,28,Female,Uttar Pradesh,body ache और cough और sore throat,"body,ache,cough,sore,throat",Influenza,C2778483,TRUE,Inactivated Polio,TRUE,none,Chest X-ray,PubMed27389396
+anon_0458,55,Female,Tamil Nadu,sore throat और body ache और cough,"sore,throat,body,ache,cough",Influenza,C8448744,FALSE,,TRUE,mosquito bite,CBC,NCT02406729
+anon_0459,31,Female,Maharashtra,"teary eyes, rash, fever","teary,eyes,rash,fever",Measles,C2954886,FALSE,,FALSE,mosquito bite,PCR,NCT02406729
+anon_0460,66,Female,Bihar,sore throat और cough और body ache,"sore,throat,cough,body,ache",Influenza,C7146124,TRUE,BCG,FALSE,chronic illness,RDT,NCT01373281
+anon_0461,27,Male,Bihar,"fever, weight loss, chronic cough","fever,weight,loss,chronic,cough",TB,C3548867,FALSE,,TRUE,malnutrition,CBC,NCT06060067
+anon_0462,68,Male,Odisha,"fever, chronic cough, weight loss","fever,chronic,cough,weight,loss",TB,C1325915,FALSE,,TRUE,none,Chest X-ray,NCT01373281
+anon_0463,61,Male,West Bengal,"sweating, थकावट, headache","sweating,थकावट,headache",Malaria,C2403038,FALSE,,TRUE,chronic illness,CBC,PubMed27389396
+anon_0464,37,Male,Tamil Nadu,"weight loss, night sweats, fever","weight,loss,night,sweats,fever",TB,C9938663,TRUE,UIP Measles,FALSE,chronic illness,Chest X-ray,NCT01373281
+anon_0465,13,Female,West Bengal,"बुखार, fever, rash","बुखा,fever,rash",Dengue,C6650769,FALSE,,FALSE,none,PCR,NCT06060067
+anon_0466,56,Female,Bihar,"bloating, stomach pain, indigestion","bloating,stomach,pain,indigestion",Gastritis,C7377596,FALSE,,FALSE,mosquito bite,Chest X-ray,PubMed27389396
+anon_0467,6,Female,Telangana,jaundice और vomiting और abdominal pain,"jaundice,vomiting,abdominal,pain",Hepatitis,C3632025,TRUE,Inactivated Polio,FALSE,none,CBC,NCT06060067
+anon_0468,37,Male,Maharashtra,fever और chronic cough और night sweats,"fever,chronic,cough,night,sweats",TB,C3049520,TRUE,Inactivated Polio,FALSE,chronic illness,PCR,NCT02747927
+anon_0469,62,Male,Uttar Pradesh,fever और fatigue और dry cough,"fever,fatigue,dry,cough",COVID-19,C5941349,FALSE,,TRUE,chronic illness,Chest X-ray,NCT02406729
+anon_0470,51,Female,West Bengal,"diarrhea, nausea, abdominal pain","diarrhea,nausea,abdominal,pain",Typhoid,C7048246,TRUE,Inactivated Polio,TRUE,none,CBC,NCT06060067
+anon_0471,45,Male,Uttar Pradesh,cough और fever और shortness of breath,"cough,fever,shortness,of,breath",Pneumonia,C5375415,TRUE,COVID‑19 mRNA,FALSE,none,RDT,NCT01373281
+anon_0472,29,Male,West Bengal,jaundice और abdominal pain और dark urine,"jaundice,abdominal,pain,dark,urine",Hepatitis,C2160523,FALSE,,TRUE,chronic illness,CBC,NCT02406729
+anon_0473,11,Female,Maharashtra,fever और teary eyes और cough,"fever,teary,eyes,cough",Measles,C7161099,FALSE,,FALSE,chronic illness,CBC,PubMed27389396
+anon_0474,44,Female,Tamil Nadu,"headache, chills, थकावट","headache,chills,थकावट",Malaria,C1767068,TRUE,BCG,FALSE,malnutrition,PCR,NCT02747927
+anon_0475,18,Male,Bihar,"indigestion, nausea, bloating","indigestion,nausea,bloating",Gastritis,C4228021,FALSE,,FALSE,none,PCR,NCT06060067
+anon_0476,17,Male,Maharashtra,"fever, abdominal pain, diarrhea","fever,abdominal,pain,diarrhea",Typhoid,C8965422,FALSE,,TRUE,mosquito bite,PCR,PubMed27389396
+anon_0477,62,Female,Tamil Nadu,night sweats और weight loss और chronic cough,"night,sweats,weight,loss,chronic,cough",TB,C6638586,TRUE,UIP Measles,FALSE,mosquito bite,CBC,NCT02406729
+anon_0478,43,Female,West Bengal,"fever, chills, headache","fever,chills,headache",Malaria,C8054383,TRUE,COVID‑19 mRNA,TRUE,malnutrition,CBC,NCT02747927
+anon_0479,65,Male,West Bengal,"chronic cough, night sweats, fever","chronic,cough,night,sweats,fever",TB,C6462231,FALSE,,TRUE,mosquito bite,Chest X-ray,PubMed27389396
+anon_0480,5,Female,Bihar,"rash, teary eyes, cough","rash,teary,eyes,cough",Measles,C2019756,FALSE,,FALSE,malnutrition,CBC,PubMed27389396
+anon_0481,69,Female,West Bengal,vomiting और dark urine और abdominal pain,"vomiting,dark,urine,abdominal,pain",Hepatitis,C1734366,FALSE,,FALSE,chronic illness,Chest X-ray,NCT01373281
+anon_0482,2,Male,Odisha,cough और rash और teary eyes,"cough,rash,teary,eyes",Measles,C5657496,FALSE,,TRUE,chronic illness,RDT,NCT02747927
+anon_0483,49,Female,Odisha,"fever, chronic cough, night sweats","fever,chronic,cough,night,sweats",TB,C1098518,FALSE,,TRUE,chronic illness,RDT,NCT02747927
+anon_0484,62,Male,Uttar Pradesh,"fever, diarrhea, nausea","fever,diarrhea,nausea",Typhoid,C4236037,FALSE,,FALSE,none,Chest X-ray,NCT02406729
+anon_0485,44,Male,Bihar,"chronic cough, fever, weight loss","chronic,cough,fever,weight,loss",TB,C5077003,TRUE,COVID‑19 mRNA,TRUE,none,CBC,NCT06060067
+anon_0486,76,Male,Telangana,"fatigue, loss of taste, dry cough","fatigue,loss,of,taste,dry,cough",COVID-19,C6866288,TRUE,TDV Dengue,FALSE,none,CBC,NCT06060067
+anon_0487,54,Male,Bihar,"stomach pain, indigestion, nausea","stomach,pain,indigestion,nausea",Gastritis,C8653241,TRUE,BCG,TRUE,none,CBC,NCT01373281
+anon_0488,16,Female,Odisha,fever और teary eyes और rash,"fever,teary,eyes,rash",Measles,C9809448,FALSE,,TRUE,malnutrition,CBC,NCT02406729
+anon_0489,44,Male,Odisha,"abdominal pain, vomiting, dark urine","abdominal,pain,vomiting,dark,urine",Hepatitis,C2150570,FALSE,,TRUE,chronic illness,CBC,NCT02406729
+anon_0490,54,Male,Tamil Nadu,"night sweats, chronic cough, fever","night,sweats,chronic,cough,fever",TB,C8518680,FALSE,,TRUE,chronic illness,CBC,NCT01373281
+anon_0491,15,Male,Maharashtra,"थकावट, headache, chills","थकावट,headache,chills",Malaria,C3232315,FALSE,,FALSE,malnutrition,PCR,NCT02406729
+anon_0492,10,Male,Maharashtra,indigestion और nausea और stomach pain,"indigestion,nausea,stomach,pain",Gastritis,C3356598,FALSE,,TRUE,none,RDT,NCT02406729
+anon_0493,39,Male,Uttar Pradesh,"loss of taste, fatigue, dry cough","loss,of,taste,fatigue,dry,cough",COVID-19,C2111078,FALSE,,TRUE,malnutrition,PCR,PubMed27389396
+anon_0494,71,Female,Telangana,"teary eyes, cough, fever","teary,eyes,cough,fever",Measles,C8911276,FALSE,,TRUE,chronic illness,RDT,NCT06060067
+anon_0495,26,Female,Telangana,"rash, हल्की चकती, fever","rash,हल्की,चकती,fever",Dengue,C6184780,TRUE,TDV Dengue,TRUE,none,CBC,NCT01373281
+anon_0496,13,Male,Tamil Nadu,cough और fever और sore throat,"cough,fever,sore,throat",Influenza,C9459716,TRUE,TDV Dengue,TRUE,mosquito bite,PCR,NCT02747927
+anon_0497,8,Male,Uttar Pradesh,"diarrhea, abdominal pain, fever","diarrhea,abdominal,pain,fever",Typhoid,C1843206,FALSE,,FALSE,chronic illness,CBC,PubMed27389396
+anon_0498,44,Male,Uttar Pradesh,"abdominal pain, jaundice, vomiting","abdominal,pain,jaundice,vomiting",Hepatitis,C9906734,FALSE,,TRUE,none,PCR,NCT02747927
+anon_0499,61,Male,Telangana,body ache और cough और fever,"body,ache,cough,fever",Influenza,C7867971,TRUE,TDV Dengue,TRUE,none,PCR,NCT02406729
+anon_0500,70,Female,Bihar,"nausea, abdominal pain, diarrhea","nausea,abdominal,pain,diarrhea",Typhoid,C8713821,FALSE,,TRUE,none,Chest X-ray,PubMed27389396
+anon_0501,4,Male,Uttar Pradesh,"diarrhea, abdominal pain, nausea","diarrhea,abdominal,pain,nausea",Typhoid,C2927394,FALSE,,FALSE,chronic illness,Chest X-ray,PubMed27389396
+anon_0502,33,Male,Telangana,"fever, fatigue, dry cough","fever,fatigue,dry,cough",COVID-19,C5338625,FALSE,,FALSE,chronic illness,PCR,PubMed27389396
+anon_0503,33,Female,Uttar Pradesh,"fever, nausea, abdominal pain","fever,nausea,abdominal,pain",Typhoid,C2510071,TRUE,UIP Measles,TRUE,mosquito bite,RDT,NCT06060067
+anon_0504,6,Female,Maharashtra,"थकावट, headache, sweating","थकावट,headache,sweating",Malaria,C3984593,FALSE,,FALSE,none,Chest X-ray,NCT02747927
+anon_0505,70,Female,West Bengal,"indigestion, stomach pain, bloating","indigestion,stomach,pain,bloating",Gastritis,C2990092,TRUE,UIP Measles,TRUE,malnutrition,CBC,NCT02406729
+anon_0506,68,Female,Maharashtra,night sweats और weight loss और chronic cough,"night,sweats,weight,loss,chronic,cough",TB,C3555263,TRUE,TDV Dengue,TRUE,mosquito bite,PCR,NCT02406729
+anon_0507,23,Female,Maharashtra,"cough, body ache, sore throat","cough,body,ache,sore,throat",Influenza,C7713946,FALSE,,FALSE,chronic illness,RDT,NCT02406729
+anon_0508,60,Male,Maharashtra,"weight loss, fever, chronic cough","weight,loss,fever,chronic,cough",TB,C7188649,FALSE,,FALSE,chronic illness,Chest X-ray,NCT02406729
+anon_0509,68,Male,Tamil Nadu,sweating और headache और fever,"sweating,headache,fever",Malaria,C6797703,FALSE,,TRUE,mosquito bite,Chest X-ray,NCT02406729
+anon_0510,73,Male,Tamil Nadu,"rash, cough, fever","rash,cough,fever",Measles,C5925215,TRUE,Inactivated Polio,TRUE,mosquito bite,Chest X-ray,NCT02406729
+anon_0511,67,Female,West Bengal,"cough, sore throat, fever","cough,sore,throat,fever",Influenza,C2333523,TRUE,Inactivated Polio,FALSE,malnutrition,PCR,NCT02747927
+anon_0512,8,Female,Uttar Pradesh,"teary eyes, fever, cough","teary,eyes,fever,cough",Measles,C3192635,FALSE,,TRUE,none,RDT,NCT01373281
+anon_0513,7,Male,West Bengal,"fever, cough, chest pain","fever,cough,chest,pain",Pneumonia,C3936983,FALSE,,FALSE,mosquito bite,Chest X-ray,NCT02747927
+anon_0514,80,Female,Maharashtra,dark urine और jaundice और abdominal pain,"dark,urine,jaundice,abdominal,pain",Hepatitis,C6358619,TRUE,BCG,TRUE,mosquito bite,RDT,PubMed27389396
+anon_0515,14,Female,Uttar Pradesh,"dark urine, jaundice, abdominal pain","dark,urine,jaundice,abdominal,pain",Hepatitis,C2571970,TRUE,Inactivated Polio,TRUE,none,CBC,NCT02406729
+anon_0516,35,Male,Odisha,loss of taste और fatigue और dry cough,"loss,of,taste,fatigue,dry,cough",COVID-19,C9084137,TRUE,COVID‑19 mRNA,TRUE,none,CBC,NCT02406729
+anon_0517,51,Female,West Bengal,"rash, cough, fever","rash,cough,fever",Measles,C5283563,FALSE,,FALSE,mosquito bite,RDT,NCT01373281
+anon_0518,32,Male,Bihar,fever और weight loss और night sweats,"fever,weight,loss,night,sweats",TB,C3643265,FALSE,,TRUE,none,CBC,PubMed27389396
+anon_0519,30,Male,Telangana,"indigestion, nausea, bloating","indigestion,nausea,bloating",Gastritis,C4628946,FALSE,,TRUE,mosquito bite,Chest X-ray,PubMed27389396
+anon_0520,30,Female,Tamil Nadu,"cough, fever, rash","cough,fever,rash",Measles,C2754168,TRUE,BCG,FALSE,chronic illness,CBC,NCT01373281
+anon_0521,18,Female,Maharashtra,"teary eyes, rash, cough","teary,eyes,rash,cough",Measles,C3818434,TRUE,COVID‑19 mRNA,FALSE,chronic illness,CBC,PubMed27389396
+anon_0522,13,Male,West Bengal,bloating और stomach pain और indigestion,"bloating,stomach,pain,indigestion",Gastritis,C2850593,TRUE,BCG,FALSE,none,CBC,NCT06060067
+anon_0523,70,Female,Odisha,"abdominal pain, diarrhea, nausea","abdominal,pain,diarrhea,nausea",Typhoid,C5110261,TRUE,BCG,TRUE,malnutrition,Chest X-ray,NCT01373281
+anon_0524,8,Male,Odisha,"chest pain, shortness of breath, cough","chest,pain,shortness,of,breath,cough",Pneumonia,C7368502,TRUE,TDV Dengue,FALSE,chronic illness,Chest X-ray,NCT01373281
+anon_0525,32,Male,Maharashtra,chest pain और shortness of breath और fever,"chest,pain,shortness,of,breath,fever",Pneumonia,C1945734,TRUE,UIP Measles,FALSE,malnutrition,PCR,NCT01373281
+anon_0526,52,Male,Odisha,"fever, बुखार, joint pain","fever,बुखा,joint,pain",Dengue,C1301375,FALSE,,TRUE,chronic illness,CBC,NCT02406729
+anon_0527,7,Female,Telangana,"stomach pain, nausea, indigestion","stomach,pain,nausea,indigestion",Gastritis,C2076324,TRUE,TDV Dengue,FALSE,mosquito bite,Chest X-ray,NCT01373281
+anon_0528,27,Male,Tamil Nadu,"fever, sore throat, cough","fever,sore,throat,cough",Influenza,C4776829,TRUE,TDV Dengue,FALSE,chronic illness,RDT,NCT02406729
+anon_0529,31,Male,Odisha,"cough, fever, rash","cough,fever,rash",Measles,C9285435,FALSE,,TRUE,none,CBC,NCT06060067
+anon_0530,71,Female,West Bengal,jaundice और vomiting और dark urine,"jaundice,vomiting,dark,urine",Hepatitis,C7346880,FALSE,,TRUE,chronic illness,Chest X-ray,NCT02747927
+anon_0531,24,Female,Maharashtra,"dark urine, jaundice, vomiting","dark,urine,jaundice,vomiting",Hepatitis,C7341391,FALSE,,FALSE,chronic illness,RDT,NCT02747927
+anon_0532,62,Male,Bihar,jaundice और dark urine और vomiting,"jaundice,dark,urine,vomiting",Hepatitis,C5640533,TRUE,UIP Measles,TRUE,chronic illness,Chest X-ray,NCT02747927
+anon_0533,72,Female,Telangana,rash और fever और cough,"rash,fever,cough",Measles,C8341353,TRUE,BCG,TRUE,malnutrition,Chest X-ray,PubMed27389396
+anon_0534,65,Male,Odisha,"dark urine, vomiting, abdominal pain","dark,urine,vomiting,abdominal,pain",Hepatitis,C2477459,FALSE,,FALSE,mosquito bite,PCR,NCT02406729
+anon_0535,55,Male,West Bengal,nausea और diarrhea और abdominal pain,"nausea,diarrhea,abdominal,pain",Typhoid,C4933148,FALSE,,TRUE,malnutrition,RDT,NCT02406729
+anon_0536,30,Female,Odisha,"chest pain, cough, fever","chest,pain,cough,fever",Pneumonia,C1724723,TRUE,TDV Dengue,TRUE,none,CBC,NCT06060067
+anon_0537,7,Female,Tamil Nadu,"fever, chronic cough, weight loss","fever,chronic,cough,weight,loss",TB,C2374753,FALSE,,FALSE,malnutrition,Chest X-ray,NCT01373281
+anon_0538,35,Female,Telangana,"fatigue, loss of taste, dry cough","fatigue,loss,of,taste,dry,cough",COVID-19,C4715116,FALSE,,FALSE,mosquito bite,Chest X-ray,NCT01373281
+anon_0539,9,Female,Odisha,"abdominal pain, dark urine, jaundice","abdominal,pain,dark,urine,jaundice",Hepatitis,C6553568,TRUE,TDV Dengue,TRUE,none,CBC,NCT06060067
+anon_0540,47,Male,Odisha,"weight loss, night sweats, chronic cough","weight,loss,night,sweats,chronic,cough",TB,C7543295,TRUE,TDV Dengue,TRUE,none,PCR,NCT01373281
+anon_0541,30,Female,Telangana,"fever, chills, थकावट","fever,chills,थकावट",Malaria,C2378684,FALSE,,FALSE,malnutrition,PCR,NCT06060067
+anon_0542,10,Male,Uttar Pradesh,chills और headache और थकावट,"chills,headache,थकावट",Malaria,C6273207,FALSE,,FALSE,none,Chest X-ray,PubMed27389396
+anon_0543,28,Male,Uttar Pradesh,"sore throat, body ache, cough","sore,throat,body,ache,cough",Influenza,C9074225,TRUE,Inactivated Polio,TRUE,none,CBC,PubMed27389396
+anon_0544,13,Female,Maharashtra,"night sweats, fever, chronic cough","night,sweats,fever,chronic,cough",TB,C4757991,TRUE,BCG,TRUE,chronic illness,RDT,NCT01373281
+anon_0545,16,Male,West Bengal,body ache और sore throat और fever,"body,ache,sore,throat,fever",Influenza,C3286721,FALSE,,FALSE,chronic illness,CBC,NCT06060067
+anon_0546,66,Female,Odisha,"jaundice, vomiting, abdominal pain","jaundice,vomiting,abdominal,pain",Hepatitis,C9251112,FALSE,,FALSE,chronic illness,CBC,NCT06060067
+anon_0547,40,Female,Bihar,"fever, diarrhea, abdominal pain","fever,diarrhea,abdominal,pain",Typhoid,C7369499,FALSE,,TRUE,malnutrition,RDT,NCT02747927
+anon_0548,76,Male,Odisha,nausea और indigestion और bloating,"nausea,indigestion,bloating",Gastritis,C4645338,TRUE,UIP Measles,FALSE,none,Chest X-ray,NCT01373281
+anon_0549,43,Male,West Bengal,"rash, joint pain, fever","rash,joint,pain,fever",Dengue,C9872673,FALSE,,FALSE,none,Chest X-ray,PubMed27389396
+anon_0550,20,Female,West Bengal,"fever, abdominal pain, nausea","fever,abdominal,pain,nausea",Typhoid,C5155673,TRUE,COVID‑19 mRNA,FALSE,malnutrition,PCR,PubMed27389396
+anon_0551,30,Male,West Bengal,"shortness of breath, chest pain, cough","shortness,of,breath,chest,pain,cough",Pneumonia,C9603328,TRUE,UIP Measles,FALSE,none,Chest X-ray,PubMed27389396
+anon_0552,39,Male,Tamil Nadu,bloating और indigestion और stomach pain,"bloating,indigestion,stomach,pain",Gastritis,C2182891,TRUE,UIP Measles,TRUE,chronic illness,RDT,NCT06060067
+anon_0553,6,Male,Tamil Nadu,cough और fever और shortness of breath,"cough,fever,shortness,of,breath",Pneumonia,C7879866,TRUE,TDV Dengue,TRUE,none,PCR,NCT06060067
+anon_0554,25,Male,Tamil Nadu,"sweating, chills, थकावट","sweating,chills,थकावट",Malaria,C5099084,TRUE,Inactivated Polio,TRUE,malnutrition,RDT,NCT02406729
+anon_0555,39,Male,Bihar,"indigestion, bloating, nausea","indigestion,bloating,nausea",Gastritis,C8733666,TRUE,Inactivated Polio,FALSE,chronic illness,CBC,NCT01373281
+anon_0556,4,Female,Uttar Pradesh,stomach pain और bloating और indigestion,"stomach,pain,bloating,indigestion",Gastritis,C6733216,TRUE,TDV Dengue,FALSE,mosquito bite,RDT,PubMed27389396
+anon_0557,70,Male,West Bengal,"vomiting, jaundice, abdominal pain","vomiting,jaundice,abdominal,pain",Hepatitis,C1021736,TRUE,COVID‑19 mRNA,FALSE,chronic illness,CBC,NCT02406729
+anon_0558,50,Male,West Bengal,"joint pain, rash, बुखार","joint,pain,rash,बुखा",Dengue,C9023392,FALSE,,TRUE,malnutrition,Chest X-ray,PubMed27389396
+anon_0559,61,Female,West Bengal,बुखार और fever और हल्की चकती,"बुखा,fever,हल्की,चकती",Dengue,C6309369,TRUE,Inactivated Polio,FALSE,chronic illness,PCR,NCT06060067
+anon_0560,25,Female,Telangana,"stomach pain, bloating, indigestion","stomach,pain,bloating,indigestion",Gastritis,C3181299,TRUE,BCG,FALSE,none,Chest X-ray,NCT02747927
+anon_0561,17,Male,Bihar,shortness of breath और chest pain और cough,"shortness,of,breath,chest,pain,cough",Pneumonia,C1205837,FALSE,,FALSE,none,PCR,NCT02747927
+anon_0562,63,Female,Uttar Pradesh,"joint pain, rash, fever","joint,pain,rash,fever",Dengue,C3603336,FALSE,,FALSE,chronic illness,PCR,NCT02406729
+anon_0563,63,Male,Tamil Nadu,nausea और abdominal pain और diarrhea,"nausea,abdominal,pain,diarrhea",Typhoid,C3729269,FALSE,,TRUE,chronic illness,RDT,NCT06060067
+anon_0564,10,Male,Odisha,"cough, chest pain, shortness of breath","cough,chest,pain,shortness,of,breath",Pneumonia,C8711996,TRUE,COVID‑19 mRNA,TRUE,mosquito bite,Chest X-ray,NCT02747927
+anon_0565,45,Male,Bihar,chest pain और shortness of breath और cough,"chest,pain,shortness,of,breath,cough",Pneumonia,C1387437,FALSE,,FALSE,none,RDT,NCT02406729
+anon_0566,77,Female,Telangana,"sweating, chills, headache","sweating,chills,headache",Malaria,C1631963,TRUE,BCG,TRUE,chronic illness,Chest X-ray,PubMed27389396
+anon_0567,77,Male,West Bengal,abdominal pain और dark urine और vomiting,"abdominal,pain,dark,urine,vomiting",Hepatitis,C7715878,TRUE,TDV Dengue,TRUE,malnutrition,CBC,NCT02747927
+anon_0568,7,Female,Telangana,"loss of taste, fatigue, fever","loss,of,taste,fatigue,fever",COVID-19,C3331077,TRUE,Inactivated Polio,FALSE,mosquito bite,Chest X-ray,NCT02406729
+anon_0569,48,Male,Uttar Pradesh,"chest pain, cough, fever","chest,pain,cough,fever",Pneumonia,C5260370,TRUE,Inactivated Polio,FALSE,none,RDT,NCT01373281
+anon_0570,45,Male,Telangana,"fever, diarrhea, nausea","fever,diarrhea,nausea",Typhoid,C4898208,FALSE,,FALSE,malnutrition,RDT,NCT06060067
+anon_0571,27,Male,Tamil Nadu,"weight loss, night sweats, fever","weight,loss,night,sweats,fever",TB,C3456534,FALSE,,TRUE,chronic illness,CBC,NCT01373281
+anon_0572,2,Female,Tamil Nadu,"nausea, bloating, stomach pain","nausea,bloating,stomach,pain",Gastritis,C1382287,FALSE,,TRUE,none,CBC,NCT02406729
+anon_0573,67,Male,Odisha,"stomach pain, bloating, indigestion","stomach,pain,bloating,indigestion",Gastritis,C3001940,FALSE,,TRUE,mosquito bite,CBC,NCT02747927
+anon_0574,66,Female,Tamil Nadu,diarrhea और abdominal pain और fever,"diarrhea,abdominal,pain,fever",Typhoid,C2875611,TRUE,UIP Measles,FALSE,malnutrition,RDT,NCT06060067
+anon_0575,56,Female,Tamil Nadu,nausea और abdominal pain और diarrhea,"nausea,abdominal,pain,diarrhea",Typhoid,C6186667,FALSE,,TRUE,mosquito bite,PCR,NCT01373281
+anon_0576,76,Female,Uttar Pradesh,fever और headache और थकावट,"fever,headache,थकावट",Malaria,C8801399,TRUE,UIP Measles,FALSE,none,Chest X-ray,PubMed27389396
+anon_0577,44,Male,Telangana,"nausea, abdominal pain, fever","nausea,abdominal,pain,fever",Typhoid,C3160065,TRUE,COVID‑19 mRNA,TRUE,mosquito bite,RDT,NCT02747927
+anon_0578,15,Female,Bihar,"fever, shortness of breath, cough","fever,shortness,of,breath,cough",Pneumonia,C8282093,FALSE,,FALSE,malnutrition,CBC,PubMed27389396
+anon_0579,21,Male,Uttar Pradesh,"night sweats, fever, weight loss","night,sweats,fever,weight,loss",TB,C3385323,TRUE,UIP Measles,TRUE,chronic illness,CBC,NCT06060067
+anon_0580,51,Male,Odisha,"night sweats, weight loss, fever","night,sweats,weight,loss,fever",TB,C9987296,FALSE,,TRUE,chronic illness,Chest X-ray,NCT06060067
+anon_0581,23,Female,Uttar Pradesh,"rash, joint pain, बुखार","rash,joint,pain,बुखा",Dengue,C1101219,TRUE,COVID‑19 mRNA,FALSE,malnutrition,PCR,NCT02406729
+anon_0582,15,Male,Bihar,"diarrhea, nausea, fever","diarrhea,nausea,fever",Typhoid,C3439598,FALSE,,TRUE,chronic illness,Chest X-ray,NCT06060067
+anon_0583,66,Male,West Bengal,indigestion और bloating और nausea,"indigestion,bloating,nausea",Gastritis,C4754197,TRUE,TDV Dengue,TRUE,mosquito bite,Chest X-ray,NCT06060067
+anon_0584,9,Male,Bihar,"loss of taste, fever, fatigue","loss,of,taste,fever,fatigue",COVID-19,C2610471,TRUE,Inactivated Polio,TRUE,chronic illness,CBC,PubMed27389396
+anon_0585,76,Female,Bihar,"stomach pain, nausea, bloating","stomach,pain,nausea,bloating",Gastritis,C5435099,FALSE,,TRUE,none,CBC,NCT02747927
+anon_0586,60,Male,Uttar Pradesh,fever और dry cough और fatigue,"fever,dry,cough,fatigue",COVID-19,C2326031,TRUE,Inactivated Polio,FALSE,none,PCR,NCT01373281
+anon_0587,73,Female,Maharashtra,"fever, sore throat, cough","fever,sore,throat,cough",Influenza,C6938539,TRUE,COVID‑19 mRNA,TRUE,chronic illness,PCR,NCT02406729
+anon_0588,34,Female,Telangana,"fever, weight loss, chronic cough","fever,weight,loss,chronic,cough",TB,C6404105,TRUE,TDV Dengue,FALSE,none,PCR,PubMed27389396
+anon_0589,62,Female,Telangana,"rash, fever, हल्की चकती","rash,fever,हल्की,चकती",Dengue,C4146713,FALSE,,FALSE,mosquito bite,CBC,PubMed27389396
+anon_0590,45,Male,Odisha,"loss of taste, dry cough, fatigue","loss,of,taste,dry,cough,fatigue",COVID-19,C3857798,TRUE,UIP Measles,TRUE,none,PCR,NCT01373281
+anon_0591,8,Male,Bihar,"dry cough, loss of taste, fatigue","dry,cough,loss,of,taste,fatigue",COVID-19,C8146304,FALSE,,TRUE,chronic illness,PCR,NCT02406729
+anon_0592,8,Female,Maharashtra,"fever, chest pain, cough","fever,chest,pain,cough",Pneumonia,C6647163,TRUE,TDV Dengue,TRUE,chronic illness,Chest X-ray,NCT02747927
+anon_0593,75,Female,Tamil Nadu,dark urine और abdominal pain और jaundice,"dark,urine,abdominal,pain,jaundice",Hepatitis,C3582162,FALSE,,TRUE,malnutrition,RDT,NCT01373281
+anon_0594,38,Male,Uttar Pradesh,"indigestion, stomach pain, nausea","indigestion,stomach,pain,nausea",Gastritis,C8839968,TRUE,TDV Dengue,TRUE,mosquito bite,PCR,PubMed27389396
+anon_0595,31,Male,West Bengal,"fever, cough, rash","fever,cough,rash",Measles,C7182149,TRUE,UIP Measles,TRUE,chronic illness,RDT,NCT02747927
+anon_0596,19,Female,Maharashtra,"dry cough, fatigue, fever","dry,cough,fatigue,fever",COVID-19,C5763506,FALSE,,FALSE,none,Chest X-ray,NCT01373281
+anon_0597,6,Female,Tamil Nadu,cough और body ache और fever,"cough,body,ache,fever",Influenza,C9423417,FALSE,,TRUE,chronic illness,PCR,NCT06060067
+anon_0598,68,Male,Telangana,"loss of taste, fatigue, fever","loss,of,taste,fatigue,fever",COVID-19,C2664256,TRUE,Inactivated Polio,TRUE,mosquito bite,CBC,NCT06060067
+anon_0599,18,Male,Odisha,bloating और nausea और indigestion,"bloating,nausea,indigestion",Gastritis,C9787182,TRUE,Inactivated Polio,TRUE,mosquito bite,CBC,NCT06060067
+anon_0600,32,Female,West Bengal,"diarrhea, abdominal pain, nausea","diarrhea,abdominal,pain,nausea",Typhoid,C5032998,FALSE,,FALSE,chronic illness,RDT,NCT06060067
+anon_0601,26,Female,Telangana,"abdominal pain, vomiting, dark urine","abdominal,pain,vomiting,dark,urine",Hepatitis,C2033445,FALSE,,FALSE,chronic illness,Chest X-ray,NCT02747927
+anon_0602,27,Female,Uttar Pradesh,"indigestion, nausea, bloating","indigestion,nausea,bloating",Gastritis,C4601241,FALSE,,TRUE,malnutrition,PCR,NCT02747927
+anon_0603,37,Female,Bihar,chest pain और fever और shortness of breath,"chest,pain,fever,shortness,of,breath",Pneumonia,C5657175,TRUE,TDV Dengue,FALSE,mosquito bite,PCR,NCT06060067
+anon_0604,17,Female,Tamil Nadu,night sweats और chronic cough और fever,"night,sweats,chronic,cough,fever",TB,C3121114,FALSE,,TRUE,malnutrition,PCR,NCT02406729
+anon_0605,12,Male,West Bengal,"nausea, bloating, stomach pain","nausea,bloating,stomach,pain",Gastritis,C1727728,TRUE,COVID‑19 mRNA,FALSE,mosquito bite,Chest X-ray,NCT02747927
+anon_0606,70,Male,Odisha,jaundice और abdominal pain और vomiting,"jaundice,abdominal,pain,vomiting",Hepatitis,C3038447,FALSE,,FALSE,none,Chest X-ray,NCT01373281
+anon_0607,61,Female,Maharashtra,bloating और stomach pain और indigestion,"bloating,stomach,pain,indigestion",Gastritis,C4157989,FALSE,,TRUE,none,CBC,PubMed27389396
+anon_0608,68,Female,Tamil Nadu,"nausea, indigestion, stomach pain","nausea,indigestion,stomach,pain",Gastritis,C6435040,FALSE,,FALSE,none,CBC,NCT01373281
+anon_0609,56,Female,West Bengal,"थकावट, chills, headache","थकावट,chills,headache",Malaria,C4094444,TRUE,UIP Measles,FALSE,mosquito bite,PCR,NCT01373281
+anon_0610,13,Male,Uttar Pradesh,"fever, chills, headache","fever,chills,headache",Malaria,C3183919,FALSE,,FALSE,none,PCR,NCT02406729
+anon_0611,64,Female,West Bengal,vomiting और jaundice और abdominal pain,"vomiting,jaundice,abdominal,pain",Hepatitis,C7159644,FALSE,,TRUE,none,RDT,NCT02747927
+anon_0612,3,Female,Bihar,"joint pain, rash, हल्की चकती","joint,pain,rash,हल्की,चकती",Dengue,C9502045,TRUE,TDV Dengue,FALSE,none,Chest X-ray,NCT01373281
+anon_0613,15,Male,Tamil Nadu,fever और sweating और headache,"fever,sweating,headache",Malaria,C4497366,TRUE,UIP Measles,TRUE,none,PCR,PubMed27389396
+anon_0614,31,Male,Maharashtra,fatigue और fever और loss of taste,"fatigue,fever,loss,of,taste",COVID-19,C9043898,TRUE,BCG,FALSE,mosquito bite,RDT,NCT02406729
+anon_0615,26,Male,Bihar,"bloating, stomach pain, indigestion","bloating,stomach,pain,indigestion",Gastritis,C2421404,TRUE,Inactivated Polio,TRUE,mosquito bite,PCR,NCT02747927
+anon_0616,78,Male,Maharashtra,weight loss और fever और night sweats,"weight,loss,fever,night,sweats",TB,C1743734,FALSE,,TRUE,malnutrition,Chest X-ray,NCT02406729
+anon_0617,49,Male,Tamil Nadu,body ache और cough और fever,"body,ache,cough,fever",Influenza,C3743107,FALSE,,TRUE,malnutrition,Chest X-ray,NCT01373281
+anon_0618,52,Female,Bihar,"bloating, stomach pain, indigestion","bloating,stomach,pain,indigestion",Gastritis,C7772427,TRUE,COVID‑19 mRNA,FALSE,malnutrition,PCR,NCT01373281
+anon_0619,15,Male,Bihar,"bloating, nausea, stomach pain","bloating,nausea,stomach,pain",Gastritis,C5492599,FALSE,,FALSE,chronic illness,CBC,NCT02406729
+anon_0620,41,Male,Odisha,cough और body ache और sore throat,"cough,body,ache,sore,throat",Influenza,C3955970,TRUE,UIP Measles,TRUE,mosquito bite,RDT,NCT06060067
+anon_0621,24,Male,Maharashtra,हल्की चकती और fever और rash,"हल्की,चकती,fever,rash",Dengue,C3384179,TRUE,COVID‑19 mRNA,FALSE,chronic illness,PCR,PubMed27389396
+anon_0622,61,Male,West Bengal,sweating और headache और fever,"sweating,headache,fever",Malaria,C1394624,FALSE,,TRUE,chronic illness,Chest X-ray,PubMed27389396
+anon_0623,62,Female,West Bengal,"night sweats, fever, chronic cough","night,sweats,fever,chronic,cough",TB,C7685245,TRUE,UIP Measles,TRUE,chronic illness,CBC,NCT06060067
+anon_0624,48,Female,Tamil Nadu,"fatigue, dry cough, loss of taste","fatigue,dry,cough,loss,of,taste",COVID-19,C3921488,TRUE,COVID‑19 mRNA,FALSE,none,RDT,NCT02747927
+anon_0625,78,Male,Odisha,"diarrhea, fever, abdominal pain","diarrhea,fever,abdominal,pain",Typhoid,C8048746,TRUE,TDV Dengue,FALSE,none,RDT,NCT06060067
+anon_0626,11,Male,Maharashtra,chills और fever और थकावट,"chills,fever,थकावट",Malaria,C2941349,FALSE,,FALSE,malnutrition,Chest X-ray,NCT02406729
+anon_0627,57,Male,Odisha,weight loss और fever और chronic cough,"weight,loss,fever,chronic,cough",TB,C6148217,FALSE,,TRUE,mosquito bite,Chest X-ray,NCT01373281
+anon_0628,21,Male,West Bengal,"teary eyes, cough, rash","teary,eyes,cough,rash",Measles,C1890486,TRUE,BCG,TRUE,chronic illness,RDT,NCT06060067
+anon_0629,44,Male,Telangana,chest pain और shortness of breath और fever,"chest,pain,shortness,of,breath,fever",Pneumonia,C2000992,FALSE,,FALSE,mosquito bite,CBC,NCT06060067
+anon_0630,63,Male,Uttar Pradesh,"loss of taste, fever, dry cough","loss,of,taste,fever,dry,cough",COVID-19,C4170221,TRUE,Inactivated Polio,TRUE,chronic illness,CBC,NCT01373281
+anon_0631,57,Female,Odisha,sore throat और cough और fever,"sore,throat,cough,fever",Influenza,C9125343,FALSE,,TRUE,mosquito bite,PCR,NCT01373281
+anon_0632,17,Male,Odisha,fever और sore throat और body ache,"fever,sore,throat,body,ache",Influenza,C6479171,FALSE,,TRUE,none,RDT,NCT02406729
+anon_0633,14,Female,Uttar Pradesh,"थकावट, headache, sweating","थकावट,headache,sweating",Malaria,C4674822,FALSE,,FALSE,none,CBC,NCT06060067
+anon_0634,16,Male,Bihar,"night sweats, fever, chronic cough","night,sweats,fever,chronic,cough",TB,C5182574,TRUE,COVID‑19 mRNA,TRUE,none,RDT,PubMed27389396
+anon_0635,25,Male,West Bengal,cough और sore throat और body ache,"cough,sore,throat,body,ache",Influenza,C9185722,FALSE,,TRUE,chronic illness,PCR,PubMed27389396
+anon_0636,51,Male,Uttar Pradesh,fever और chills और sweating,"fever,chills,sweating",Malaria,C4552802,TRUE,TDV Dengue,TRUE,malnutrition,Chest X-ray,NCT06060067
+anon_0637,56,Male,Tamil Nadu,"rash, cough, teary eyes","rash,cough,teary,eyes",Measles,C3692279,FALSE,,TRUE,none,PCR,NCT02406729
+anon_0638,55,Female,Bihar,loss of taste और dry cough और fatigue,"loss,of,taste,dry,cough,fatigue",COVID-19,C9528297,FALSE,,TRUE,malnutrition,RDT,NCT06060067
+anon_0639,52,Female,Tamil Nadu,fever और sore throat और cough,"fever,sore,throat,cough",Influenza,C8345317,TRUE,BCG,FALSE,mosquito bite,RDT,NCT02747927
+anon_0640,61,Male,Tamil Nadu,joint pain और बुखार और हल्की चकती,"joint,pain,बुखा,हल्की,चकती",Dengue,C5064331,FALSE,,FALSE,chronic illness,CBC,NCT02406729
+anon_0641,64,Female,West Bengal,"joint pain, हल्की चकती, बुखार","joint,pain,हल्की,चकती,बुखा",Dengue,C3471705,TRUE,COVID‑19 mRNA,TRUE,mosquito bite,Chest X-ray,NCT06060067
+anon_0642,59,Male,Uttar Pradesh,"jaundice, vomiting, dark urine","jaundice,vomiting,dark,urine",Hepatitis,C9264223,FALSE,,TRUE,malnutrition,RDT,PubMed27389396
+anon_0643,29,Female,West Bengal,dry cough और fatigue और loss of taste,"dry,cough,fatigue,loss,of,taste",COVID-19,C8633745,FALSE,,FALSE,none,RDT,NCT06060067
+anon_0644,13,Female,Telangana,"abdominal pain, dark urine, vomiting","abdominal,pain,dark,urine,vomiting",Hepatitis,C9830776,TRUE,TDV Dengue,TRUE,none,RDT,NCT01373281
+anon_0645,49,Female,Tamil Nadu,"fever, weight loss, night sweats","fever,weight,loss,night,sweats",TB,C4860506,TRUE,BCG,TRUE,malnutrition,PCR,NCT01373281
+anon_0646,1,Female,Tamil Nadu,"headache, chills, sweating","headache,chills,sweating",Malaria,C2911078,FALSE,,FALSE,mosquito bite,PCR,PubMed27389396
+anon_0647,29,Female,Bihar,"loss of taste, dry cough, fatigue","loss,of,taste,dry,cough,fatigue",COVID-19,C2244758,FALSE,,TRUE,malnutrition,PCR,NCT01373281
+anon_0648,49,Male,Telangana,"dry cough, loss of taste, fever","dry,cough,loss,of,taste,fever",COVID-19,C3342156,FALSE,,FALSE,malnutrition,PCR,NCT02406729
+anon_0649,36,Female,Uttar Pradesh,"cough, chest pain, shortness of breath","cough,chest,pain,shortness,of,breath",Pneumonia,C2860150,FALSE,,FALSE,none,RDT,PubMed27389396
+anon_0650,2,Female,Telangana,fever और joint pain और हल्की चकती,"fever,joint,pain,हल्की,चकती",Dengue,C3604746,TRUE,COVID‑19 mRNA,FALSE,malnutrition,RDT,PubMed27389396
+anon_0651,72,Female,West Bengal,diarrhea और nausea और abdominal pain,"diarrhea,nausea,abdominal,pain",Typhoid,C8457160,FALSE,,FALSE,chronic illness,CBC,PubMed27389396
+anon_0652,2,Female,Tamil Nadu,"abdominal pain, nausea, diarrhea","abdominal,pain,nausea,diarrhea",Typhoid,C9070259,TRUE,BCG,TRUE,none,PCR,NCT02747927
+anon_0653,60,Male,Maharashtra,abdominal pain और nausea और fever,"abdominal,pain,nausea,fever",Typhoid,C2194886,FALSE,,TRUE,mosquito bite,Chest X-ray,NCT02747927
+anon_0654,58,Male,Maharashtra,fever और cough और rash,"fever,cough,rash",Measles,C7205216,FALSE,,TRUE,malnutrition,Chest X-ray,NCT01373281
+anon_0655,64,Female,Tamil Nadu,"fever, cough, chest pain","fever,cough,chest,pain",Pneumonia,C9428808,TRUE,COVID‑19 mRNA,FALSE,malnutrition,Chest X-ray,NCT01373281
+anon_0656,76,Female,Maharashtra,chest pain और shortness of breath और fever,"chest,pain,shortness,of,breath,fever",Pneumonia,C8632722,FALSE,,TRUE,none,RDT,PubMed27389396
+anon_0657,61,Male,Telangana,"jaundice, abdominal pain, dark urine","jaundice,abdominal,pain,dark,urine",Hepatitis,C8877131,FALSE,,FALSE,none,Chest X-ray,NCT02747927
+anon_0658,77,Male,Uttar Pradesh,"chills, थकावट, headache","chills,थकावट,headache",Malaria,C8973558,FALSE,,TRUE,chronic illness,CBC,NCT06060067
+anon_0659,3,Male,West Bengal,fever और night sweats और weight loss,"fever,night,sweats,weight,loss",TB,C7285548,FALSE,,FALSE,none,Chest X-ray,PubMed27389396
+anon_0660,76,Male,West Bengal,"jaundice, dark urine, abdominal pain","jaundice,dark,urine,abdominal,pain",Hepatitis,C5864416,FALSE,,TRUE,mosquito bite,Chest X-ray,NCT01373281
+anon_0661,22,Male,Tamil Nadu,"हल्की चकती, rash, joint pain","हल्की,चकती,rash,joint,pain",Dengue,C1144338,FALSE,,TRUE,mosquito bite,RDT,NCT01373281
+anon_0662,23,Female,Maharashtra,"fever, fatigue, loss of taste","fever,fatigue,loss,of,taste",COVID-19,C9059781,FALSE,,FALSE,chronic illness,RDT,PubMed27389396
+anon_0663,57,Female,Uttar Pradesh,"cough, fever, chest pain","cough,fever,chest,pain",Pneumonia,C6611192,FALSE,,FALSE,chronic illness,CBC,NCT01373281
+anon_0664,73,Male,Odisha,"sweating, chills, fever","sweating,chills,fever",Malaria,C5310649,TRUE,UIP Measles,TRUE,mosquito bite,RDT,NCT06060067
+anon_0665,21,Male,Bihar,fever और fatigue और dry cough,"fever,fatigue,dry,cough",COVID-19,C6265824,FALSE,,FALSE,chronic illness,CBC,NCT06060067
+anon_0666,14,Male,Tamil Nadu,"fever, chills, थकावट","fever,chills,थकावट",Malaria,C2001937,TRUE,TDV Dengue,TRUE,none,Chest X-ray,NCT06060067
+anon_0667,1,Male,West Bengal,"diarrhea, nausea, abdominal pain","diarrhea,nausea,abdominal,pain",Typhoid,C3417079,TRUE,BCG,FALSE,chronic illness,RDT,NCT01373281
+anon_0668,48,Female,Maharashtra,"weight loss, night sweats, fever","weight,loss,night,sweats,fever",TB,C1592391,TRUE,COVID‑19 mRNA,FALSE,chronic illness,RDT,NCT06060067
+anon_0669,29,Male,Maharashtra,"cough, fever, teary eyes","cough,fever,teary,eyes",Measles,C2702970,FALSE,,TRUE,none,Chest X-ray,NCT02406729
+anon_0670,78,Female,Tamil Nadu,हल्की चकती और rash और fever,"हल्की,चकती,rash,fever",Dengue,C7126170,FALSE,,TRUE,chronic illness,PCR,PubMed27389396
+anon_0671,26,Male,West Bengal,"abdominal pain, diarrhea, nausea","abdominal,pain,diarrhea,nausea",Typhoid,C7987145,FALSE,,FALSE,none,PCR,NCT01373281
+anon_0672,66,Female,Tamil Nadu,abdominal pain और jaundice और dark urine,"abdominal,pain,jaundice,dark,urine",Hepatitis,C6968879,FALSE,,TRUE,malnutrition,CBC,NCT06060067
+anon_0673,9,Male,Odisha,"fever, chest pain, cough","fever,chest,pain,cough",Pneumonia,C2882243,TRUE,Inactivated Polio,TRUE,chronic illness,Chest X-ray,NCT02406729
+anon_0674,31,Male,West Bengal,weight loss और night sweats और chronic cough,"weight,loss,night,sweats,chronic,cough",TB,C5349116,FALSE,,TRUE,malnutrition,RDT,PubMed27389396
+anon_0675,58,Female,West Bengal,"weight loss, fever, night sweats","weight,loss,fever,night,sweats",TB,C6316609,FALSE,,FALSE,malnutrition,RDT,PubMed27389396
+anon_0676,13,Female,Uttar Pradesh,indigestion और stomach pain और nausea,"indigestion,stomach,pain,nausea",Gastritis,C9548571,FALSE,,TRUE,mosquito bite,Chest X-ray,NCT02747927
+anon_0677,65,Female,West Bengal,"fever, body ache, sore throat","fever,body,ache,sore,throat",Influenza,C2032127,TRUE,TDV Dengue,TRUE,mosquito bite,Chest X-ray,NCT06060067
+anon_0678,14,Female,Bihar,"diarrhea, abdominal pain, fever","diarrhea,abdominal,pain,fever",Typhoid,C5975270,FALSE,,FALSE,malnutrition,Chest X-ray,PubMed27389396
+anon_0679,51,Female,Bihar,"headache, fever, थकावट","headache,fever,थकावट",Malaria,C7537627,FALSE,,FALSE,malnutrition,CBC,NCT02747927
+anon_0680,45,Female,Telangana,"vomiting, abdominal pain, dark urine","vomiting,abdominal,pain,dark,urine",Hepatitis,C2874237,TRUE,COVID‑19 mRNA,TRUE,none,PCR,NCT01373281
+anon_0681,36,Female,Odisha,"joint pain, rash, fever","joint,pain,rash,fever",Dengue,C6065732,FALSE,,FALSE,mosquito bite,RDT,NCT02406729
+anon_0682,57,Female,Bihar,cough और fever और chest pain,"cough,fever,chest,pain",Pneumonia,C4593588,TRUE,Inactivated Polio,TRUE,none,RDT,NCT02406729
+anon_0683,9,Male,Tamil Nadu,"chest pain, fever, shortness of breath","chest,pain,fever,shortness,of,breath",Pneumonia,C6340053,FALSE,,TRUE,chronic illness,RDT,NCT02747927
+anon_0684,17,Male,Odisha,fever और teary eyes और rash,"fever,teary,eyes,rash",Measles,C2293152,TRUE,UIP Measles,TRUE,none,PCR,PubMed27389396
+anon_0685,47,Female,Odisha,"sweating, fever, headache","sweating,fever,headache",Malaria,C3153278,FALSE,,TRUE,none,PCR,NCT06060067
+anon_0686,5,Female,Uttar Pradesh,fever और teary eyes और rash,"fever,teary,eyes,rash",Measles,C5557541,FALSE,,TRUE,none,Chest X-ray,NCT06060067
+anon_0687,80,Male,West Bengal,shortness of breath और fever और cough,"shortness,of,breath,fever,cough",Pneumonia,C9629784,FALSE,,FALSE,mosquito bite,Chest X-ray,NCT06060067
+anon_0688,80,Female,Tamil Nadu,fatigue और loss of taste और fever,"fatigue,loss,of,taste,fever",COVID-19,C6032998,TRUE,TDV Dengue,FALSE,mosquito bite,Chest X-ray,PubMed27389396
+anon_0689,20,Male,Maharashtra,"fatigue, loss of taste, dry cough","fatigue,loss,of,taste,dry,cough",COVID-19,C2043780,TRUE,TDV Dengue,FALSE,chronic illness,CBC,NCT01373281
+anon_0690,37,Female,Tamil Nadu,"sore throat, cough, fever","sore,throat,cough,fever",Influenza,C4031445,TRUE,TDV Dengue,FALSE,mosquito bite,RDT,NCT02406729
+anon_0691,33,Female,Odisha,"थकावट, headache, fever","थकावट,headache,fever",Malaria,C6268499,FALSE,,TRUE,malnutrition,RDT,NCT02406729
+anon_0692,35,Male,Odisha,"cough, rash, fever","cough,rash,fever",Measles,C9047327,FALSE,,TRUE,none,PCR,NCT01373281
+anon_0693,32,Male,West Bengal,"fever, chronic cough, weight loss","fever,chronic,cough,weight,loss",TB,C5472273,TRUE,UIP Measles,TRUE,malnutrition,CBC,PubMed27389396
+anon_0694,6,Female,Telangana,"abdominal pain, jaundice, vomiting","abdominal,pain,jaundice,vomiting",Hepatitis,C4129522,TRUE,UIP Measles,TRUE,none,Chest X-ray,NCT01373281
+anon_0695,32,Male,Maharashtra,"sweating, fever, headache","sweating,fever,headache",Malaria,C8433154,FALSE,,TRUE,none,CBC,PubMed27389396
+anon_0696,58,Female,Maharashtra,"shortness of breath, chest pain, fever","shortness,of,breath,chest,pain,fever",Pneumonia,C7926555,TRUE,TDV Dengue,TRUE,malnutrition,Chest X-ray,NCT06060067
+anon_0697,61,Female,Tamil Nadu,"jaundice, abdominal pain, dark urine","jaundice,abdominal,pain,dark,urine",Hepatitis,C9278824,FALSE,,FALSE,mosquito bite,RDT,NCT02406729
+anon_0698,53,Female,Bihar,teary eyes और fever और cough,"teary,eyes,fever,cough",Measles,C3164982,TRUE,TDV Dengue,TRUE,chronic illness,RDT,NCT02406729
+anon_0699,28,Female,Tamil Nadu,"bloating, nausea, stomach pain","bloating,nausea,stomach,pain",Gastritis,C4908451,FALSE,,TRUE,none,CBC,NCT01373281
+anon_0700,2,Female,West Bengal,shortness of breath और fever और chest pain,"shortness,of,breath,fever,chest,pain",Pneumonia,C3038305,FALSE,,TRUE,none,Chest X-ray,NCT06060067
+anon_0701,33,Male,Uttar Pradesh,fever और fatigue और dry cough,"fever,fatigue,dry,cough",COVID-19,C6657995,FALSE,,FALSE,chronic illness,PCR,NCT02747927
+anon_0702,75,Female,Odisha,"fever, loss of taste, dry cough","fever,loss,of,taste,dry,cough",COVID-19,C4344246,FALSE,,TRUE,chronic illness,PCR,NCT02406729
+anon_0703,14,Female,Uttar Pradesh,"chills, sweating, fever","chills,sweating,fever",Malaria,C7691821,FALSE,,TRUE,chronic illness,RDT,NCT02747927
+anon_0704,71,Male,West Bengal,"nausea, bloating, indigestion","nausea,bloating,indigestion",Gastritis,C6692162,FALSE,,TRUE,chronic illness,RDT,NCT02747927
+anon_0705,69,Male,West Bengal,stomach pain और bloating और nausea,"stomach,pain,bloating,nausea",Gastritis,C6483819,FALSE,,TRUE,mosquito bite,RDT,NCT02406729
+anon_0706,47,Female,Maharashtra,"diarrhea, nausea, fever","diarrhea,nausea,fever",Typhoid,C6982473,TRUE,TDV Dengue,TRUE,mosquito bite,PCR,PubMed27389396
+anon_0707,2,Female,Tamil Nadu,"fever, fatigue, dry cough","fever,fatigue,dry,cough",COVID-19,C7158152,FALSE,,FALSE,malnutrition,PCR,PubMed27389396
+anon_0708,28,Female,West Bengal,"fatigue, fever, loss of taste","fatigue,fever,loss,of,taste",COVID-19,C8677694,TRUE,UIP Measles,FALSE,chronic illness,PCR,NCT02406729
+anon_0709,26,Female,Telangana,"बुखार, हल्की चकती, rash","बुखा,हल्की,चकती,rash",Dengue,C1032937,FALSE,,TRUE,mosquito bite,Chest X-ray,NCT02747927
+anon_0710,3,Male,Odisha,"fever, dry cough, fatigue","fever,dry,cough,fatigue",COVID-19,C2846541,FALSE,,TRUE,chronic illness,Chest X-ray,PubMed27389396
+anon_0711,78,Female,Maharashtra,dark urine और jaundice और abdominal pain,"dark,urine,jaundice,abdominal,pain",Hepatitis,C3536465,TRUE,Inactivated Polio,TRUE,none,PCR,NCT01373281
+anon_0712,45,Female,Odisha,"rash, cough, fever","rash,cough,fever",Measles,C8055516,TRUE,UIP Measles,FALSE,malnutrition,RDT,NCT06060067
+anon_0713,76,Female,Odisha,"fever, chills, थकावट","fever,chills,थकावट",Malaria,C1094721,FALSE,,FALSE,none,CBC,NCT06060067
+anon_0714,17,Female,Bihar,weight loss और night sweats और chronic cough,"weight,loss,night,sweats,chronic,cough",TB,C7002965,TRUE,UIP Measles,TRUE,malnutrition,CBC,NCT02747927
+anon_0715,17,Male,West Bengal,"diarrhea, abdominal pain, fever","diarrhea,abdominal,pain,fever",Typhoid,C2753611,TRUE,BCG,TRUE,chronic illness,RDT,NCT02747927
+anon_0716,25,Female,West Bengal,"cough, chest pain, shortness of breath","cough,chest,pain,shortness,of,breath",Pneumonia,C3426461,FALSE,,TRUE,none,RDT,NCT01373281
+anon_0717,5,Male,Telangana,"vomiting, abdominal pain, dark urine","vomiting,abdominal,pain,dark,urine",Hepatitis,C3165029,TRUE,BCG,TRUE,none,Chest X-ray,NCT06060067
+anon_0718,56,Male,Tamil Nadu,"joint pain, हल्की चकती, बुखार","joint,pain,हल्की,चकती,बुखा",Dengue,C7769695,TRUE,Inactivated Polio,TRUE,none,PCR,NCT02747927
+anon_0719,16,Female,West Bengal,"loss of taste, dry cough, fever","loss,of,taste,dry,cough,fever",COVID-19,C6771308,TRUE,UIP Measles,FALSE,none,Chest X-ray,NCT02406729
+anon_0720,44,Male,West Bengal,"bloating, indigestion, stomach pain","bloating,indigestion,stomach,pain",Gastritis,C4798133,TRUE,COVID‑19 mRNA,TRUE,mosquito bite,CBC,NCT02747927
+anon_0721,72,Female,Maharashtra,jaundice और abdominal pain और vomiting,"jaundice,abdominal,pain,vomiting",Hepatitis,C6585802,TRUE,UIP Measles,FALSE,mosquito bite,PCR,NCT06060067
+anon_0722,63,Male,Uttar Pradesh,"indigestion, stomach pain, nausea","indigestion,stomach,pain,nausea",Gastritis,C8984015,TRUE,COVID‑19 mRNA,TRUE,mosquito bite,Chest X-ray,PubMed27389396
+anon_0723,18,Male,West Bengal,indigestion और stomach pain और nausea,"indigestion,stomach,pain,nausea",Gastritis,C8905259,TRUE,TDV Dengue,TRUE,mosquito bite,RDT,NCT01373281
+anon_0724,54,Male,Bihar,headache और chills और sweating,"headache,chills,sweating",Malaria,C9583403,TRUE,UIP Measles,FALSE,chronic illness,RDT,NCT01373281
+anon_0725,12,Male,Uttar Pradesh,joint pain और हल्की चकती और fever,"joint,pain,हल्की,चकती,fever",Dengue,C2332206,FALSE,,TRUE,malnutrition,RDT,PubMed27389396
+anon_0726,48,Male,West Bengal,cough और rash और fever,"cough,rash,fever",Measles,C2610084,TRUE,COVID‑19 mRNA,TRUE,chronic illness,CBC,PubMed27389396
+anon_0727,43,Female,Maharashtra,"cough, shortness of breath, chest pain","cough,shortness,of,breath,chest,pain",Pneumonia,C3780734,TRUE,UIP Measles,TRUE,malnutrition,CBC,NCT02747927
+anon_0728,51,Male,Maharashtra,"cough, fever, body ache","cough,fever,body,ache",Influenza,C5915480,TRUE,COVID‑19 mRNA,TRUE,mosquito bite,PCR,PubMed27389396
+anon_0729,41,Male,West Bengal,"indigestion, nausea, stomach pain","indigestion,nausea,stomach,pain",Gastritis,C2119159,TRUE,COVID‑19 mRNA,FALSE,mosquito bite,RDT,NCT02747927
+anon_0730,13,Female,Bihar,"indigestion, stomach pain, nausea","indigestion,stomach,pain,nausea",Gastritis,C2408896,TRUE,UIP Measles,TRUE,malnutrition,RDT,PubMed27389396
+anon_0731,17,Female,Odisha,"bloating, indigestion, stomach pain","bloating,indigestion,stomach,pain",Gastritis,C5483073,TRUE,Inactivated Polio,TRUE,mosquito bite,CBC,NCT02406729
+anon_0732,62,Female,Maharashtra,"indigestion, bloating, nausea","indigestion,bloating,nausea",Gastritis,C1735185,FALSE,,TRUE,mosquito bite,PCR,PubMed27389396
+anon_0733,28,Female,Telangana,"diarrhea, fever, abdominal pain","diarrhea,fever,abdominal,pain",Typhoid,C5549370,FALSE,,FALSE,mosquito bite,RDT,NCT02406729
+anon_0734,78,Female,Uttar Pradesh,"shortness of breath, cough, chest pain","shortness,of,breath,cough,chest,pain",Pneumonia,C7344296,TRUE,Inactivated Polio,TRUE,mosquito bite,RDT,PubMed27389396
+anon_0735,35,Male,Bihar,"nausea, diarrhea, fever","nausea,diarrhea,fever",Typhoid,C3434483,FALSE,,TRUE,none,PCR,PubMed27389396
+anon_0736,27,Female,Odisha,"night sweats, weight loss, fever","night,sweats,weight,loss,fever",TB,C7279419,TRUE,BCG,TRUE,none,CBC,NCT06060067
+anon_0737,46,Male,Odisha,"cough, rash, fever","cough,rash,fever",Measles,C7248016,TRUE,COVID‑19 mRNA,FALSE,none,RDT,NCT06060067
+anon_0738,73,Male,West Bengal,"abdominal pain, nausea, fever","abdominal,pain,nausea,fever",Typhoid,C6164300,TRUE,UIP Measles,TRUE,chronic illness,CBC,NCT01373281
+anon_0739,42,Female,Odisha,fever और cough और shortness of breath,"fever,cough,shortness,of,breath",Pneumonia,C4844905,FALSE,,FALSE,chronic illness,Chest X-ray,NCT06060067
+anon_0740,15,Female,Bihar,"body ache, sore throat, fever","body,ache,sore,throat,fever",Influenza,C9063166,FALSE,,TRUE,malnutrition,RDT,NCT01373281
+anon_0741,7,Male,Uttar Pradesh,"fever, loss of taste, fatigue","fever,loss,of,taste,fatigue",COVID-19,C6894678,FALSE,,TRUE,mosquito bite,Chest X-ray,NCT02406729
+anon_0742,80,Female,Bihar,"nausea, fever, abdominal pain","nausea,fever,abdominal,pain",Typhoid,C7715313,TRUE,Inactivated Polio,TRUE,mosquito bite,PCR,PubMed27389396
+anon_0743,23,Female,West Bengal,"fever, shortness of breath, cough","fever,shortness,of,breath,cough",Pneumonia,C6147903,FALSE,,FALSE,none,CBC,NCT02747927
+anon_0744,54,Female,Tamil Nadu,body ache और cough और sore throat,"body,ache,cough,sore,throat",Influenza,C4119359,TRUE,COVID‑19 mRNA,FALSE,none,RDT,NCT02747927
+anon_0745,78,Male,Odisha,"bloating, indigestion, stomach pain","bloating,indigestion,stomach,pain",Gastritis,C5968456,TRUE,BCG,TRUE,chronic illness,CBC,NCT02406729
+anon_0746,77,Female,Tamil Nadu,"fever, chest pain, shortness of breath","fever,chest,pain,shortness,of,breath",Pneumonia,C5589358,TRUE,UIP Measles,TRUE,none,RDT,PubMed27389396
+anon_0747,78,Female,Bihar,"weight loss, fever, chronic cough","weight,loss,fever,chronic,cough",TB,C4116682,FALSE,,FALSE,malnutrition,RDT,NCT06060067
+anon_0748,8,Male,Odisha,"थकावट, headache, fever","थकावट,headache,fever",Malaria,C5464028,FALSE,,FALSE,chronic illness,CBC,PubMed27389396
+anon_0749,14,Female,Bihar,"rash, teary eyes, fever","rash,teary,eyes,fever",Measles,C7094018,FALSE,,FALSE,malnutrition,PCR,PubMed27389396
+anon_0750,26,Female,Telangana,dry cough और loss of taste और fatigue,"dry,cough,loss,of,taste,fatigue",COVID-19,C6479861,FALSE,,FALSE,none,RDT,NCT01373281
+anon_0751,39,Male,Telangana,"fatigue, loss of taste, dry cough","fatigue,loss,of,taste,dry,cough",COVID-19,C8330923,TRUE,UIP Measles,FALSE,malnutrition,RDT,NCT01373281
+anon_0752,70,Female,Odisha,"fever, abdominal pain, nausea","fever,abdominal,pain,nausea",Typhoid,C7943969,TRUE,BCG,TRUE,mosquito bite,CBC,PubMed27389396
+anon_0753,24,Female,West Bengal,"nausea, bloating, stomach pain","nausea,bloating,stomach,pain",Gastritis,C3023940,FALSE,,TRUE,malnutrition,PCR,NCT06060067
+anon_0754,34,Male,West Bengal,"fever, थकावट, headache","fever,थकावट,headache",Malaria,C8278012,FALSE,,TRUE,malnutrition,RDT,PubMed27389396
+anon_0755,30,Male,West Bengal,teary eyes और cough और rash,"teary,eyes,cough,rash",Measles,C5600028,TRUE,COVID‑19 mRNA,FALSE,mosquito bite,Chest X-ray,NCT01373281
+anon_0756,63,Female,Uttar Pradesh,fever और headache और sweating,"fever,headache,sweating",Malaria,C4274526,TRUE,COVID‑19 mRNA,FALSE,none,CBC,PubMed27389396
+anon_0757,45,Male,Maharashtra,"fever, cough, rash","fever,cough,rash",Measles,C5756493,FALSE,,TRUE,mosquito bite,RDT,NCT02747927
+anon_0758,56,Male,Odisha,"rash, बुखार, हल्की चकती","rash,बुखा,हल्की,चकती",Dengue,C3685919,TRUE,COVID‑19 mRNA,TRUE,malnutrition,PCR,NCT02747927
+anon_0759,27,Male,Telangana,"fatigue, loss of taste, dry cough","fatigue,loss,of,taste,dry,cough",COVID-19,C8893967,TRUE,BCG,FALSE,malnutrition,Chest X-ray,PubMed27389396
+anon_0760,23,Female,Maharashtra,headache और chills और थकावट,"headache,chills,थकावट",Malaria,C3762083,TRUE,BCG,TRUE,mosquito bite,CBC,PubMed27389396
+anon_0761,54,Male,Tamil Nadu,"cough, sore throat, body ache","cough,sore,throat,body,ache",Influenza,C6058196,FALSE,,FALSE,chronic illness,RDT,NCT02747927
+anon_0762,48,Female,Odisha,"weight loss, fever, night sweats","weight,loss,fever,night,sweats",TB,C6351545,FALSE,,FALSE,none,RDT,NCT01373281
+anon_0763,41,Male,Maharashtra,"loss of taste, fatigue, fever","loss,of,taste,fatigue,fever",COVID-19,C5396710,TRUE,Inactivated Polio,TRUE,chronic illness,CBC,NCT02406729
+anon_0764,67,Male,West Bengal,"abdominal pain, fever, nausea","abdominal,pain,fever,nausea",Typhoid,C4908425,FALSE,,FALSE,mosquito bite,PCR,NCT01373281
+anon_0765,26,Male,Odisha,"dark urine, vomiting, jaundice","dark,urine,vomiting,jaundice",Hepatitis,C3836105,TRUE,COVID‑19 mRNA,TRUE,mosquito bite,Chest X-ray,NCT02406729
+anon_0766,5,Male,Telangana,dark urine और abdominal pain और vomiting,"dark,urine,abdominal,pain,vomiting",Hepatitis,C7572634,FALSE,,TRUE,mosquito bite,PCR,PubMed27389396
+anon_0767,50,Male,Telangana,"weight loss, night sweats, chronic cough","weight,loss,night,sweats,chronic,cough",TB,C6690249,FALSE,,TRUE,chronic illness,Chest X-ray,NCT01373281
+anon_0768,32,Female,Telangana,"dry cough, fatigue, loss of taste","dry,cough,fatigue,loss,of,taste",COVID-19,C8568021,TRUE,Inactivated Polio,FALSE,none,Chest X-ray,NCT02747927
+anon_0769,26,Female,Tamil Nadu,indigestion और nausea और bloating,"indigestion,nausea,bloating",Gastritis,C7151998,FALSE,,TRUE,mosquito bite,PCR,NCT02747927
+anon_0770,6,Male,Telangana,fever और हल्की चकती और joint pain,"fever,हल्की,चकती,joint,pain",Dengue,C9182250,FALSE,,TRUE,malnutrition,Chest X-ray,NCT01373281
+anon_0771,41,Female,Bihar,"fever, dry cough, loss of taste","fever,dry,cough,loss,of,taste",COVID-19,C1616895,FALSE,,FALSE,mosquito bite,CBC,NCT01373281
+anon_0772,75,Female,Telangana,vomiting और dark urine और jaundice,"vomiting,dark,urine,jaundice",Hepatitis,C7889574,FALSE,,FALSE,none,Chest X-ray,NCT02406729
+anon_0773,52,Male,Tamil Nadu,"jaundice, vomiting, abdominal pain","jaundice,vomiting,abdominal,pain",Hepatitis,C7149039,TRUE,BCG,FALSE,chronic illness,CBC,PubMed27389396
+anon_0774,80,Male,Tamil Nadu,fever और abdominal pain और nausea,"fever,abdominal,pain,nausea",Typhoid,C6272727,FALSE,,FALSE,none,CBC,NCT02747927
+anon_0775,25,Female,Maharashtra,"chronic cough, fever, night sweats","chronic,cough,fever,night,sweats",TB,C6271829,TRUE,BCG,FALSE,mosquito bite,RDT,NCT01373281
+anon_0776,60,Male,Odisha,"vomiting, jaundice, abdominal pain","vomiting,jaundice,abdominal,pain",Hepatitis,C4857807,TRUE,COVID‑19 mRNA,TRUE,mosquito bite,CBC,NCT02406729
+anon_0777,72,Female,Telangana,"nausea, diarrhea, fever","nausea,diarrhea,fever",Typhoid,C2230670,TRUE,BCG,FALSE,malnutrition,RDT,NCT01373281
+anon_0778,22,Female,Telangana,"rash, fever, cough","rash,fever,cough",Measles,C8586485,FALSE,,FALSE,mosquito bite,RDT,NCT02406729
+anon_0779,40,Male,Telangana,"fever, night sweats, chronic cough","fever,night,sweats,chronic,cough",TB,C8582261,FALSE,,FALSE,none,RDT,NCT06060067
+anon_0780,30,Female,Tamil Nadu,"fever, headache, sweating","fever,headache,sweating",Malaria,C6743884,TRUE,BCG,FALSE,mosquito bite,CBC,NCT02747927
+anon_0781,40,Female,Uttar Pradesh,jaundice और abdominal pain और dark urine,"jaundice,abdominal,pain,dark,urine",Hepatitis,C5388455,FALSE,,TRUE,malnutrition,RDT,NCT02747927
+anon_0782,10,Male,West Bengal,"weight loss, chronic cough, fever","weight,loss,chronic,cough,fever",TB,C5744132,TRUE,Inactivated Polio,FALSE,chronic illness,Chest X-ray,PubMed27389396
+anon_0783,2,Male,Telangana,"jaundice, abdominal pain, dark urine","jaundice,abdominal,pain,dark,urine",Hepatitis,C9177971,FALSE,,FALSE,chronic illness,RDT,NCT01373281
+anon_0784,44,Female,West Bengal,"dry cough, loss of taste, fatigue","dry,cough,loss,of,taste,fatigue",COVID-19,C9067226,FALSE,,FALSE,chronic illness,PCR,PubMed27389396
+anon_0785,27,Male,West Bengal,stomach pain और nausea और bloating,"stomach,pain,nausea,bloating",Gastritis,C7113301,TRUE,Inactivated Polio,TRUE,mosquito bite,PCR,NCT02747927
+anon_0786,28,Female,Tamil Nadu,"cough, teary eyes, rash","cough,teary,eyes,rash",Measles,C3441097,FALSE,,TRUE,none,PCR,NCT02406729
+anon_0787,57,Male,Maharashtra,"fever, dry cough, fatigue","fever,dry,cough,fatigue",COVID-19,C7150528,TRUE,BCG,TRUE,chronic illness,Chest X-ray,PubMed27389396
+anon_0788,27,Male,Telangana,indigestion और stomach pain और bloating,"indigestion,stomach,pain,bloating",Gastritis,C6429240,TRUE,TDV Dengue,FALSE,chronic illness,CBC,NCT01373281
+anon_0789,9,Female,West Bengal,stomach pain और indigestion और bloating,"stomach,pain,indigestion,bloating",Gastritis,C8261179,FALSE,,TRUE,none,Chest X-ray,PubMed27389396
+anon_0790,14,Female,Odisha,"abdominal pain, fever, diarrhea","abdominal,pain,fever,diarrhea",Typhoid,C1536194,TRUE,Inactivated Polio,FALSE,mosquito bite,Chest X-ray,NCT02406729
+anon_0791,64,Female,Odisha,"shortness of breath, fever, cough","shortness,of,breath,fever,cough",Pneumonia,C9980580,TRUE,BCG,TRUE,none,CBC,NCT02406729
+anon_0792,67,Female,Telangana,"fever, हल्की चकती, joint pain","fever,हल्की,चकती,joint,pain",Dengue,C5134789,FALSE,,TRUE,mosquito bite,PCR,NCT02747927
+anon_0793,61,Male,Maharashtra,बुखार और rash और joint pain,"बुखा,rash,joint,pain",Dengue,C4476163,FALSE,,FALSE,none,CBC,NCT02747927
+anon_0794,10,Male,West Bengal,"nausea, bloating, indigestion","nausea,bloating,indigestion",Gastritis,C6020401,TRUE,UIP Measles,TRUE,mosquito bite,CBC,PubMed27389396
+anon_0795,55,Female,Tamil Nadu,"shortness of breath, cough, chest pain","shortness,of,breath,cough,chest,pain",Pneumonia,C8136628,TRUE,TDV Dengue,FALSE,none,Chest X-ray,PubMed27389396
+anon_0796,45,Male,Tamil Nadu,"fever, cough, rash","fever,cough,rash",Measles,C2316857,TRUE,BCG,FALSE,malnutrition,RDT,PubMed27389396
+anon_0797,80,Male,Tamil Nadu,cough और fever और sore throat,"cough,fever,sore,throat",Influenza,C2970852,TRUE,BCG,FALSE,chronic illness,PCR,NCT06060067
+anon_0798,3,Male,Maharashtra,"night sweats, chronic cough, fever","night,sweats,chronic,cough,fever",TB,C1737108,FALSE,,FALSE,none,CBC,PubMed27389396
+anon_0799,80,Female,West Bengal,"indigestion, bloating, stomach pain","indigestion,bloating,stomach,pain",Gastritis,C1607259,TRUE,COVID‑19 mRNA,TRUE,mosquito bite,CBC,PubMed27389396
+anon_0800,18,Male,West Bengal,chills और sweating और fever,"chills,sweating,fever",Malaria,C8965801,FALSE,,TRUE,malnutrition,RDT,NCT02406729
+anon_0801,16,Male,Bihar,"हल्की चकती, fever, joint pain","हल्की,चकती,fever,joint,pain",Dengue,C7199797,FALSE,,FALSE,mosquito bite,CBC,NCT02747927
+anon_0802,45,Female,Odisha,"body ache, fever, sore throat","body,ache,fever,sore,throat",Influenza,C6235615,TRUE,UIP Measles,TRUE,mosquito bite,PCR,NCT01373281
+anon_0803,60,Male,Tamil Nadu,fever और हल्की चकती और joint pain,"fever,हल्की,चकती,joint,pain",Dengue,C4249459,TRUE,Inactivated Polio,FALSE,mosquito bite,PCR,NCT02747927
+anon_0804,64,Male,Tamil Nadu,"cough, body ache, fever","cough,body,ache,fever",Influenza,C3208503,TRUE,BCG,TRUE,mosquito bite,CBC,NCT01373281
+anon_0805,71,Male,Maharashtra,"rash, cough, fever","rash,cough,fever",Measles,C1591237,TRUE,COVID‑19 mRNA,FALSE,none,CBC,NCT06060067
+anon_0806,79,Female,Maharashtra,fever और chills और sweating,"fever,chills,sweating",Malaria,C7732237,TRUE,UIP Measles,TRUE,none,Chest X-ray,NCT06060067
+anon_0807,25,Female,Bihar,fever और nausea और diarrhea,"fever,nausea,diarrhea",Typhoid,C1648713,TRUE,UIP Measles,TRUE,none,RDT,NCT02747927
+anon_0808,47,Female,Tamil Nadu,rash और teary eyes और cough,"rash,teary,eyes,cough",Measles,C2570897,FALSE,,TRUE,malnutrition,Chest X-ray,NCT02406729
+anon_0809,18,Female,Tamil Nadu,abdominal pain और nausea और fever,"abdominal,pain,nausea,fever",Typhoid,C3994152,FALSE,,FALSE,none,RDT,PubMed27389396
+anon_0810,51,Male,Odisha,"fever, teary eyes, cough","fever,teary,eyes,cough",Measles,C5288664,TRUE,COVID‑19 mRNA,FALSE,malnutrition,Chest X-ray,NCT02747927
+anon_0811,4,Male,Bihar,fever और हल्की चकती और rash,"fever,हल्की,चकती,rash",Dengue,C4059151,TRUE,BCG,TRUE,mosquito bite,RDT,PubMed27389396
+anon_0812,51,Male,Tamil Nadu,sore throat और body ache और fever,"sore,throat,body,ache,fever",Influenza,C2958853,FALSE,,TRUE,chronic illness,PCR,NCT02406729
+anon_0813,46,Female,Telangana,"chest pain, cough, shortness of breath","chest,pain,cough,shortness,of,breath",Pneumonia,C9598315,TRUE,Inactivated Polio,FALSE,none,PCR,NCT02747927
+anon_0814,12,Female,Telangana,"cough, rash, fever","cough,rash,fever",Measles,C3704585,FALSE,,FALSE,none,Chest X-ray,PubMed27389396
+anon_0815,55,Male,Bihar,"हल्की चकती, rash, fever","हल्की,चकती,rash,fever",Dengue,C6160336,TRUE,Inactivated Polio,TRUE,malnutrition,PCR,NCT06060067
+anon_0816,10,Female,Uttar Pradesh,"fever, body ache, cough","fever,body,ache,cough",Influenza,C9187976,TRUE,UIP Measles,FALSE,none,RDT,NCT06060067
+anon_0817,25,Female,West Bengal,dry cough और fatigue और loss of taste,"dry,cough,fatigue,loss,of,taste",COVID-19,C7431879,FALSE,,FALSE,mosquito bite,Chest X-ray,NCT06060067
+anon_0818,41,Male,Uttar Pradesh,"fever, teary eyes, cough","fever,teary,eyes,cough",Measles,C4560500,TRUE,Inactivated Polio,FALSE,chronic illness,Chest X-ray,NCT02406729
+anon_0819,67,Female,Telangana,"sore throat, cough, body ache","sore,throat,cough,body,ache",Influenza,C9239338,TRUE,BCG,FALSE,chronic illness,CBC,NCT02406729
+anon_0820,59,Male,Bihar,"teary eyes, rash, cough","teary,eyes,rash,cough",Measles,C1170456,FALSE,,FALSE,malnutrition,Chest X-ray,NCT02406729
+anon_0821,10,Male,Maharashtra,fatigue और loss of taste और dry cough,"fatigue,loss,of,taste,dry,cough",COVID-19,C2676394,TRUE,TDV Dengue,TRUE,chronic illness,CBC,NCT06060067
+anon_0822,33,Female,Odisha,"shortness of breath, cough, chest pain","shortness,of,breath,cough,chest,pain",Pneumonia,C7250226,FALSE,,FALSE,chronic illness,RDT,NCT06060067
+anon_0823,25,Female,West Bengal,"diarrhea, abdominal pain, nausea","diarrhea,abdominal,pain,nausea",Typhoid,C1961702,FALSE,,TRUE,none,PCR,NCT06060067
+anon_0824,18,Female,Maharashtra,"indigestion, bloating, nausea","indigestion,bloating,nausea",Gastritis,C5647222,TRUE,BCG,FALSE,none,Chest X-ray,PubMed27389396
+anon_0825,23,Male,Bihar,rash और fever और teary eyes,"rash,fever,teary,eyes",Measles,C6081121,TRUE,BCG,FALSE,none,Chest X-ray,PubMed27389396
+anon_0826,26,Female,Tamil Nadu,shortness of breath और fever और cough,"shortness,of,breath,fever,cough",Pneumonia,C2977551,FALSE,,TRUE,chronic illness,PCR,NCT02747927
+anon_0827,80,Male,Maharashtra,cough और shortness of breath और fever,"cough,shortness,of,breath,fever",Pneumonia,C1878314,FALSE,,TRUE,chronic illness,PCR,NCT02406729
+anon_0828,44,Male,Tamil Nadu,"teary eyes, cough, fever","teary,eyes,cough,fever",Measles,C8014549,TRUE,Inactivated Polio,FALSE,malnutrition,Chest X-ray,NCT01373281
+anon_0829,18,Male,West Bengal,cough और rash और teary eyes,"cough,rash,teary,eyes",Measles,C5186922,FALSE,,TRUE,malnutrition,Chest X-ray,NCT01373281
+anon_0830,3,Female,Maharashtra,fever और dry cough और fatigue,"fever,dry,cough,fatigue",COVID-19,C5469266,FALSE,,FALSE,mosquito bite,RDT,NCT01373281
+anon_0831,77,Male,Uttar Pradesh,indigestion और nausea और bloating,"indigestion,nausea,bloating",Gastritis,C4324375,TRUE,TDV Dengue,FALSE,malnutrition,Chest X-ray,NCT02406729
+anon_0832,5,Female,Bihar,"bloating, stomach pain, nausea","bloating,stomach,pain,nausea",Gastritis,C7918013,FALSE,,TRUE,mosquito bite,PCR,NCT01373281
+anon_0833,47,Male,Odisha,"fatigue, loss of taste, dry cough","fatigue,loss,of,taste,dry,cough",COVID-19,C2685173,TRUE,BCG,TRUE,chronic illness,CBC,NCT06060067
+anon_0834,2,Female,Uttar Pradesh,chills और थकावट और fever,"chills,थकावट,fever",Malaria,C5493556,FALSE,,TRUE,chronic illness,PCR,NCT06060067
+anon_0835,15,Female,Uttar Pradesh,weight loss और fever और night sweats,"weight,loss,fever,night,sweats",TB,C3201369,TRUE,TDV Dengue,TRUE,mosquito bite,Chest X-ray,NCT06060067
+anon_0836,25,Male,Maharashtra,"teary eyes, cough, fever","teary,eyes,cough,fever",Measles,C6071108,FALSE,,TRUE,malnutrition,RDT,NCT06060067
+anon_0837,25,Male,West Bengal,"fever, weight loss, chronic cough","fever,weight,loss,chronic,cough",TB,C8364975,TRUE,COVID‑19 mRNA,TRUE,chronic illness,CBC,NCT02747927
+anon_0838,23,Female,Uttar Pradesh,"abdominal pain, diarrhea, fever","abdominal,pain,diarrhea,fever",Typhoid,C6104253,FALSE,,TRUE,none,RDT,NCT02406729
+anon_0839,18,Female,West Bengal,cough और sore throat और body ache,"cough,sore,throat,body,ache",Influenza,C9275943,TRUE,COVID‑19 mRNA,FALSE,chronic illness,CBC,NCT02747927
+anon_0840,59,Female,Uttar Pradesh,"chest pain, fever, shortness of breath","chest,pain,fever,shortness,of,breath",Pneumonia,C3598523,FALSE,,TRUE,chronic illness,PCR,NCT02406729
+anon_0841,40,Male,Telangana,"abdominal pain, dark urine, jaundice","abdominal,pain,dark,urine,jaundice",Hepatitis,C5687969,TRUE,COVID‑19 mRNA,FALSE,malnutrition,PCR,NCT02747927
+anon_0842,25,Male,Odisha,night sweats और fever और chronic cough,"night,sweats,fever,chronic,cough",TB,C9921847,FALSE,,FALSE,mosquito bite,PCR,PubMed27389396
+anon_0843,46,Female,West Bengal,"fever, rash, cough","fever,rash,cough",Measles,C4850698,FALSE,,TRUE,malnutrition,PCR,NCT02747927
+anon_0844,39,Female,Maharashtra,"fever, night sweats, weight loss","fever,night,sweats,weight,loss",TB,C1400412,TRUE,UIP Measles,TRUE,none,Chest X-ray,NCT02406729
+anon_0845,37,Female,Maharashtra,abdominal pain और nausea और diarrhea,"abdominal,pain,nausea,diarrhea",Typhoid,C6675310,TRUE,COVID‑19 mRNA,TRUE,mosquito bite,Chest X-ray,NCT06060067
+anon_0846,6,Male,Uttar Pradesh,chest pain और cough और fever,"chest,pain,cough,fever",Pneumonia,C6220013,FALSE,,TRUE,mosquito bite,PCR,NCT02747927
+anon_0847,47,Male,Bihar,fever और diarrhea और nausea,"fever,diarrhea,nausea",Typhoid,C5234003,TRUE,TDV Dengue,FALSE,mosquito bite,Chest X-ray,NCT01373281
+anon_0848,20,Male,West Bengal,"shortness of breath, cough, chest pain","shortness,of,breath,cough,chest,pain",Pneumonia,C2823605,TRUE,BCG,TRUE,chronic illness,CBC,PubMed27389396
+anon_0849,20,Female,Maharashtra,chest pain और shortness of breath और cough,"chest,pain,shortness,of,breath,cough",Pneumonia,C8699626,TRUE,TDV Dengue,FALSE,mosquito bite,CBC,PubMed27389396
+anon_0850,59,Female,Bihar,"abdominal pain, jaundice, dark urine","abdominal,pain,jaundice,dark,urine",Hepatitis,C6811314,TRUE,UIP Measles,TRUE,mosquito bite,RDT,NCT02747927
+anon_0851,72,Male,West Bengal,"cough, fever, body ache","cough,fever,body,ache",Influenza,C6480480,FALSE,,FALSE,none,RDT,NCT02406729
+anon_0852,34,Female,Tamil Nadu,"shortness of breath, cough, chest pain","shortness,of,breath,cough,chest,pain",Pneumonia,C6905031,FALSE,,TRUE,mosquito bite,CBC,NCT06060067
+anon_0853,61,Male,Odisha,"थकावट, chills, headache","थकावट,chills,headache",Malaria,C6451534,TRUE,Inactivated Polio,FALSE,none,CBC,NCT02406729
+anon_0854,76,Female,Maharashtra,"cough, fever, chest pain","cough,fever,chest,pain",Pneumonia,C5168977,FALSE,,FALSE,chronic illness,RDT,PubMed27389396
+anon_0855,48,Male,Bihar,"fever, night sweats, chronic cough","fever,night,sweats,chronic,cough",TB,C2156039,FALSE,,FALSE,chronic illness,Chest X-ray,NCT02406729
+anon_0856,9,Male,West Bengal,"हल्की चकती, बुखार, joint pain","हल्की,चकती,बुखा,joint,pain",Dengue,C4012265,TRUE,BCG,TRUE,chronic illness,RDT,PubMed27389396
+anon_0857,79,Female,Telangana,"chest pain, shortness of breath, fever","chest,pain,shortness,of,breath,fever",Pneumonia,C3813491,TRUE,COVID‑19 mRNA,TRUE,none,RDT,NCT06060067
+anon_0858,5,Male,Tamil Nadu,"fever, chronic cough, weight loss","fever,chronic,cough,weight,loss",TB,C6242788,TRUE,Inactivated Polio,FALSE,malnutrition,PCR,NCT02747927
+anon_0859,29,Female,Odisha,"rash, cough, teary eyes","rash,cough,teary,eyes",Measles,C7659908,FALSE,,FALSE,malnutrition,RDT,NCT02747927
+anon_0860,48,Female,Bihar,"chronic cough, fever, night sweats","chronic,cough,fever,night,sweats",TB,C4027412,FALSE,,TRUE,chronic illness,CBC,NCT06060067
+anon_0861,60,Female,Uttar Pradesh,teary eyes और cough और fever,"teary,eyes,cough,fever",Measles,C6618368,FALSE,,TRUE,mosquito bite,PCR,NCT06060067
+anon_0862,63,Male,Uttar Pradesh,night sweats और fever और weight loss,"night,sweats,fever,weight,loss",TB,C8422739,FALSE,,FALSE,none,Chest X-ray,NCT01373281
+anon_0863,48,Female,Odisha,"थकावट, fever, chills","थकावट,fever,chills",Malaria,C8147256,FALSE,,FALSE,malnutrition,RDT,NCT02747927
+anon_0864,33,Female,Telangana,"chest pain, shortness of breath, cough","chest,pain,shortness,of,breath,cough",Pneumonia,C2068599,FALSE,,TRUE,none,RDT,NCT06060067
+anon_0865,74,Male,Odisha,rash और joint pain और fever,"rash,joint,pain,fever",Dengue,C4824716,FALSE,,TRUE,none,PCR,NCT01373281
+anon_0866,2,Male,Maharashtra,"fatigue, fever, dry cough","fatigue,fever,dry,cough",COVID-19,C5211950,FALSE,,TRUE,chronic illness,Chest X-ray,NCT01373281
+anon_0867,7,Male,Bihar,"bloating, indigestion, stomach pain","bloating,indigestion,stomach,pain",Gastritis,C5142809,FALSE,,FALSE,mosquito bite,PCR,NCT01373281
+anon_0868,40,Male,Bihar,fever और diarrhea और nausea,"fever,diarrhea,nausea",Typhoid,C4262656,TRUE,TDV Dengue,FALSE,malnutrition,CBC,NCT02747927
+anon_0869,3,Female,Odisha,"vomiting, jaundice, dark urine","vomiting,jaundice,dark,urine",Hepatitis,C1531050,TRUE,UIP Measles,TRUE,mosquito bite,Chest X-ray,NCT06060067
+anon_0870,13,Female,Odisha,sweating और chills और fever,"sweating,chills,fever",Malaria,C9640938,FALSE,,FALSE,malnutrition,RDT,NCT02406729
+anon_0871,17,Male,Uttar Pradesh,"weight loss, night sweats, chronic cough","weight,loss,night,sweats,chronic,cough",TB,C5812571,TRUE,Inactivated Polio,FALSE,malnutrition,RDT,NCT02747927
+anon_0872,64,Female,Maharashtra,"sore throat, cough, fever","sore,throat,cough,fever",Influenza,C8435459,TRUE,BCG,TRUE,none,RDT,NCT06060067
+anon_0873,32,Male,Telangana,"diarrhea, nausea, abdominal pain","diarrhea,nausea,abdominal,pain",Typhoid,C7578567,TRUE,TDV Dengue,TRUE,none,PCR,NCT02747927
+anon_0874,15,Male,Tamil Nadu,"sore throat, cough, fever","sore,throat,cough,fever",Influenza,C8193884,FALSE,,FALSE,mosquito bite,Chest X-ray,PubMed27389396
+anon_0875,76,Female,Telangana,"chills, fever, headache","chills,fever,headache",Malaria,C1898963,TRUE,BCG,TRUE,none,PCR,NCT01373281
+anon_0876,41,Female,Bihar,rash और cough और fever,"rash,cough,fever",Measles,C8552098,FALSE,,TRUE,none,Chest X-ray,NCT06060067
+anon_0877,8,Male,Tamil Nadu,"rash, teary eyes, cough","rash,teary,eyes,cough",Measles,C1222039,TRUE,COVID‑19 mRNA,TRUE,malnutrition,Chest X-ray,PubMed27389396
+anon_0878,40,Male,Telangana,"cough, body ache, fever","cough,body,ache,fever",Influenza,C3746081,TRUE,TDV Dengue,TRUE,malnutrition,CBC,NCT01373281
+anon_0879,29,Male,Tamil Nadu,"fever, headache, sweating","fever,headache,sweating",Malaria,C8681195,TRUE,UIP Measles,FALSE,mosquito bite,Chest X-ray,NCT01373281
+anon_0880,47,Female,Uttar Pradesh,"fever, body ache, sore throat","fever,body,ache,sore,throat",Influenza,C6651100,FALSE,,TRUE,mosquito bite,RDT,PubMed27389396
+anon_0881,14,Male,West Bengal,"dry cough, fever, loss of taste","dry,cough,fever,loss,of,taste",COVID-19,C4353217,FALSE,,FALSE,malnutrition,Chest X-ray,NCT01373281
+anon_0882,73,Female,Bihar,"stomach pain, nausea, indigestion","stomach,pain,nausea,indigestion",Gastritis,C7450988,FALSE,,FALSE,none,RDT,NCT06060067
+anon_0883,48,Female,Tamil Nadu,fever और cough और sore throat,"fever,cough,sore,throat",Influenza,C7610290,FALSE,,TRUE,none,PCR,PubMed27389396
+anon_0884,15,Female,Maharashtra,"nausea, stomach pain, indigestion","nausea,stomach,pain,indigestion",Gastritis,C5021842,TRUE,Inactivated Polio,TRUE,mosquito bite,CBC,NCT02406729
+anon_0885,12,Female,Maharashtra,headache और fever और थकावट,"headache,fever,थकावट",Malaria,C6316700,FALSE,,FALSE,mosquito bite,RDT,PubMed27389396
+anon_0886,62,Female,Maharashtra,"diarrhea, abdominal pain, fever","diarrhea,abdominal,pain,fever",Typhoid,C2889050,FALSE,,TRUE,mosquito bite,RDT,NCT01373281
+anon_0887,62,Female,Maharashtra,"fever, sore throat, body ache","fever,sore,throat,body,ache",Influenza,C3325116,FALSE,,TRUE,malnutrition,RDT,PubMed27389396
+anon_0888,36,Female,Uttar Pradesh,abdominal pain और diarrhea और fever,"abdominal,pain,diarrhea,fever",Typhoid,C6189949,FALSE,,FALSE,malnutrition,Chest X-ray,PubMed27389396
+anon_0889,36,Male,West Bengal,cough और fever और chest pain,"cough,fever,chest,pain",Pneumonia,C7111196,TRUE,TDV Dengue,FALSE,mosquito bite,Chest X-ray,NCT02747927
+anon_0890,46,Male,Telangana,rash और cough और fever,"rash,cough,fever",Measles,C5370843,TRUE,UIP Measles,FALSE,chronic illness,CBC,NCT01373281
+anon_0891,70,Female,Bihar,"fever, abdominal pain, diarrhea","fever,abdominal,pain,diarrhea",Typhoid,C7062092,TRUE,TDV Dengue,TRUE,chronic illness,Chest X-ray,NCT01373281
+anon_0892,72,Female,Bihar,"body ache, fever, cough","body,ache,fever,cough",Influenza,C3652538,FALSE,,FALSE,chronic illness,RDT,NCT06060067
+anon_0893,65,Female,West Bengal,dry cough और fatigue और loss of taste,"dry,cough,fatigue,loss,of,taste",COVID-19,C6769897,FALSE,,TRUE,none,Chest X-ray,NCT06060067
+anon_0894,54,Female,Odisha,"night sweats, fever, chronic cough","night,sweats,fever,chronic,cough",TB,C2227064,FALSE,,FALSE,chronic illness,CBC,NCT02747927
+anon_0895,31,Female,Tamil Nadu,"abdominal pain, jaundice, vomiting","abdominal,pain,jaundice,vomiting",Hepatitis,C9411205,FALSE,,FALSE,malnutrition,PCR,NCT02406729
+anon_0896,58,Female,Uttar Pradesh,chronic cough और weight loss और fever,"chronic,cough,weight,loss,fever",TB,C9865068,FALSE,,TRUE,none,PCR,NCT01373281
+anon_0897,78,Female,Odisha,"indigestion, nausea, stomach pain","indigestion,nausea,stomach,pain",Gastritis,C7384447,FALSE,,TRUE,none,CBC,NCT02747927
+anon_0898,13,Male,Telangana,"stomach pain, bloating, nausea","stomach,pain,bloating,nausea",Gastritis,C4664566,TRUE,COVID‑19 mRNA,FALSE,malnutrition,CBC,NCT06060067
+anon_0899,51,Female,Tamil Nadu,"बुखार, हल्की चकती, rash","बुखा,हल्की,चकती,rash",Dengue,C4493762,TRUE,Inactivated Polio,TRUE,mosquito bite,Chest X-ray,NCT02747927
+anon_0900,71,Male,Bihar,"chronic cough, weight loss, night sweats","chronic,cough,weight,loss,night,sweats",TB,C7577319,TRUE,BCG,FALSE,none,CBC,NCT02747927
+anon_0901,80,Female,West Bengal,chest pain और shortness of breath और cough,"chest,pain,shortness,of,breath,cough",Pneumonia,C3926216,FALSE,,TRUE,mosquito bite,RDT,PubMed27389396
+anon_0902,13,Male,Telangana,cough और rash और teary eyes,"cough,rash,teary,eyes",Measles,C9670240,FALSE,,FALSE,chronic illness,PCR,NCT06060067
+anon_0903,41,Female,Bihar,"cough, fever, body ache","cough,fever,body,ache",Influenza,C1853742,TRUE,COVID‑19 mRNA,TRUE,none,PCR,NCT06060067
+anon_0904,18,Male,West Bengal,"teary eyes, cough, fever","teary,eyes,cough,fever",Measles,C8553319,FALSE,,TRUE,malnutrition,CBC,NCT02747927
+anon_0905,7,Male,Uttar Pradesh,"हल्की चकती, rash, बुखार","हल्की,चकती,rash,बुखा",Dengue,C5121561,FALSE,,TRUE,mosquito bite,PCR,NCT02747927
+anon_0906,67,Male,Maharashtra,night sweats और chronic cough और weight loss,"night,sweats,chronic,cough,weight,loss",TB,C4718801,FALSE,,FALSE,chronic illness,CBC,NCT01373281
+anon_0907,77,Male,Tamil Nadu,"cough, body ache, fever","cough,body,ache,fever",Influenza,C3785428,TRUE,Inactivated Polio,TRUE,malnutrition,CBC,PubMed27389396
+anon_0908,42,Female,Bihar,"stomach pain, bloating, nausea","stomach,pain,bloating,nausea",Gastritis,C4764583,FALSE,,TRUE,none,CBC,PubMed27389396
+anon_0909,67,Male,West Bengal,"rash, बुखार, joint pain","rash,बुखा,joint,pain",Dengue,C7658179,FALSE,,TRUE,none,PCR,NCT02747927
+anon_0910,2,Male,Tamil Nadu,body ache और cough और sore throat,"body,ache,cough,sore,throat",Influenza,C7076700,FALSE,,FALSE,mosquito bite,CBC,NCT01373281
+anon_0911,26,Male,Telangana,"bloating, nausea, stomach pain","bloating,nausea,stomach,pain",Gastritis,C1465858,FALSE,,FALSE,none,PCR,NCT02747927
+anon_0912,16,Female,Tamil Nadu,"nausea, fever, abdominal pain","nausea,fever,abdominal,pain",Typhoid,C7284880,TRUE,BCG,TRUE,malnutrition,Chest X-ray,NCT02747927
+anon_0913,66,Male,Uttar Pradesh,"loss of taste, fever, fatigue","loss,of,taste,fever,fatigue",COVID-19,C6147775,FALSE,,FALSE,chronic illness,Chest X-ray,NCT02406729
+anon_0914,40,Male,West Bengal,dark urine और vomiting और abdominal pain,"dark,urine,vomiting,abdominal,pain",Hepatitis,C8987932,FALSE,,FALSE,mosquito bite,RDT,NCT02406729
+anon_0915,73,Female,Maharashtra,"chills, headache, fever","chills,headache,fever",Malaria,C2041616,TRUE,Inactivated Polio,TRUE,chronic illness,PCR,NCT06060067
+anon_0916,80,Male,Odisha,"sore throat, body ache, cough","sore,throat,body,ache,cough",Influenza,C5473306,FALSE,,FALSE,chronic illness,RDT,NCT02406729
+anon_0917,63,Male,Uttar Pradesh,fatigue और dry cough और loss of taste,"fatigue,dry,cough,loss,of,taste",COVID-19,C6620948,TRUE,TDV Dengue,TRUE,none,Chest X-ray,PubMed27389396
+anon_0918,39,Female,Odisha,"joint pain, rash, fever","joint,pain,rash,fever",Dengue,C1341304,TRUE,BCG,FALSE,mosquito bite,Chest X-ray,NCT02406729
+anon_0919,10,Female,Maharashtra,"cough, sore throat, fever","cough,sore,throat,fever",Influenza,C5941420,FALSE,,TRUE,none,RDT,NCT01373281
+anon_0920,68,Female,Bihar,"abdominal pain, nausea, fever","abdominal,pain,nausea,fever",Typhoid,C2714996,TRUE,UIP Measles,TRUE,chronic illness,RDT,NCT06060067
+anon_0921,49,Female,Tamil Nadu,"fever, teary eyes, cough","fever,teary,eyes,cough",Measles,C2751289,TRUE,TDV Dengue,TRUE,none,Chest X-ray,NCT02406729
+anon_0922,76,Female,Bihar,"fever, shortness of breath, chest pain","fever,shortness,of,breath,chest,pain",Pneumonia,C4885095,TRUE,TDV Dengue,TRUE,none,PCR,NCT06060067
+anon_0923,24,Female,Uttar Pradesh,abdominal pain और vomiting और dark urine,"abdominal,pain,vomiting,dark,urine",Hepatitis,C7529035,TRUE,Inactivated Polio,FALSE,malnutrition,Chest X-ray,NCT01373281
+anon_0924,37,Female,Maharashtra,"rash, fever, बुखार","rash,fever,बुखा",Dengue,C3557069,FALSE,,FALSE,malnutrition,Chest X-ray,NCT06060067
+anon_0925,60,Male,Telangana,"body ache, fever, cough","body,ache,fever,cough",Influenza,C3258184,FALSE,,TRUE,chronic illness,RDT,NCT06060067
+anon_0926,4,Male,West Bengal,"fever, night sweats, weight loss","fever,night,sweats,weight,loss",TB,C2014919,FALSE,,TRUE,mosquito bite,RDT,NCT01373281
+anon_0927,29,Female,Odisha,"fever, weight loss, night sweats","fever,weight,loss,night,sweats",TB,C9857220,FALSE,,TRUE,malnutrition,CBC,PubMed27389396
+anon_0928,53,Male,Odisha,"fever, teary eyes, rash","fever,teary,eyes,rash",Measles,C4210525,TRUE,UIP Measles,FALSE,none,Chest X-ray,PubMed27389396
+anon_0929,33,Male,Maharashtra,"chest pain, fever, shortness of breath","chest,pain,fever,shortness,of,breath",Pneumonia,C6525740,FALSE,,FALSE,chronic illness,PCR,NCT02406729
+anon_0930,59,Male,Bihar,night sweats और chronic cough और weight loss,"night,sweats,chronic,cough,weight,loss",TB,C9282589,TRUE,UIP Measles,FALSE,malnutrition,RDT,NCT06060067
+anon_0931,27,Female,Telangana,"nausea, indigestion, bloating","nausea,indigestion,bloating",Gastritis,C8410393,FALSE,,FALSE,none,Chest X-ray,PubMed27389396
+anon_0932,55,Male,Odisha,"night sweats, fever, chronic cough","night,sweats,fever,chronic,cough",TB,C8340000,TRUE,UIP Measles,FALSE,none,CBC,NCT02747927
+anon_0933,48,Male,Telangana,"chills, headache, थकावट","chills,headache,थकावट",Malaria,C2499476,TRUE,UIP Measles,TRUE,chronic illness,PCR,NCT06060067
+anon_0934,8,Female,Maharashtra,"vomiting, jaundice, dark urine","vomiting,jaundice,dark,urine",Hepatitis,C4736051,TRUE,BCG,FALSE,mosquito bite,RDT,PubMed27389396
+anon_0935,33,Male,West Bengal,"teary eyes, rash, fever","teary,eyes,rash,fever",Measles,C5491544,TRUE,Inactivated Polio,TRUE,chronic illness,CBC,NCT02406729
+anon_0936,69,Female,Uttar Pradesh,"chills, fever, headache","chills,fever,headache",Malaria,C6161269,TRUE,COVID‑19 mRNA,FALSE,none,Chest X-ray,PubMed27389396
+anon_0937,12,Female,Uttar Pradesh,dark urine और jaundice और vomiting,"dark,urine,jaundice,vomiting",Hepatitis,C2774712,FALSE,,FALSE,none,CBC,NCT02747927
+anon_0938,22,Male,West Bengal,"fatigue, fever, dry cough","fatigue,fever,dry,cough",COVID-19,C3018887,TRUE,UIP Measles,TRUE,malnutrition,PCR,PubMed27389396
+anon_0939,67,Male,Tamil Nadu,sweating और fever और headache,"sweating,fever,headache",Malaria,C8790148,TRUE,BCG,TRUE,mosquito bite,PCR,NCT02747927
+anon_0940,68,Female,Maharashtra,"fever, dry cough, fatigue","fever,dry,cough,fatigue",COVID-19,C6475372,TRUE,COVID‑19 mRNA,FALSE,malnutrition,RDT,NCT02406729
+anon_0941,41,Male,Uttar Pradesh,"dry cough, fever, fatigue","dry,cough,fever,fatigue",COVID-19,C8091632,FALSE,,TRUE,malnutrition,Chest X-ray,NCT02406729
+anon_0942,70,Male,Odisha,"cough, body ache, fever","cough,body,ache,fever",Influenza,C1098305,FALSE,,TRUE,chronic illness,CBC,NCT02747927
+anon_0943,72,Male,Odisha,weight loss और night sweats और fever,"weight,loss,night,sweats,fever",TB,C3865361,FALSE,,FALSE,malnutrition,PCR,PubMed27389396
+anon_0944,21,Male,Odisha,"body ache, cough, fever","body,ache,cough,fever",Influenza,C4219377,FALSE,,TRUE,chronic illness,Chest X-ray,NCT06060067
+anon_0945,55,Female,Uttar Pradesh,"fever, diarrhea, nausea","fever,diarrhea,nausea",Typhoid,C5337950,FALSE,,FALSE,mosquito bite,PCR,NCT06060067
+anon_0946,56,Female,Tamil Nadu,bloating और stomach pain और nausea,"bloating,stomach,pain,nausea",Gastritis,C2106610,FALSE,,FALSE,mosquito bite,RDT,NCT01373281
+anon_0947,1,Male,Uttar Pradesh,"fever, teary eyes, cough","fever,teary,eyes,cough",Measles,C4849558,FALSE,,FALSE,none,RDT,NCT02747927
+anon_0948,33,Female,Bihar,"nausea, indigestion, stomach pain","nausea,indigestion,stomach,pain",Gastritis,C1416663,TRUE,UIP Measles,FALSE,chronic illness,PCR,NCT02747927
+anon_0949,58,Male,Uttar Pradesh,"nausea, indigestion, bloating","nausea,indigestion,bloating",Gastritis,C5760897,TRUE,COVID‑19 mRNA,TRUE,malnutrition,CBC,NCT06060067
+anon_0950,14,Male,Bihar,"fever, rash, हल्की चकती","fever,rash,हल्की,चकती",Dengue,C9079763,TRUE,COVID‑19 mRNA,FALSE,chronic illness,PCR,NCT02747927
+anon_0951,32,Female,West Bengal,"shortness of breath, chest pain, cough","shortness,of,breath,chest,pain,cough",Pneumonia,C9701688,FALSE,,TRUE,none,CBC,NCT01373281
+anon_0952,57,Male,Tamil Nadu,"हल्की चकती, fever, joint pain","हल्की,चकती,fever,joint,pain",Dengue,C2183518,FALSE,,FALSE,mosquito bite,CBC,NCT02406729
+anon_0953,66,Male,Uttar Pradesh,"chronic cough, night sweats, weight loss","chronic,cough,night,sweats,weight,loss",TB,C5556037,TRUE,BCG,TRUE,mosquito bite,CBC,NCT02406729
+anon_0954,47,Male,Tamil Nadu,indigestion और stomach pain और nausea,"indigestion,stomach,pain,nausea",Gastritis,C1462961,TRUE,BCG,TRUE,none,PCR,PubMed27389396
+anon_0955,32,Male,Maharashtra,fever और diarrhea और nausea,"fever,diarrhea,nausea",Typhoid,C3696601,FALSE,,TRUE,none,RDT,NCT02747927
+anon_0956,30,Male,Maharashtra,"chronic cough, weight loss, fever","chronic,cough,weight,loss,fever",TB,C8224168,FALSE,,TRUE,chronic illness,Chest X-ray,NCT02747927
+anon_0957,55,Female,Maharashtra,"joint pain, fever, बुखार","joint,pain,fever,बुखा",Dengue,C5041669,TRUE,COVID‑19 mRNA,TRUE,mosquito bite,CBC,NCT01373281
+anon_0958,10,Female,Odisha,cough और shortness of breath और fever,"cough,shortness,of,breath,fever",Pneumonia,C1152814,TRUE,TDV Dengue,FALSE,chronic illness,PCR,NCT02406729
+anon_0959,71,Female,Uttar Pradesh,"chronic cough, weight loss, fever","chronic,cough,weight,loss,fever",TB,C9323495,TRUE,TDV Dengue,FALSE,chronic illness,PCR,NCT02406729
+anon_0960,4,Male,Tamil Nadu,"बुखार, rash, joint pain","बुखा,rash,joint,pain",Dengue,C7440484,TRUE,UIP Measles,FALSE,none,Chest X-ray,NCT06060067
+anon_0961,77,Male,Telangana,shortness of breath और chest pain और fever,"shortness,of,breath,chest,pain,fever",Pneumonia,C6331021,TRUE,COVID‑19 mRNA,FALSE,mosquito bite,RDT,PubMed27389396
+anon_0962,42,Male,Odisha,"dark urine, jaundice, abdominal pain","dark,urine,jaundice,abdominal,pain",Hepatitis,C7802718,TRUE,TDV Dengue,FALSE,chronic illness,RDT,NCT02406729
+anon_0963,62,Female,Uttar Pradesh,बुखार और fever और rash,"बुखा,fever,rash",Dengue,C4044189,FALSE,,TRUE,malnutrition,RDT,NCT02747927
+anon_0964,18,Female,West Bengal,"cough, teary eyes, rash","cough,teary,eyes,rash",Measles,C3099723,TRUE,UIP Measles,TRUE,mosquito bite,Chest X-ray,NCT02747927
+anon_0965,32,Male,West Bengal,cough और teary eyes और fever,"cough,teary,eyes,fever",Measles,C1750231,TRUE,UIP Measles,FALSE,mosquito bite,CBC,NCT01373281
+anon_0966,47,Male,Bihar,fever और rash और हल्की चकती,"fever,rash,हल्की,चकती",Dengue,C8834161,FALSE,,TRUE,chronic illness,Chest X-ray,PubMed27389396
+anon_0967,20,Male,Maharashtra,"cough, fever, sore throat","cough,fever,sore,throat",Influenza,C2488170,TRUE,TDV Dengue,TRUE,mosquito bite,RDT,NCT02406729
+anon_0968,45,Female,Telangana,fever और chronic cough और night sweats,"fever,chronic,cough,night,sweats",TB,C7920429,FALSE,,TRUE,none,CBC,PubMed27389396
+anon_0969,26,Female,Tamil Nadu,"fever, हल्की चकती, बुखार","fever,हल्की,चकती,बुखा",Dengue,C6948587,FALSE,,TRUE,chronic illness,Chest X-ray,PubMed27389396
+anon_0970,72,Female,Uttar Pradesh,"cough, body ache, fever","cough,body,ache,fever",Influenza,C4373846,FALSE,,TRUE,mosquito bite,PCR,NCT01373281
+anon_0971,7,Female,Maharashtra,"night sweats, fever, chronic cough","night,sweats,fever,chronic,cough",TB,C2244699,TRUE,COVID‑19 mRNA,TRUE,malnutrition,PCR,NCT02747927
+anon_0972,77,Male,Maharashtra,"fever, shortness of breath, chest pain","fever,shortness,of,breath,chest,pain",Pneumonia,C7097606,TRUE,Inactivated Polio,TRUE,chronic illness,Chest X-ray,PubMed27389396
+anon_0973,28,Male,Uttar Pradesh,"joint pain, हल्की चकती, fever","joint,pain,हल्की,चकती,fever",Dengue,C2231420,FALSE,,FALSE,malnutrition,Chest X-ray,NCT01373281
+anon_0974,12,Male,Odisha,"fever, cough, shortness of breath","fever,cough,shortness,of,breath",Pneumonia,C3753313,FALSE,,FALSE,none,CBC,PubMed27389396
+anon_0975,50,Female,Maharashtra,"थकावट, fever, sweating","थकावट,fever,sweating",Malaria,C3398556,TRUE,Inactivated Polio,TRUE,mosquito bite,CBC,NCT02747927
+anon_0976,56,Female,West Bengal,"diarrhea, abdominal pain, fever","diarrhea,abdominal,pain,fever",Typhoid,C2810982,FALSE,,FALSE,malnutrition,Chest X-ray,NCT02406729
+anon_0977,3,Male,Tamil Nadu,"loss of taste, fever, fatigue","loss,of,taste,fever,fatigue",COVID-19,C5927249,FALSE,,FALSE,mosquito bite,Chest X-ray,PubMed27389396
+anon_0978,4,Female,Telangana,"sore throat, cough, fever","sore,throat,cough,fever",Influenza,C2308857,TRUE,UIP Measles,TRUE,none,CBC,NCT02747927
+anon_0979,30,Female,Telangana,"chronic cough, fever, weight loss","chronic,cough,fever,weight,loss",TB,C1817180,FALSE,,TRUE,malnutrition,PCR,NCT01373281
+anon_0980,23,Female,Tamil Nadu,abdominal pain और jaundice और dark urine,"abdominal,pain,jaundice,dark,urine",Hepatitis,C7562315,TRUE,BCG,TRUE,malnutrition,Chest X-ray,NCT01373281
+anon_0981,17,Male,Maharashtra,abdominal pain और dark urine और jaundice,"abdominal,pain,dark,urine,jaundice",Hepatitis,C7655421,TRUE,Inactivated Polio,FALSE,chronic illness,CBC,PubMed27389396
+anon_0982,10,Female,Maharashtra,rash और teary eyes और cough,"rash,teary,eyes,cough",Measles,C2937355,FALSE,,TRUE,chronic illness,CBC,PubMed27389396
+anon_0983,73,Male,Bihar,"indigestion, stomach pain, nausea","indigestion,stomach,pain,nausea",Gastritis,C3134779,TRUE,BCG,FALSE,malnutrition,CBC,NCT06060067
+anon_0984,21,Female,Bihar,"abdominal pain, dark urine, jaundice","abdominal,pain,dark,urine,jaundice",Hepatitis,C9336786,TRUE,COVID‑19 mRNA,TRUE,mosquito bite,Chest X-ray,NCT06060067
+anon_0985,68,Female,Tamil Nadu,"joint pain, rash, fever","joint,pain,rash,fever",Dengue,C2807922,TRUE,BCG,TRUE,none,Chest X-ray,PubMed27389396
+anon_0986,53,Male,Tamil Nadu,"fever, fatigue, loss of taste","fever,fatigue,loss,of,taste",COVID-19,C4203814,TRUE,UIP Measles,FALSE,chronic illness,Chest X-ray,NCT01373281
+anon_0987,34,Male,West Bengal,"indigestion, nausea, bloating","indigestion,nausea,bloating",Gastritis,C6559264,TRUE,UIP Measles,TRUE,malnutrition,CBC,NCT02747927
+anon_0988,72,Female,Telangana,"teary eyes, cough, fever","teary,eyes,cough,fever",Measles,C1522996,TRUE,Inactivated Polio,FALSE,chronic illness,PCR,NCT02747927
+anon_0989,53,Female,Telangana,"cough, body ache, fever","cough,body,ache,fever",Influenza,C5220425,TRUE,Inactivated Polio,TRUE,malnutrition,CBC,PubMed27389396
+anon_0990,67,Male,Uttar Pradesh,"fever, night sweats, weight loss","fever,night,sweats,weight,loss",TB,C2980020,TRUE,TDV Dengue,TRUE,malnutrition,Chest X-ray,PubMed27389396
+anon_0991,18,Male,Maharashtra,"chronic cough, night sweats, weight loss","chronic,cough,night,sweats,weight,loss",TB,C5771873,FALSE,,TRUE,chronic illness,PCR,NCT06060067
+anon_0992,50,Female,Odisha,"shortness of breath, chest pain, fever","shortness,of,breath,chest,pain,fever",Pneumonia,C7651990,TRUE,UIP Measles,TRUE,mosquito bite,Chest X-ray,NCT01373281
+anon_0993,43,Male,Bihar,"dry cough, loss of taste, fever","dry,cough,loss,of,taste,fever",COVID-19,C8496086,TRUE,Inactivated Polio,TRUE,chronic illness,RDT,NCT02747927
+anon_0994,68,Male,Telangana,"fever, nausea, abdominal pain","fever,nausea,abdominal,pain",Typhoid,C7300421,TRUE,Inactivated Polio,TRUE,chronic illness,Chest X-ray,NCT02747927
+anon_0995,49,Male,Tamil Nadu,body ache और fever और cough,"body,ache,fever,cough",Influenza,C1840598,FALSE,,TRUE,chronic illness,Chest X-ray,NCT02406729
+anon_0996,80,Male,Telangana,"nausea, fever, diarrhea","nausea,fever,diarrhea",Typhoid,C3220040,FALSE,,TRUE,none,PCR,NCT01373281
+anon_0997,50,Male,Odisha,"abdominal pain, jaundice, vomiting","abdominal,pain,jaundice,vomiting",Hepatitis,C5250645,TRUE,Inactivated Polio,TRUE,mosquito bite,RDT,NCT06060067
+anon_0998,22,Male,Tamil Nadu,rash और teary eyes और cough,"rash,teary,eyes,cough",Measles,C4693459,TRUE,Inactivated Polio,TRUE,none,CBC,NCT02747927
+anon_0999,32,Female,Uttar Pradesh,fever और fatigue और dry cough,"fever,fatigue,dry,cough",COVID-19,C4427950,FALSE,,FALSE,mosquito bite,CBC,PubMed27389396
